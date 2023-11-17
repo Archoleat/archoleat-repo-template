@@ -1,0 +1,103 @@
+{
+  "branches": [
+    "main"
+  ],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          {
+            "tag": "breaking",
+            "release": "major"
+          },
+          {
+            "tag": "chore",
+            "release": false
+          },
+          {
+            "tag": "ci",
+            "release": false
+          },
+          {
+            "tag": "docs",
+            "release": false
+          },
+          {
+            "tag": "feat",
+            "release": "minor"
+          },
+          {
+            "tag": "fix",
+            "release": "patch"
+          },
+          {
+            "tag": "refactor",
+            "release": "patch"
+          },
+          {
+            "tag": "security",
+            "release": "patch"
+          },
+          {
+            "tag": "style",
+            "release": "patch"
+          },
+          {
+            "tag": "test",
+            "release": false
+          }
+        ],
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES"
+          ]
+        }
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "writerOpts": {
+          "commitsSort": [
+            "scope",
+            "subject"
+          ]
+        }
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "labels": true,
+        "releasedLabels": true,
+        "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version}"
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ]
+  ],
+  "repositoryUrl": "https://github.com/Conqueror-Site-Builder/conqueror-repo-template"
+}

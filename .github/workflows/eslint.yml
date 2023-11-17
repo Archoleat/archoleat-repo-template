@@ -1,14 +1,22 @@
-name: ESlint
+name: ESLint
 
-on: [pull_request, push]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
-  lint:
+  eslint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - run: npm ci
-      - run: npm run eslint:fix
+      - name: Install dependencies
+        run: npm ci
+      - name: ESLint lint
+        run: npm run eslint:fix

@@ -1,5 +1,6 @@
 {
   "exclude": [
+    ".releaserc.json",
     "CHANGELOG.md"
   ]
 }

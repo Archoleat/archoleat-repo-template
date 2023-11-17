@@ -9,6 +9,12 @@
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
+    "@semantic-release/changelog": "*",
+    "@semantic-release/commit-analyzer": "*",
+    "@semantic-release/git": "*",
+    "@semantic-release/npm": "*",
+    "@semantic-release/release-notes-generator": "*",
+    "conventional-changelog-conventionalcommits": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
@@ -23,6 +29,7 @@
     "remark-lint": "*",
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",
-    "remark-preset-lint-recommended": "*"
+    "remark-preset-lint-recommended": "*",
+    "semantic-release": "22.0.8"
   }
 }
