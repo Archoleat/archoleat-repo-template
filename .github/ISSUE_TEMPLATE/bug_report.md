@@ -7,10 +7,10 @@ assignees: nikkeyl
 
 ---
 
-Describe the bug
+### Describe the bug
 
-To Reproduce
+### To Reproduce
 
-Expected behavior
+### Expected behavior
 
-Screenshots
+### Screenshots
