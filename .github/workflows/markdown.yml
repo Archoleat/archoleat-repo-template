@@ -3,12 +3,15 @@ name: Markdown
 on: [pull_request, push]
 
 jobs:
-  lint:
+  markdown:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Setup and checkout
+        uses: actions/checkout@v4
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - run: npm ci
-      - run: npm run markdown:lint
+      - name: Install dependencies
+        run: npm ci
+      - name: Run lint
+        run: npm run markdown:lint

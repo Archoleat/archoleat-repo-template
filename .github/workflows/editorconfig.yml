@@ -3,7 +3,7 @@ name: EditorConfig
 on: [pull_request, push]
 
 jobs:
-  lint:
+  editor-config:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

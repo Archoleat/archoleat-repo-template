@@ -3,7 +3,7 @@ name: ESlint
 on: [pull_request, push]
 
 jobs:
-  lint:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
