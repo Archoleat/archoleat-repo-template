@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "scripts": {
+    "init": "npm i && husky install && rm .husky/_/.gitignore",
+    "markdown:lint": "remark . --quiet",
+    "eslint:fix": "eslint src/js --fix",
+    "editorconfig:lint": "editorconfig-checker"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "*",
+    "@commitlint/config-conventional": "*",
+    "editorconfig-checker": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-no-use-extend-native": "*",
+    "eslint-plugin-optimize-regex": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-sonarjs": "*",
+    "husky": "*",
+    "lint-staged": "*",
+    "remark-cli": "*",
+    "remark-lint": "*",
+    "remark-preset-lint-consistent": "*",
+    "remark-preset-lint-markdown-style-guide": "*",
+    "remark-preset-lint-recommended": "*"
+  }
+}
