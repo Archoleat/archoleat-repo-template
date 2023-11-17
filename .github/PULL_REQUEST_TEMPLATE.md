@@ -9,7 +9,7 @@ closes #XXXX
 ## Checklist Before Requesting a Review
 
 -   [ ] My code follows the
-    [guidelines](https://github.com/Conqueror-Site-Builder/conqueror/wiki/Guidelines)
+    [guidelines](https://github.com/repository/GUIDELINES.md)
     of this project.
 <!--  -->
 -   [ ] I have made corresponding changes to the documentation.
