@@ -3,7 +3,7 @@
 ## [1.0.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags/v1.0.0)
 
 -   Added:
-    -    .eslintignore [`933db70`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/933db70bc0b70d7e914b609d933843a4bc293a96)
+    -   .eslintignore [`933db70`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/933db70bc0b70d7e914b609d933843a4bc293a96)
     -   .ecrc [`fa211e6`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/fa211e69b6ae304bef410704a8ea1d83acbc3e2c)
 <!--  -->
 -   Changed:
@@ -21,6 +21,7 @@
 -   Fixed:
     -   package.json [`debf123`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/debf123a9b8ae141faf1cf74ddeb265cdd7bfd74)
     -   .remarkrc.json [`dc41dce`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/dc41dce6aab02ef8afa674776423313117337119)
+<!--  -->
 -   Removed:
     -   prettierrc.json [`60e9a2d`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/60e9a2d3e4adbe340c604e37340c30be80db18b2)
     -   .lintstagedrc.json [`3be210b`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/3be210ba18b2941dc555d2fad875308247dea20b)
