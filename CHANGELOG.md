@@ -7,6 +7,7 @@
     -   .ecrc [`fa211e6`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/fa211e69b6ae304bef410704a8ea1d83acbc3e2c)
 <!--  -->
 -   Changed:
+    -   PULL_REQUEST_TEMPLATE.md [`c4fc954`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c4fc95483769e0225552c32a6b0c8a156e06b738)
     -   eslintrc.json [`8a9fea7`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8a9fea716f7bb5ff92a0ab049ec6dc6ecb610612)
     -   package.json [`3b06b25`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/3b06b2585d78a5aa6dcea0969d173d17c254684d)
     -   bug_report.md [`712f251`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/712f25159968b28bcbffd9edf8c0583f47231524#diff-185833cb26d7ac66a4d39042fd576a820c2c2c6d05ad18973bb9c7dce77267c5)
@@ -22,3 +23,4 @@
     -   .remarkrc.json [`dc41dce`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/dc41dce6aab02ef8afa674776423313117337119)
 -   Removed:
     -   prettierrc.json [`60e9a2d`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/60e9a2d3e4adbe340c604e37340c30be80db18b2)
+    -   .lintstagedrc.json [`3be210b`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/3be210ba18b2941dc555d2fad875308247dea20b)
