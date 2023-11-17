@@ -6,11 +6,13 @@ jobs:
   markdown:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup and checkout
+      - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup node
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - name: Install dependencies and run lint
+      - name: Install dependencies
         run: npm ci
+      - name: Markdown lint
         run: npm run markdown:lint
