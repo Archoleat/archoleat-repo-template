@@ -1,0 +1,26 @@
+name: Stale
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+        uses: actions/stale@v8
+        with:
+          exempt-issue-labels: bug,fix,security,question
+          exempt-pr-labels: bug,fix,security
+          stale-issue-label: stale
+          stale-pr-label: stale
+          close-issue-label: closed
+          close-pr-label: closed
+          stale-issue-message: 'This issue is stale. You can reopen it again.'
+          stale-pr-message: 'This pull request is stale. You can reopen it again.'
+          close-issue-message: 'This issue is closed.'
+          close-pr-message: 'This pull request is closed.'
