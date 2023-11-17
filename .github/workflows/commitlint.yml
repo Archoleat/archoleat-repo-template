@@ -1,6 +1,10 @@
 name: Commit Lint Messages
 
-on: [pull_request, push]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   commit-lint-messages:

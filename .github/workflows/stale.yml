@@ -19,8 +19,8 @@ jobs:
           exempt-pr-labels: bug,fix,security
           stale-issue-label: stale
           stale-pr-label: stale
-          close-issue-label: closed
-          close-pr-label: closed
+          close-issue-label: close
+          close-pr-label: close
           stale-issue-message: 'This issue is stale. You can reopen it again.'
           stale-pr-message: 'This pull request is stale. You can reopen it again.'
           close-issue-message: 'This issue is closed.'

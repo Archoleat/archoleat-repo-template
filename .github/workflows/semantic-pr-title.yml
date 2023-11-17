@@ -1,4 +1,4 @@
-name: Validate PR title
+name: Semantic pull request title
 
 on:
   pull_request_target:
@@ -8,10 +8,11 @@ on:
       - synchronize
 
 jobs:
-  validate-pr-title:
+  semantic-pull-request-title:
     runs-on: ubuntu-latest
     steps:
-      - uses: amannn/action-semantic-pull-request@v3
+      - name: Semantic pull request title
+      - uses: amannn/action-semantic-pull-request@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -29,7 +30,7 @@ jobs:
           requireScope: false
           subjectPattern: ^(?![A-Z]).+$
           subjectPatternError: |
-            The subject "{subject}" found in the pull request title "{title}"
+            The subject '{subject}' found in the pull request title '{title}'
             didn't match the configured pattern. Please ensure that the subject
             doesn't start with an uppercase character.
           wip: true
