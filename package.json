@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install && rm .husky/_/.gitignore",
+    "eslint:fix": "eslint **/*.js --fix",
     "markdown:lint": "remark . --quiet",
-    "eslint:fix": "eslint src/js --fix",
     "editorconfig:lint": "editorconfig-checker"
   },
   "devDependencies": {
