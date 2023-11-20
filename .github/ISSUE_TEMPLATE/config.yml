@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Get help in GitHub Discussions
+    url: https://github.com/orgs/Conqueror-Site-Builder/discussions
+    about: Have a question? Not sure if your issue affects everyone reproducibly?
+  - name: New issue on Conqueror-Site-Builder/conqueror-repo-template
+    url: https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose
+    about: Installation problem or error when running Conqueror repo template?

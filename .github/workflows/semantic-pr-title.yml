@@ -16,17 +16,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          types: |
-            breaking
-            chore
-            ci
-            docs
-            feat
-            fix
-            refactor
-            security
-            style
-            test
+          types:
+            - breaking
+            - chore
+            - ci
+            - docs
+            - feat
+            - fix
+            - refactor
+            - security
+            - style
+            - test
           requireScope: false
           subjectPattern: ^(?![A-Z]).+$
           subjectPatternError: |
