@@ -3,7 +3,7 @@
   "name": "conqueror-repo-template",
   "scripts": {
     "init": "npm i && husky install && rm .husky/_/.gitignore",
-    "eslint:fix": "eslint **/*.js --fix",
+    "eslint:lint": "eslint **/*.js",
     "markdown:lint": "remark . --quiet",
     "editorconfig:lint": "editorconfig-checker",
     "release": "semantic-release --dry-run --no-ci"
