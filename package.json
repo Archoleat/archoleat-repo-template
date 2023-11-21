@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install && rm .husky/_/.gitignore",
-    "eslint:fix": "eslint **/*.js --fix",
+    "eslint:fix": "eslint **/*.js --fix --no-error-on-unmatched-pattern",
     "markdown:lint": "remark . --quiet",
     "editorconfig:lint": "editorconfig-checker"
   },
