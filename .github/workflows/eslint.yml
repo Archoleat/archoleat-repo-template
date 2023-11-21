@@ -8,15 +8,20 @@ on:
 
 jobs:
   eslint:
+    name: Lint
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup node
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-      - name: Install dependencies
+
+      - name: Install Dependencies
         run: npm ci
-      - name: ESLint lint
-        run: npm run eslint:fix
+
+      - name: ESLint Lint
+        run: npm run eslint:lint
