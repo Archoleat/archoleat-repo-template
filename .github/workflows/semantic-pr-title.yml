@@ -1,6 +1,8 @@
 name: Semantic pull request title
 
 on:
+  branches:
+    - main
   pull_request_target:
     types:
       - opened
