@@ -1,12 +1,10 @@
 {
   "type": "module",
-  "name": "conqueror-repo-template",
   "scripts": {
     "init": "npm i && husky install",
-    "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
-    "markdown:lint": "remark . --quiet",
     "editorconfig:lint": "editorconfig-checker",
-    "release": "semantic-release --dry-run --no-ci"
+    "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
+    "markdown:lint": "remark . --quiet"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -14,7 +12,6 @@
     "@semantic-release/changelog": "*",
     "@semantic-release/commit-analyzer": "*",
     "@semantic-release/git": "*",
-    "@semantic-release/npm": "*",
     "@semantic-release/release-notes-generator": "*",
     "conventional-changelog-conventionalcommits": "*",
     "editorconfig-checker": "*",
@@ -32,6 +29,7 @@
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
-    "semantic-release": "*"
+    "semantic-release": "*",
+    "semantic-release-github-actions-tags": "*"
   }
 }
