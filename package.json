@@ -1,10 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "init": "npm i && husky install && rm .husky/_/.gitignore",
-    "eslint:fix": "eslint **/*.js --fix --no-error-on-unmatched-pattern",
-    "markdown:lint": "remark . --quiet",
-    "editorconfig:lint": "editorconfig-checker"
+    "init": "npm i && husky install",
+    "editorconfig:lint": "editorconfig-checker",
+    "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
+    "markdown:lint": "remark . --quiet"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -12,7 +12,6 @@
     "@semantic-release/changelog": "*",
     "@semantic-release/commit-analyzer": "*",
     "@semantic-release/git": "*",
-    "@semantic-release/npm": "*",
     "@semantic-release/release-notes-generator": "*",
     "conventional-changelog-conventionalcommits": "*",
     "editorconfig-checker": "*",
@@ -30,6 +29,7 @@
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
-    "semantic-release": "22.0.8"
+    "semantic-release": "*",
+    "semantic-release-github-actions-tags": "*"
   }
 }

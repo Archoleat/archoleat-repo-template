@@ -1,27 +1,31 @@
 name: Release
 
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/workflows/release.yml'
+on: workflow_dispatch
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
 
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
-    if: github.repository_owner == github.actor
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Semantic release
-        uses: cycjimmy/semantic-release-action@v4
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          semantic_version: 18.0.0
-          extra_plugins: |
-            @semantic-release/changelog@6
-            @semantic-release/git@10
-            conventional-changelog-conventionalcommits@7
+          node-version: lts/*
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Semantic Release
+        run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SEMANTIC_RELEASE_PACKAGE: ${{ github.event.repository.name }}
