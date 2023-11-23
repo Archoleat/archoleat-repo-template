@@ -4,4 +4,6 @@ repos:
     hooks:
       - id: check-merge-conflict
       - id: end-of-file-fixer
+      - id: mixed-line-endings
+        args: [--fix=lf]
       - id: trailing-whitespace
