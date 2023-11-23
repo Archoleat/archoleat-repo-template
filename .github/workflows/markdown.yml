@@ -18,10 +18,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: package-lock.json
 
       - name: Install Dependencies
         run: npm ci
 
       - name: Markdown Lint
-        run: npm run markdown:lint
+        run: npm markdown:lint
