@@ -84,20 +84,7 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    [
-      "@semantic-release/github",
-      {
-        "labels": true,
-        "releasedLabels": true,
-        "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version}"
-      }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
-    ]
-  ],
-  "repositoryUrl": "https://github.com/Conqueror-Site-Builder/conqueror-repo-template"
+    "@semantic-release/github",
+    "semantic-release-github-actions-tags"
+  ]
 }
