@@ -5,7 +5,7 @@
     "editorconfig:lint": "editorconfig-checker",
     "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
     "markdown:lint": "remark . --quiet",
-    "test": "mocha"
+    "test": "mocha __tests__"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
