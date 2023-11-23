@@ -26,4 +26,4 @@ jobs:
         run: npm ci
 
       - name: EditorConfig Lint
-        run: npm editorconfig:lint
+        run: npm run editorconfig:lint
