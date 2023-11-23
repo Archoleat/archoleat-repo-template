@@ -4,7 +4,8 @@
     "init": "npm i && husky install",
     "editorconfig:lint": "editorconfig-checker",
     "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
-    "markdown:lint": "remark . --quiet"
+    "markdown:lint": "remark . --quiet",
+    "test": "mocha __tests__"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -13,6 +14,7 @@
     "@semantic-release/commit-analyzer": "*",
     "@semantic-release/git": "*",
     "@semantic-release/release-notes-generator": "*",
+    "chai": "*",
     "conventional-changelog-conventionalcommits": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
@@ -24,6 +26,7 @@
     "eslint-plugin-sonarjs": "*",
     "husky": "*",
     "lint-staged": "*",
+    "mocha": "*",
     "remark-cli": "*",
     "remark-lint": "*",
     "remark-preset-lint-consistent": "*",

@@ -1,0 +1,8 @@
+{
+  "exit": true,
+  "inline-diffs": true,
+  "parallel": true,
+  "recursive": true,
+  "slow": 1500,
+  "timeout": 20000
+}
