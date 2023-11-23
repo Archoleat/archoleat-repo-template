@@ -17,18 +17,6 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v4
-        with:
-          python-version: 3.12
-          cache: pip
 
-      - name: Install PIP
-        run: pip install pre-commit
-
-      - name: Pre Commit Version
-        run: pre-commit --version
-
-      - name: Pre Commit Install
-        run: pre-commit install
-
-      - name: Pre commit run all file
-        run: pre-commit run --all-files
+      - name: Pre-commit Action
+        uses: pre-commit/action@v3
