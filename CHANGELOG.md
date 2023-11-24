@@ -1,3 +1,12 @@
+Changelog
+
+## [1.1.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.0.0...v1.1.0) (2023-11-23)
+
+
+### Features
+
+* mocha and chai ([#11](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/11)) ([23c8fc9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/23c8fc9a2d67e21195394b393c378f714b0ccbe9))
+
 ## 1.0.0 (2023-11-22)
 
 

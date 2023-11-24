@@ -16,16 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
 
-      - name: Install pip
-        run: pip install pre-commit
-
-      - name: Pre Commit Version
-        run: pre-commit --version
-
-      - name: Pre Commit Install
-        run: pre-commit install
-
-      - name: Pre commit run all file
-        run: pre-commit run --all-files
+      - name: Pre-commit Action
+        uses: pre-commit/action@v3.0.0

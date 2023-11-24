@@ -1,22 +1,23 @@
-name: Semantic pull request title
+name: Semantic pull request
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - edited
       - synchronize
-    branches:
-      - main
+
+permissions:
+  pull-requests: write
 
 jobs:
-  semantic-pull-request-title:
-    name: Validate
+  semantic-pull-request:
+    name: Validate Pull Request Title
     runs-on: ubuntu-latest
 
     steps:
-      - name: Semantic Pull Request Title
-      - uses: amannn/action-semantic-pull-request@v5
+      - name: Validate
+        uses: amannn/action-semantic-pull-request@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -38,4 +39,3 @@ jobs:
             didn't match the configured pattern. Please ensure that the subject
             doesn't start with an uppercase character.
           wip: true
-          validateSingleCommit: false
