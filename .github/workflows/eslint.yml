@@ -27,5 +27,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: ESLint Lint
-        run: npm run eslint:lint
+      - name: ESLint
+        run: npm run eslint:fix

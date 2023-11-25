@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**/*.md'
 
 jobs:
   markdown:
@@ -15,16 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Paths filter
-        uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            markdown:
-              - added|modified: '**/*.md'
-
       - name: Setup Node
-        if: steps.filter.outputs.markdown == 'true'
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
@@ -34,5 +27,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Markdown Lint
+      - name: Markdown
         run: npm run markdown:lint

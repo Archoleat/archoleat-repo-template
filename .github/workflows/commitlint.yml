@@ -15,5 +15,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Commit Lint
+      - name: Commit
         uses: wagoid/commitlint-github-action@v5
