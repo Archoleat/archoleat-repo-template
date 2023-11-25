@@ -3,7 +3,7 @@
   "scripts": {
     "init": "npm i && husky install",
     "editorconfig:lint": "editorconfig-checker",
-    "eslint:lint": "eslint **/*.js --no-error-on-unmatched-pattern",
+    "eslint:fix": "eslint **/*.js --fix --no-error-on-unmatched-pattern",
     "markdown:lint": "remark . --quiet",
     "test": "mocha __tests__"
   },

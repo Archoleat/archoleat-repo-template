@@ -25,5 +25,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: EditorConfig Lint
+      - name: EditorConfig
         run: npm run editorconfig:lint
