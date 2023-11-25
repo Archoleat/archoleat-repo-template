@@ -8,10 +8,10 @@ Please, go through these steps before you submit a Pull Request.
 
     -   You have done your changes in a separate branch.
         Branches MUST have descriptive names that start with either:
-        `fix/` or `feature/` prefixes.
+        `fix/`, `feature/` or `refactor` prefixes.
 
         > Example:<br>
-        > Good: `fix/signin-issue` or `feature/issue-templates`.
+        > Good: `fix/signin-issue`, `feature/issue-templates` or `refactor/button`.
     <!--  -->
     -   You have a descriptive commit message with a short title (first line).
     <!--  -->
