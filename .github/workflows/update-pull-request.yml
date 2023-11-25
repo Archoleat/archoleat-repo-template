@@ -1,6 +1,8 @@
 name: Update pull request
 
-on: pull_request
+on:
+  schedule:
+    - cron: 30 0 * * *
 
 jobs:
   update-pull-request:
