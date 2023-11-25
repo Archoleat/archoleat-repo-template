@@ -1,5 +1,6 @@
 name: Semantic pull request
-
+# 1 approve
+# commit lint
 on:
   pull_request_target:
     types:
@@ -8,6 +9,7 @@ on:
       - synchronize
 
 permissions:
+  contents: read
   pull-requests: write
 
 jobs:
