@@ -29,7 +29,6 @@ jobs:
             ci
             docs
             feat
-            feature
             fix
             refactor
             security
