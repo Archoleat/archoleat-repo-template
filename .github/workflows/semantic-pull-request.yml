@@ -9,13 +9,14 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
+  id-token: write
+  pull-requests: write
 
 jobs:
   semantic-pull-request:
     name: Validate Pull Request Title
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
 
     steps:
       - name: Validate
