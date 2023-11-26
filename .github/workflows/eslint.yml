@@ -1,6 +1,11 @@
 name: ESLint
 
 on:
+  workflow_run:
+    workflows:
+      - Markdown
+    types:
+      - completed
   pull_request:
   push:
     branches:

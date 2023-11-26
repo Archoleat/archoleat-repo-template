@@ -1,6 +1,11 @@
 name: CodeQL
 
 on:
+  workflow_run:
+    workflows:
+      - Commit Lint Messages
+    types:
+      - completed
   pull_request:
   push:
     branches:

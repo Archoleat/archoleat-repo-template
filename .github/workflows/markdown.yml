@@ -1,6 +1,11 @@
 name: Markdown
 
 on:
+  workflow_run:
+    workflows:
+      - EditorConfig
+    types:
+      - completed
   pull_request:
   push:
     branches:

@@ -1,6 +1,11 @@
 name: Mocha
 
 on:
+  workflow_run:
+    workflows:
+      - ESLint
+    types:
+      - completed
   pull_request:
   push:
     branches:
