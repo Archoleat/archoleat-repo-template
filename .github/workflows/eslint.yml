@@ -3,7 +3,7 @@ name: ESLint
 on:
   workflow_run:
     workflows:
-      - Markdown
+      - CodeQL
     types:
       - completed
   pull_request:

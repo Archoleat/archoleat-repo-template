@@ -3,7 +3,7 @@ name: Markdown
 on:
   workflow_run:
     workflows:
-      - EditorConfig
+      - CodeQL
     types:
       - completed
   pull_request:
