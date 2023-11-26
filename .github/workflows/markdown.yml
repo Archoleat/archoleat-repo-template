@@ -29,10 +29,10 @@ jobs:
         with:
           filters: |
             markdown:
-              - added|modified: '**/*.md'
+              - added|modified: '*.md'
 
       - name: Setup Node
-        if: ${{ steps.filter.outputs.markdown_files == 'true' }}
+        if: ${{ steps.filter.outputs.markdown == 'true' }}
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
