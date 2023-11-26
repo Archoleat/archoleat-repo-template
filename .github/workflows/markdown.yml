@@ -10,8 +10,8 @@ on:
   push:
     branches:
       - main
-    # paths:
-    #   - '**/*.md'
+    paths:
+      - '**/*.md'
 
 jobs:
   markdown:
@@ -23,16 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Paths filter
-        uses: dorny/paths-filter@v2.2.1
-        id: filter
-        with:
-          filters: |
-            markdown:
-              - added|modified: '*.md'
-
       - name: Setup Node
-        if: ${{ steps.filter.outputs.markdown == 'true' }}
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
