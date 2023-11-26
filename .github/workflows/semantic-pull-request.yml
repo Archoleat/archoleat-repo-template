@@ -1,6 +1,5 @@
 name: Semantic pull request
-# 1 approve
-# commit lint
+
 on:
   pull_request_target:
     types:
@@ -10,12 +9,13 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write
+  pull-requests: read
 
 jobs:
   semantic-pull-request:
     name: Validate Pull Request Title
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Validate
