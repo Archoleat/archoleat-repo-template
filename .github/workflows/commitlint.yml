@@ -5,12 +5,14 @@ on:
   push:
     branches:
       - main
+    branches-ignore:
+      - dependabot
 
 jobs:
   commit-lint-messages:
     name: Lint
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
