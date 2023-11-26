@@ -1,12 +1,17 @@
 name: Markdown
 
 on:
+  workflow_run:
+    workflows:
+      - EditorConfig
+    types:
+      - completed
   pull_request:
   push:
     branches:
       - main
-    paths:
-      - '**/*.md'
+    # paths:
+    #   - '**/*.md'
 
 jobs:
   markdown:
@@ -17,8 +22,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check for Modified TF Files
+        uses: dorny/paths-filter@v2.2.1
+        id: filter
+        with:
+          filters: |
+            markdown:
+              - added|modified: '**/*.md'
 
       - name: Setup Node
+        if: steps.filter.outputs.markdown == 'true'
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc

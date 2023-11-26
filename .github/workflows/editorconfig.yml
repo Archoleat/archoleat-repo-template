@@ -1,6 +1,11 @@
 name: EditorConfig
 
 on:
+  workflow_run:
+    workflows:
+      - CodeQL
+    types:
+      - completed
   pull_request:
   push:
     branches:
