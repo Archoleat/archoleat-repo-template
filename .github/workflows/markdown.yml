@@ -28,7 +28,7 @@ jobs:
         id: filter
         with:
           filters: |
-            markdown:
+            - markdown:
               - added|modified: '**/*.md'
 
       - name: Setup Node
