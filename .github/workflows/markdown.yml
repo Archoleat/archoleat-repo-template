@@ -32,7 +32,7 @@ jobs:
               - added|modified: '**/*.md'
 
       - name: Setup Node
-        if: steps.filter.outputs.markdown == 'true'
+        if: ${{ steps.filter.outputs.markdown == 'true' }}
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
