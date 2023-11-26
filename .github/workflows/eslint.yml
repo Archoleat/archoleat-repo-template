@@ -34,4 +34,4 @@ jobs:
         run: npm ci
 
       - name: ESLint
-        run: npm run eslint:fix
+        run: npx eslint **/*.js --no-error-on-unmatched-pattern

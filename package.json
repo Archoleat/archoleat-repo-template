@@ -1,11 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "init": "npm i && husky install",
-    "editorconfig:lint": "editorconfig-checker",
-    "eslint:fix": "eslint **/*.js --fix --no-error-on-unmatched-pattern",
-    "markdown:lint": "remark . --quiet",
-    "test": "mocha __tests__"
+    "init": "npm i && husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
