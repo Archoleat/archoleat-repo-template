@@ -3,7 +3,9 @@ name: Mocha
 on:
   workflow_run:
     workflows:
+      - EditorConfig
       - ESLint
+      - Markdown
     types:
       - completed
   pull_request:
@@ -34,4 +36,4 @@ jobs:
         run: npm ci
 
       - name: Tests
-        run: npm test
+        run: npx mocha __tests__

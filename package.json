@@ -2,10 +2,7 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install",
-    "editorconfig:lint": "editorconfig-checker",
-    "eslint:fix": "eslint **/*.js --fix --no-error-on-unmatched-pattern",
-    "markdown:lint": "remark . --quiet",
-    "test": "mocha __tests__"
+    "cm": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -16,6 +13,7 @@
     "@semantic-release/release-notes-generator": "*",
     "chai": "*",
     "conventional-changelog-conventionalcommits": "*",
+    "cz-conventional-changelog": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
