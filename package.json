@@ -12,6 +12,7 @@
     "@semantic-release/release-notes-generator": "*",
     "chai": "*",
     "conventional-changelog-conventionalcommits": "*",
+    "cz-conventional-changelog": "3.3.0",
     "editorconfig-checker": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
@@ -30,5 +31,10 @@
     "remark-preset-lint-recommended": "*",
     "semantic-release": "*",
     "semantic-release-github-actions-tags": "*"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
