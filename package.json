@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "init": "npm i && husky install"
+    "init": "npm i && husky install",
+    "cm": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -12,7 +13,7 @@
     "@semantic-release/release-notes-generator": "*",
     "chai": "*",
     "conventional-changelog-conventionalcommits": "*",
-    "cz-conventional-changelog": "3.3.0",
+    "cz-conventional-changelog": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
@@ -31,10 +32,5 @@
     "remark-preset-lint-recommended": "*",
     "semantic-release": "*",
     "semantic-release-github-actions-tags": "*"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
