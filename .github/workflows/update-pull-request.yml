@@ -11,12 +11,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-    - uses: tzkhan/pr-update-action@v2
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        base-branch-regex: '[a-z\d-_.\\/]+'
-        head-branch-regex: '\\w+'
-        title-template: '[%headbranch%] '
-        body-template: |
-          Merging into '%basebranch%'
-          [Link to %headbranch%](https://url/to/browse/ticket/%headbranch%)
+      - name: Update Pull Request
+        uses: tzkhan/pr-update-action@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          base-branch-regex: '[a-z\d-_.\\/]+'
+          head-branch-regex: '\\w+'
+          title-template: '[%headbranch%] '
+          body-template: |
+            Merging into '%basebranch%'
+            [Link to %headbranch%](https://url/to/browse/ticket/%headbranch%)
