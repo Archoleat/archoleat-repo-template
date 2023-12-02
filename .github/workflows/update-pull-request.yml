@@ -1,0 +1,22 @@
+name: Update pull request
+
+on:
+  schedule:
+    - cron: 30 0 * * *
+
+jobs:
+  update-pull-request:
+    name: Update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Update Pull Request
+        uses: tzkhan/pr-update-action@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          base-branch-regex: '[a-z\\d-_.\\/]+'
+          head-branch-regex: '\\w+'
+          title-template: '[%headbranch%] '
+          body-template: |
+            Merging into '%basebranch%'
