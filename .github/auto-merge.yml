@@ -1,6 +1,15 @@
 minApprovals:
-  NONE: 0
+  COLLABORATOR: 0
+  OWNER: 0
+
 requiredLabels:
   - dependencies
+
+deleteBranchAfterMerge: true
+mergeMethod: squash
 updateBranch: true
-mergeMethod: rebase
+
+mergeCommitMessage: |
+  {title} (#{number})
+
+  {body}
