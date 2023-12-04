@@ -26,6 +26,6 @@ Please, go through these steps before you submit a Pull Request.
     -   Put `closes #XXXX` in your comment to auto-close
         the issue that your Pull Request fixes (if such).
 
-IMPORTANT: Please see our [Contribution Guidelines](../CONTRIBUTING) for details.
+IMPORTANT: Please see our [Contribution Guidelines](../CONTRIBUTING.md) for details.
 
 **PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**

@@ -1,8 +1,9 @@
 name: Bug Report
-description: Create a report to help us improve Conqueror Repo Template
+description: Create a report to help us improve Conqueror
 title: 'bug: '
 labels:
   - bug
+# projects: ['octo-org/1', 'octo-org/44']
 assignees:
   - nikkeyl
 
@@ -30,21 +31,47 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. No need for backticks.
-      render: bash
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
 
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: You agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+
+### Describe the bug
+
 ### To Reproduce
 
 ### Expected behavior
