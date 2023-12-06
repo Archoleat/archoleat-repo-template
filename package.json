@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "prepare": "npm i && husky install",
+    "init": "npm i && husky install",
     "cm": "cz"
   },
   "devDependencies": {
