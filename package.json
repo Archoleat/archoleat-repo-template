@@ -1,22 +1,28 @@
 {
   "type": "module",
   "scripts": {
-    "init": "npm i && husky install",
+    "prepare": "npm i && husky install",
     "cm": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
+    "@commitlint/types": "*",
     "@semantic-release/changelog": "*",
     "@semantic-release/commit-analyzer": "*",
     "@semantic-release/git": "*",
     "@semantic-release/release-notes-generator": "*",
+    "@types/chai": "*",
+    "@types/mocha": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
     "chai": "*",
     "conventional-changelog-conventionalcommits": "*",
     "cz-conventional-changelog": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
     "eslint-config-airbnb-base": "*",
+    "eslint-config-airbnb-typescript": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-no-use-extend-native": "*",
     "eslint-plugin-optimize-regex": "*",
@@ -31,6 +37,8 @@
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
     "semantic-release": "*",
-    "semantic-release-github-actions-tags": "*"
+    "semantic-release-github-actions-tags": "*",
+    "ts-node": "*",
+    "typescript": "*"
   }
 }

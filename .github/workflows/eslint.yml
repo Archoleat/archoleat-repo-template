@@ -11,7 +11,7 @@ on:
     branches:
       - main
     paths:
-      - '**/*.js'
+      - '**/*.ts'
 
 jobs:
   eslint:
@@ -34,4 +34,4 @@ jobs:
         run: npm ci
 
       - name: ESLint
-        run: npx eslint **/*.js --no-error-on-unmatched-pattern
+        run: npx eslint **/*.ts --no-error-on-unmatched-pattern
