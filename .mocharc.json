@@ -1,5 +1,8 @@
 {
   "exit": true,
+  "extension": [
+    "ts"
+  ],
   "inline-diffs": true,
   "parallel": true,
   "recursive": true,

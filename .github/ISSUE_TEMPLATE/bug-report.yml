@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve Conqueror Repo Template
+description: Create a report to help us improve this project!
 title: 'bug: '
 labels:
   - bug
@@ -41,10 +41,12 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
+
       description: You agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+
 ### To Reproduce
 
 ### Expected behavior
