@@ -1,5 +1,19 @@
 Changelog
 
+## [1.2.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.1.0...v1.2.0) (2023-12-06)
+
+
+### Features
+
+* **commitizen:** for conventional commits ([#24](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/24)) ([c88c4f5](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c88c4f52410a35b46b34d20465c43a83836abddb))
+
+
+### Bug Fixes
+
+* **ci:** bugs ([#12](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/12)) ([0f81dcb](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/0f81dcbece0629b02cbd2d5962663e7167e4bd0c))
+* **ci:** update pull request ([#26](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/26)) ([9535e4e](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/9535e4eefb8c97455fdd087dc759cc2c6d04148b))
+* **package.json:** backup `init` name ([#35](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/35)) ([927abb7](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/927abb7530f9e801154ff06a744fc7045904f4cb))
+
 ## [1.1.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.0.0...v1.1.0) (2023-11-23)
 
 
