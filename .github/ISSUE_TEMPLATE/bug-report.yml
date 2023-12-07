@@ -26,15 +26,30 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: A bug happened!
     validations:
       required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Can you provide screenshots?
+      description: Add screenshots
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Please reproduce the bug step by step
+      description: Steps
+    validations:
+      required: false
 
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. No need for backticks.
+      description: Please copy and paste log output. No need for backticks.
       render: bash
 
   - type: checkboxes
@@ -42,13 +57,7 @@ body:
     attributes:
       label: Code of Conduct
 
-      description: You agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT)
+      description: You agree to follow our [Code of Conduct](CODE_OF_CONDUCT)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-
-### To Reproduce
-
-### Expected behavior
-
-### Screenshots
