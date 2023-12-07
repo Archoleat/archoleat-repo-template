@@ -22,7 +22,8 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      placeholder: Tell us what you see!
+      description: Describe what happened!
+      placeholder: Tell us what you see
     validations:
       required: true
 
@@ -31,6 +32,10 @@ body:
     attributes:
       label: Please reproduce the bug step by step
       description: Please provide as much step-by-step detail as possible.
+      placeholder: |
+        1.
+        2.
+        3.
     validations:
       required: true
 
@@ -39,7 +44,7 @@ body:
     attributes:
       label: Expected behavior
       description: What did you expect to happen when the reproduce steps?
-      placeholder: Tell us what you expected to see!
+      placeholder: Tell us what you expected to see
     validations:
       required: true
 
