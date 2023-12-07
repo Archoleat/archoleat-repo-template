@@ -8,6 +8,7 @@
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
+-   [Contributors](#contributors)
 -   [License](#license)
 -   [Acknowledgments](#acknowledgments)
 
@@ -57,7 +58,6 @@ This template includes ready-made solutions for integration with **Git**,
     to think about how to write a commit every time,
     these plugins will help you.
 
-    > [!TIP]
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
 
@@ -80,8 +80,6 @@ For the versions available, see the
 [tags on this repository](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
 
 ## Authors
-
--   **Nikita Almanov** - [nikkeyl](https://github.com/nikkeyl)
 
 See also the list of [Authors](AUTHORS.md)
 

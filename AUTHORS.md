@@ -1,3 +1,3 @@
 # This is a list of contributors to the Conqueror
 
-nikkeyl (Nikita Almanov) <nikkeyl.dev@gmail.com>
+Nikita Almanov | [@nikkeyl](https://github.com/nikkeyl) | <nikkeyl.dev@gmail.com>
