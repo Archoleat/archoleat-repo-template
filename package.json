@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install",
+    "test": "mocha __tests__",
     "cm": "cz"
   },
   "devDependencies": {
@@ -9,9 +10,7 @@
     "@commitlint/config-conventional": "*",
     "@commitlint/types": "*",
     "@semantic-release/changelog": "*",
-    "@semantic-release/commit-analyzer": "*",
     "@semantic-release/git": "*",
-    "@semantic-release/release-notes-generator": "*",
     "@types/chai": "*",
     "@types/mocha": "*",
     "@typescript-eslint/eslint-plugin": "*",
@@ -32,7 +31,6 @@
     "lint-staged": "*",
     "mocha": "*",
     "remark-cli": "*",
-    "remark-lint": "*",
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
