@@ -57,7 +57,7 @@ body:
     attributes:
       label: Code of Conduct
 
-      description: You agree to follow our [Code of Conduct](CODE_OF_CONDUCT)
+      description: You agree to follow our [Code of Conduct](../CODE_OF_CONDUCT)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
