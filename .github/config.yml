@@ -3,7 +3,7 @@ newIssueWelcomeComment: >
 
 newPRWelcomeComment: >
   Thanks for opening this Pull Request!
-  Please check out our [Contributing Guidelines](../CONTRIBUTING).
+  Please check out our [Contributing Guidelines](../CONTRIBUTING.md).
 
 firstPRMergeComment: >
   Congrats on merging your first Pull Request!
