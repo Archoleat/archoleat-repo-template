@@ -1,5 +1,15 @@
 Changelog
 
+## [1.2.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.0...v1.2.1) (2023-12-07)
+
+
+### Bug Fixes
+
+* **bug-report:** add correctly path ([#43](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/43)) ([c8d1a52](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c8d1a520f5eb940f1e8287295e3ea17be85a6bb6))
+* **bug-report:** add extension in path ([#44](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/44)) ([9115554](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/9115554a830d257bd7c49ce0ed97b52edc0e2784))
+* **eslintignore:** rename string `commitlint.config.js` ([a4a7d62](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/a4a7d62e994ef272bcc2264cc69446426f4b1d1b))
+* **readme:** tips ([#40](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/40)) ([6bed59c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/6bed59c416a5ee18e7994be3cecabaf5ca26dea3))
+
 ## [1.2.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.1.0...v1.2.0) (2023-12-06)
 
 
