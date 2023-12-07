@@ -36,4 +36,4 @@ jobs:
         run: npm ci
 
       - name: Tests
-        run: npx mocha __tests__
+        run: npm run test

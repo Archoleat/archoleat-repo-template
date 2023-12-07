@@ -1,6 +1,5 @@
 blank_issues_enabled: false
-
 contact_links:
   - name: Get Help in GitHub Discussions
-    url: https://github.com/orgs/Conqueror-Site-Builder/discussions
+    url: https://github.com/Conqueror-Site-Builder/conqueror-repo-template/discussions
     about: Have a question? Not sure if your issue affects everyone reproducibly?
