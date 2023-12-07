@@ -19,7 +19,7 @@ This template includes ready-made solutions for integration with **Git**,
 **GitHub**, **CI/CD**, **TypeScript**, **Mocha**, **Commitizen**,
 **Commitlint**, **Semantic Release**, **ESLint**, **Husky** and **CodeQL**.
 
-> **INFO**:
+> [!TIP]
 > This solution will work very well for teams
 > as you can easily standardize projects with this template.
 
@@ -57,7 +57,7 @@ This template includes ready-made solutions for integration with **Git**,
     to think about how to write a commit every time,
     these plugins will help you.
 
-    > **INFO**:
+    > [!TIP]
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
 
