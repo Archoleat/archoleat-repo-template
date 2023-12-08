@@ -1,7 +1,13 @@
 # Conqueror Repo Template
 
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
+![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
+
 Translations:
-[Русский](README.ru.md), [日本語](README.jp.md), [Українська](README.ua.md)
+[Русский](README_RU.md), [日本語](README_JP.md), [Українська](README_UA.md)
 
 ## Table of Contents
 
@@ -61,8 +67,8 @@ This template includes ready-made solutions for integration with **Git**,
     to think about how to write a commit every time,
     these plugins will help you.
 
-      > It will be especially useful for teams that
-      > have an ongoing debate about writing commits.
+    > It will be especially useful for teams that
+    > have an ongoing debate about writing commits.
 
 ## Wiki
 
