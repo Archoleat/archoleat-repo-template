@@ -2,11 +2,11 @@ name: Commit Lint Messages
 
 on:
   pull_request:
+    branches-ignore:
+      - dependabot
   push:
     branches:
       - main
-    branches-ignore:
-      - dependabot
 
 jobs:
   commit-lint-messages:
