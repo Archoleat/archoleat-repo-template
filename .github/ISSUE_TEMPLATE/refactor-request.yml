@@ -1,10 +1,29 @@
----
 name: Refactor Request
-about: Create a report to help us improve Conqueror's functionality
-title: 'refactor:'
-labels: refactor
-assignees: nikkeyl
+description: Create a report to help us improve this project!
+title: 'refactor: '
+labels:
+  - refactor
+assignees:
+  - nikkeyl
 
----
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this refactor request!
 
-### What needs improvement?
+  - type: textarea
+    id: refactor
+    attributes:
+      label: Refactor
+      description: What needs refactor?
+      placeholder: Tell us where you found the unfinished code
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
