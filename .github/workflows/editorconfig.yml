@@ -32,4 +32,4 @@ jobs:
         run: npm ci
 
       - name: EditorConfig
-        run: npx editorconfig-checker
+        run: npm run editorconfig:lint
