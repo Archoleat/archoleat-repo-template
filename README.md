@@ -1,5 +1,8 @@
 # Conqueror Repo Template
 
+Translations:
+[Русский](README.ru.md), [日本語](README.jp.md), [Українська](README.ua.md)
+
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
@@ -58,8 +61,8 @@ This template includes ready-made solutions for integration with **Git**,
     to think about how to write a commit every time,
     these plugins will help you.
 
-    > It will be especially useful for teams that
-    > have an ongoing debate about writing commits.
+      > It will be especially useful for teams that
+      > have an ongoing debate about writing commits.
 
 ## Wiki
 
@@ -75,7 +78,7 @@ and the process for submitting Pull Requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org) for versioning.
+We use [SemVer](https://semver.org) for versioning.
 For the versions available, see the
 [tags on this repository](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
 
@@ -94,4 +97,4 @@ This project is licensed under the MIT license - see the
 
 ## Acknowledgments
 
--   Thanks to everyone who takes part in the development of the project.
+Thanks to everyone who takes part in the development of the project.
