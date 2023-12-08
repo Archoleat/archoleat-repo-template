@@ -1,5 +1,12 @@
 Changelog
 
+## [1.3.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.0...v1.3.1) (2023-12-08)
+
+
+### Bug Fixes
+
+* **ci:** separate `pull_request` trigger ([#52](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/52)) ([6899cbc](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/6899cbc6d6fa2777b9c3ba8e69440ff575a088e8))
+
 ## [1.3.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.1...v1.3.0) (2023-12-08)
 
 
