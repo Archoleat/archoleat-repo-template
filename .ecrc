@@ -2,6 +2,7 @@
   "exclude": [
     ".releaserc.json",
     "CHANGELOG.md",
-    "config.yml"
+    "config.yml",
+    "README.md"
   ]
 }
