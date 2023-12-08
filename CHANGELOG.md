@@ -1,5 +1,12 @@
 Changelog
 
+## [1.3.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.1...v1.3.0) (2023-12-08)
+
+
+### Features
+
+* **docs:** add readme for other languages ([#47](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/47)) ([7ad0871](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/7ad0871bcf7335796024b9e27af1105f6f0f027e))
+
 ## [1.2.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.0...v1.2.1) (2023-12-07)
 
 
