@@ -1,5 +1,11 @@
 # Conqueror Repo Template
 
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
+![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
+
 Переводы:
 [English](README.md), [日本語](README_JP.md), [Українська](README_UA.md)
 
@@ -8,7 +14,6 @@
 -   [Начало Работы](#начало-работы)
 -   [Особенности](#особенности)
 -   [Использование Ботов](#использование-ботов)
--   [Вики](#вики)
 -   [Вклад](#вклад)
 -   [Версионирование](#версионирование)
 -   [Авторы](#авторы)
@@ -23,8 +28,10 @@
 запуска новых проектов с заранее настроенными
 инструментами и лучшими практиками разработки.
 Шаблон включает готовые решения для интеграции с **Git**,
-**GitHub**, **CI/CD**, **TypeScript**, **Mocha**, **Commitizen**,
-**Commitlint**, **Semantic Release**, **ESLint**, **Husky** и **CodeQL**.
+**GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
+**Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
+**Behavior Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
+**Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
 > Это решение очень хорошо подходит для команд,
@@ -34,6 +41,9 @@
 
 1.  **Создание репозитория:** Используйте этот шаблон
     для создания нового репозитория на GitHub.
+
+    > Так как это **Публичный Шаблон** вы можете нажать на кнопку
+    > `Use This Template` для более быстрого и удобного клонирования.
 
 1.  **Клонирование репозитория:** Клонируйте новый репозиторий
     на локальную машину.
@@ -62,7 +72,10 @@
 -   **CodeQL:** Включенный рабочий процесс CodeQL для обнаружения
     и предотвращения потенциальных уязвимостей в вашем коде.
 
--   **Обычные коммиты, Commitlint и Commitizen:** Если вы не хотите
+-   **Линтеры:** Помогут вам поддерживать единый стиль написания кода
+    и находить ошибки.
+
+-   **Conventional Commits, Commitlint и Commitizen:** Если вы не хотите
     каждый раз думать о том, как написать коммит,
     эти плагины помогут вам.
 
@@ -76,35 +89,32 @@
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 вам нужно установить их.
 
-## Вики
-
-Если вы хотите узнать больше о возможностях Conqueror Repo Template,
-вы можете прочитать
-[Вики](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/wiki).
-
 ## Вклад
 
 Пожалуйста, прочитайте [Contributing](CONTRIBUTING.md)
 и [Code of Conduct](CODE_OF_CONDUCT.md) для получения подробной информации,
-о процессе подачи Pull Request'а.
+о процессе создания Pull Request'а.
 
 ## Версионирование
 
 Для версионирования мы используем [SemVer](https://semver.org).
-О доступных версиях см.
-[тэги](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
+Доступные версии вы можете посмотреть
+[здесь](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
 
 ## Авторы
 
-См. список [Авторов](AUTHORS.md)
+См. список [Авторов](AUTHORS.md).
 
 ## Контрибьюторы
 
-См. список [Contributors](CONTRIBUTORS.md)
+Если вы хотите что-то улучшить, то можете написать об этом
+[здесь](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+Вы также можете посмотреть список [Контрибьюторов](CONTRIBUTORS.md).
 
 ## Лицензия
 
-Этот проект лицензируется по лицензии MIT - см. [LICENSE](LICENSE).
+Этот проект лицензируется по лицензии MIT - см. [ЛИЦЕНЗИЮ](LICENSE).
 
 ## Благодарности
 

@@ -14,7 +14,6 @@ Translations:
 -   [Getting Started](#getting-started)
 -   [Features](#features)
 -   [Using Bots](#using-bots)
--   [Wiki](#wiki)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
@@ -27,8 +26,10 @@ Translations:
 **Conqueror Repo Template** is a template repository designed for quickly
 starting new projects with pre-configured tools and best development practices.
 This template includes ready-made solutions for integration with **Git**,
-**GitHub**, **CI/CD**, **TypeScript**, **Mocha**, **Commitizen**,
-**Commitlint**, **Semantic Release**, **ESLint**, **Husky** and **CodeQL**.
+**GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
+**Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
+**Behavior Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
+**Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
 > This solution will work very well for teams
@@ -64,6 +65,9 @@ This template includes ready-made solutions for integration with **Git**,
 -   **CodeQL:** Included CodeQL workflow for detecting
     and preventing potential vulnerabilities in your code.
 
+-   **Linters:** Help you maintain a consistent code writing style
+    and find errors.
+
 -   **Conventional Commits, Commitlint & Commitizen:** If you don't want
     to think about how to write a commit every time,
     these plugins will help you.
@@ -78,12 +82,6 @@ To use
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 you need to install them.
 
-## Wiki
-
-If you want to know more about the features of Conqueror Repo Template,
-you can read the
-[wiki](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/wiki).
-
 ## Contributing
 
 Please read [Contributing](CONTRIBUTING.md)
@@ -93,16 +91,19 @@ and the process for submitting Pull Requests to us.
 ## Versioning
 
 We use [SemVer](https://semver.org) for versioning.
-For the versions available, see the
-[tags on this repository](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
+You can see the available versions
+[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
 
 ## Authors
 
-See also the list of [Authors](AUTHORS.md)
+See also the list of [Authors](AUTHORS.md).
 
 ## Contributors
 
-See the list of [Contributors](CONTRIBUTORS.md)
+If you want to improve something, you can write about it
+[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+You can also view a list of [Contributors](CONTRIBUTORS.md).
 
 ## License
 

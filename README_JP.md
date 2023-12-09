@@ -1,5 +1,11 @@
 # レポテンプレート
 
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
+![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
+
 翻訳:
 [English](README.md)、[Русский](README_RU.md)、[Українська](README_UA.md)
 
@@ -8,7 +14,6 @@
 -   [始めるにあたって](#始めるにあたって)
 -   [特徴](#特徴)
 -   [ボットの使用](#ボットの使用)
--   [ウィキ](#ウィキ)
 -   [貢献する](#貢献する)
 -   [バージョン管理](#バージョン管理)
 -   [著者](#著者)
@@ -21,8 +26,10 @@
 **Conqueror Repo Template** はテンプレートリポジトリです。
 ツールや開発のベストプラクティスが用意されています。
 このテンプレートには、**Git**と統合するためのすぐに使えるソリューションが含まれています、
-**GitHub**、**CI/CD**、**TypeScript**、**Mocha**、**Commitizen**、**Commitlint**、
-**Semantic Release**、**ESLint**、**Husky**、**CodeQL**。
+**Git**、 **GitHub**、 **CI/CD**、 **Dependabot**、 **TypeScript**、 **Mocha**、
+**Commitizen**、 **Commitlint**、 **Semantic Release**、 **ESLint**、 **Remark**、
+**Behavior Bot**、 **Auto Merge Bot**、 **EditorConfig**、 **Issue Templates**、
+**Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
 > このソリューションはチームに非常に適しています、
@@ -59,7 +66,10 @@
 -   **CodeQL:** CodeQL ワークフローを有効にすることで、コードの潜在的な脆弱性を検出し、予防することができます。
     し、コードの潜在的な脆弱性を防ぎます。
 
--   **Commit、Commitlint、Commitizen:** コミット、Commitlint、Commitizen:**
+-   **リンター:** 一貫したコード記述スタイルの維持に役立つ
+    バグを見つける。
+
+-   **Conventional Commits、Commitlint、Commitizen:**
     コードの書き方を毎回考える必要はありません。毎回コミットの書き方を考えるのは面倒だ、
     これらのプラグインが役に立ちます。
 
@@ -72,13 +82,6 @@
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 をインストールする必要があります。
 
-## ウィキ
-
-Conqueror Repo Template、
-を読んでください。
-[Wiki](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/wiki)
-をご覧ください。
-
 ## 貢献する
 
 [コントリビューティング](CONTRIBUTING.md)
@@ -87,9 +90,9 @@ Conqueror Repo Template、
 ## バージョン管理
 
 バージョン管理には [SemVer](https://semver.org) を使用しています。
-利用可能なバージョンについては
-[タグ](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags)
-を参照してください。
+利用可能なバージョンは
+[こちら](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags)
+をご覧ください。
 
 ## 著者
 
@@ -97,11 +100,14 @@ Conqueror Repo Template、
 
 ## 投稿者
 
-[貢献者](CONTRIBUTORS.md) のリストを参照してください。
+何かを改善したいなら、それについて書くことができる
+[ここ](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose)。
+
+[貢献者](CONTRIBUTORS.md) のリストも見ることができます。
 
 ## ライセンス
 
-このプロジェクトのライセンスはMITライセンスです。[license](ライセンス) を参照してください。
+このプロジェクトのライセンスはMITライセンスです。[ライセンス](LICENSE) を参照してください。
 
 ## 謝辞
 
