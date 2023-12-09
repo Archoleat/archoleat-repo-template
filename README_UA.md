@@ -1,5 +1,7 @@
 # Conqueror Repo Template
 
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
+![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
 ![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
@@ -13,6 +15,7 @@
 
 -   [Початок Роботи](#початок-роботи)
 -   [Особливості](#особливості)
+-   [JavaScript & TypeScript](#javascript--typescript)
 -   [Використання Ботів](#використання-ботів)
 -   [Внесок](#внесок)
 -   [Версіонування](#версіонування)
@@ -77,6 +80,12 @@
 
     > Вони будуть особливо корисні для команд, у яких
     > точаться суперечки про те, як писати комміти.
+
+## JavaScript & TypeScript
+
+> [!WARNING]
+> Цей шаблон повністю налаштований під **JavaScript ES6**.
+> Також тут використовується тільки **TypeScript**.
 
 ## Використання Ботів
 
