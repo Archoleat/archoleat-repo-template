@@ -1,3 +1,12 @@
+# Changelog
+
+## [1.3.2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.1...v1.3.2) (2023-12-09)
+
+
+### Bug Fixes
+
+* **.releaserc:** add hash symbol ([#65](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/65)) ([bb0d513](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/bb0d5136ef41eb475eb116dfd074322b833d3a96))
+
 Changelog
 
 ## [1.3.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.0...v1.3.1) (2023-12-08)
