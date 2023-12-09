@@ -43,6 +43,9 @@ This template includes ready-made solutions for integration with **Git**,
 1.  **Create a Repository:** Use this template
     to create a new repository on GitHub.
 
+    > Since this is a **Public Template** you can click the button
+    > `Use This Template` for a faster and more convenient cloning.
+
 1.  **Clone the Repository:** Clone your new repository to your local machine.
 
 1.  **Start Development:** Develop your project,
