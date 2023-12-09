@@ -13,6 +13,7 @@ Translations:
 
 -   [Getting Started](#getting-started)
 -   [Features](#features)
+-   [Using Bots](#using-bots)
 -   [Wiki](#wiki)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
@@ -69,6 +70,13 @@ This template includes ready-made solutions for integration with **Git**,
 
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
+
+## Using Bots
+
+To use
+[Behavior Bot](https://github.com/apps/welcome) and
+[Auto Merge Bot](https://github.com/apps/probot-auto-merge)
+you need to install them.
 
 ## Wiki
 

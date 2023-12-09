@@ -1,12 +1,13 @@
 # レポテンプレート
 
-翻訳
-[English](README.md), [Русский](README_RU.md), [Українська](README_UA.md)
+翻訳:
+[English](README.md)、[Русский](README_RU.md)、[Українська](README_UA.md)
 
 ## 目次
 
 -   [始めるにあたって](#始めるにあたって)
 -   [特徴](#特徴)
+-   [ボットの使用](#ボットの使用)
 -   [ウィキ](#ウィキ)
 -   [貢献する](#貢献する)
 -   [バージョン管理](#バージョン管理)
@@ -17,13 +18,11 @@
 
 ## **リポジトリ作成で時間を浪費するのはやめましょう！**
 
-**Conqueror Repo Template** はテンプレートリポジトリです、
-テンプレートリポジトリです。
-テンプレートリポジトリです。
+**Conqueror Repo Template** はテンプレートリポジトリです。
 ツールや開発のベストプラクティスが用意されています。
 このテンプレートには、**Git**と統合するためのすぐに使えるソリューションが含まれています、
-**GitHub**, **CI/CD**, **TypeScript**, **Mocha**, **Commitizen**,
-**Commitlint**, **Semantic Release**, **ESLint**, **Husky**, **CodeQL**。
+**GitHub**、**CI/CD**、**TypeScript**、**Mocha**、**Commitizen**、**Commitlint**、
+**Semantic Release**、**ESLint**、**Husky**、**CodeQL**。
 
 > [!TIP]
 > このソリューションはチームに非常に適しています、
@@ -36,7 +35,7 @@
 
 1.  **リポジトリのクローン:** 新しいリポジトリをローカルマシンにクローンします。
 
-1.  **開発開始:**プロジェクトを開発します、
+1.  **開発開始:** プロジェクトを開発します、
     プロジェクトのニーズに応じて変更を加えます。
 
 1.  **CI/CD のカスタマイズ:** GitHub Actions の設定を変更します。
@@ -44,16 +43,17 @@
 
 ## 特徴
 
--   **柔軟性** 異なるタイプのプロジェクトに適応するために、簡単にカスタマイズ可能なテンプレート
+-   **柔軟性:** 異なるタイプのプロジェクトに適応するために、簡単にカスタマイズ可能なテンプレート
     様々なタイプのプロジェクトに対応できます。
 
--   **GitやGitHubとの統合：** `.gitignore`, `.gitattributes`、
-    `.gitignore`、`.gitattributes`など、GitやGitHubと効率的に連携するためのファイルがあらかじめ設定されています。
+-   **Git や GitHub との統合:** `.gitignore`、`.gitattributes`、
+    `.gitignore`、`.gitattributes` など、Git や GitHub
+    と効率的に連携するためのファイルがあらかじめ設定されています。
 
--   **継続的インテグレーション(CI):** GitHub ActionsによるCIサポートが組み込まれています。
+-   **継続的インテグレーション(CI):** GitHub Actions によるCIサポートが組み込まれています。
     により、コードを変更するたびに自動的にビルドとテストを行います。
 
--   **TypeScript:**事前に設定されたTypeScriptのカスタマイズ。
+-   **TypeScript:** 事前に設定された TypeScript のカスタマイズ。
     をカスタマイズすることで、信頼性と開発のしやすさを向上させることができます。
 
 -   **CodeQL:** CodeQL ワークフローを有効にすることで、コードの潜在的な脆弱性を検出し、予防することができます。
@@ -64,7 +64,13 @@
     これらのプラグインが役に立ちます。
 
     > これらのプラグインは、コミットの書き方を毎回考えるのが面倒なチームに特に役立ちます。
-    > これらのプラグインは、コミットの書き方について議論しているチームに特に役立ちます。
+
+## ボットの使用
+
+ボットを使うには
+[Behavior Bot](https://github.com/apps/welcome) と
+[Auto Merge Bot](https://github.com/apps/probot-auto-merge)
+をインストールする必要があります。
 
 ## ウィキ
 
@@ -87,7 +93,7 @@ Conqueror Repo Template、
 
 ## 著者
 
-[著者](AUTHORS.md) の一覧は [著者](AUTHORS.md) を参照してください。
+の一覧は [著者](AUTHORS.md) を参照してください。
 
 ## 投稿者
 
