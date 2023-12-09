@@ -23,14 +23,6 @@
   "rules": {
     "import/no-unused-modules": "error",
     "import/no-commonjs": "error",
-    "import/no-unresolved": [
-      "error",
-      {
-        "ignore": [
-          "@ts"
-        ]
-      }
-    ],
     "import/exports-last": "error",
     "import/group-exports": "warn",
     "import/max-dependencies": "warn",
