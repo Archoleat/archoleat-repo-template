@@ -1,5 +1,7 @@
 # Conqueror Repo Template
 
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
+![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
 ![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
@@ -13,6 +15,7 @@ Translations:
 
 -   [Getting Started](#getting-started)
 -   [Features](#features)
+-   [JavaScript & TypeScript](#javascript--typescript)
 -   [Using Bots](#using-bots)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
@@ -74,6 +77,12 @@ This template includes ready-made solutions for integration with **Git**,
 
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
+
+## JavaScript & TypeScript
+
+> [!WARNING]
+> This template is fully customized with **JavaScript ES6**.
+> Also, only **TypeScript** is used here.
 
 ## Using Bots
 

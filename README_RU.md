@@ -1,5 +1,7 @@
 # Conqueror Repo Template
 
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
+![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
 ![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
@@ -13,6 +15,7 @@
 
 -   [Начало Работы](#начало-работы)
 -   [Особенности](#особенности)
+-   [JavaScript & TypeScript](#javascript--typescript)
 -   [Использование Ботов](#использование-ботов)
 -   [Вклад](#вклад)
 -   [Версионирование](#версионирование)
@@ -81,6 +84,12 @@
 
     > Они будут особенно полезны для команд, в которых
     > идут споры о том как писать коммиты.
+
+## JavaScript & TypeScript
+
+> [!WARNING]
+> Этот шаблон полностью настроен под **JavaScript ES6**.
+> Также здесь используется только **TypeScript**.
 
 ## Использование Ботов
 

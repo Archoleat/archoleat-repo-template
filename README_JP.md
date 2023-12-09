@@ -1,5 +1,7 @@
 # レポテンプレート
 
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
+![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
 ![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
@@ -13,6 +15,7 @@
 
 -   [始めるにあたって](#始めるにあたって)
 -   [特徴](#特徴)
+-   [JavaScript & TypeScript](#javascript--typescript)
 -   [ボットの使用](#ボットの使用)
 -   [貢献する](#貢献する)
 -   [バージョン管理](#バージョン管理)
@@ -74,6 +77,12 @@
     これらのプラグインが役に立ちます。
 
     > これらのプラグインは、コミットの書き方を毎回考えるのが面倒なチームに特に役立ちます。
+
+## JavaScript & TypeScript
+
+> [!WARNING]
+> このテンプレートは **JavaScript ES6** 用に完全にカスタマイズされています。
+> また、ここでは **TypeScript** のみを使用しています。
 
 ## ボットの使用
 
