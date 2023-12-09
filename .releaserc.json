@@ -9,8 +9,8 @@
         "preset": "conventionalcommits",
         "releaseRules": [
           {
-            "tag": "breaking",
-            "release": "major"
+            "tag": "build",
+            "release": false
           },
           {
             "tag": "chore",
@@ -29,11 +29,23 @@
             "release": "minor"
           },
           {
+            "tag": "feature",
+            "release": "minor"
+          },
+          {
             "tag": "fix",
             "release": "patch"
           },
           {
+            "tag": "perf",
+            "release": "patch"
+          },
+          {
             "tag": "refactor",
+            "release": "patch"
+          },
+          {
+            "tag": "revert",
             "release": "patch"
           },
           {
@@ -52,7 +64,8 @@
         "parserOpts": {
           "noteKeywords": [
             "BREAKING CHANGE",
-            "BREAKING CHANGES"
+            "BREAKING CHANGES",
+            "BREAKING"
           ]
         }
       }
