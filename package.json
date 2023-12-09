@@ -2,9 +2,9 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install",
-    "editorconfig:lint": "editorconfig-checker",
-    "markdown:lint": "remark . --quiet",
-    "eslint:lint": "eslint **/*.ts --fix --no-error-on-unmatched-pattern",
+    "lint:files": "editorconfig-checker",
+    "lint:markdown": "remark . --quiet",
+    "lint:ts": "eslint **/*.ts --fix --no-error-on-unmatched-pattern",
     "test": "mocha __tests__",
     "cm": "cz"
   },
