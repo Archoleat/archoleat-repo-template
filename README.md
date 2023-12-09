@@ -14,6 +14,7 @@ Translations:
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
+-   [Benefits](#benefits)
 -   [Features](#features)
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Using Bots](#using-bots)
@@ -53,6 +54,13 @@ This template includes ready-made solutions for integration with **Git**,
 
 1.  **Configure CI/CD:** Modify GitHub Actions
     settings to fit your CI/CD requirements.
+
+## Benefits
+
+> [!TIP]
+> Also suitable for private repositories! Thanks to the well-tuned GitHub Actions
+> your time will not be wasted, which means it will allow you to
+> significantly reduce your costs.
 
 ## Features
 
