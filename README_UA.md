@@ -33,7 +33,7 @@
 Шаблон включає готові рішення для інтеграції з **Git**,
 **GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
 **Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
-**Behavior Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
+**Welcome Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
 **Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
@@ -93,7 +93,7 @@
 ## Використання Ботів
 
 Щоб використовувати
-[Behavior Bot](https://github.com/apps/welcome) і
+[Welcome Bot](https://github.com/apps/welcome) і
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 вам потрібно встановити їх.
 

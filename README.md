@@ -31,7 +31,7 @@ starting new projects with pre-configured tools and best development practices.
 This template includes ready-made solutions for integration with **Git**,
 **GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
 **Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
-**Behavior Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
+**Welcome Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
 **Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
@@ -90,7 +90,7 @@ This template includes ready-made solutions for integration with **Git**,
 ## Using Bots
 
 To use
-[Behavior Bot](https://github.com/apps/welcome) and
+[Welcome Bot](https://github.com/apps/welcome) and
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 you need to install them.
 
