@@ -58,9 +58,9 @@ This template includes ready-made solutions for integration with **Git**,
 ## Benefits
 
 > [!TIP]
-> Also suitable for private repositories! Thanks to the well-tuned GitHub Actions
-> your time will not be wasted, which means it will allow you to
-> significantly reduce your costs.
+> Also suitable for private repositories! GitHub Actions use
+> **cache**, **timeout-minutes**, and **path filters** to reduce the
+> execution time, which means it will significantly reduce your costs!
 
 ## Features
 
