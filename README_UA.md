@@ -1,5 +1,11 @@
 # Conqueror Repo Template
 
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Mocha)
+![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
+
 Переклади:
 [English](README.md), [日本語](README_JP.md), [Русский](README_RU.md)
 
@@ -8,7 +14,6 @@
 -   [Початок Роботи](#початок-роботи)
 -   [Особливості](#особливості)
 -   [Використання Ботів](#використання-ботів)
--   [Вікі](#вікі)
 -   [Внесок](#внесок)
 -   [Версіонування](#версіонування)
 -   [Автори](#автори)
@@ -23,8 +28,10 @@
 запуску нових проєктів із заздалегідь налаштованими
 інструментами та найкращими практиками розробки.
 Шаблон включає готові рішення для інтеграції з **Git**,
-**GitHub**, **CI/CD**, **TypeScript**, **Mocha**, **Commitizen**,
-**Commitlint**, **Semantic Release**, **ESLint**, **Husky** і **CodeQL**.
+**GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
+**Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
+**Behavior Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
+**Husky & Lint Staged** and **CodeQL**.
 
 > [!TIP]
 > Це рішення дуже добре підходить для команд,
@@ -61,7 +68,10 @@
 -   **CodeQL:** Включений робочий процес CodeQL для виявлення
     і запобігання потенційним вразливостям у вашому коді.
 
--   **Зазвичайні коміти, Commitlint і Commitizen:** Якщо ви не хочете
+-   **Лінтери:** Допоможуть вам підтримувати єдиний стиль написання коду
+    і знаходити помилки.
+
+-   **Conventional Commits, Commitlint і Commitizen:** Якщо ви не хочете
     щоразу думати про те, як написати коміт,
     ці плагіни допоможуть вам.
 
@@ -75,12 +85,6 @@
 [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 вам потрібно встановити їх.
 
-## Вікі
-
-Якщо ви хочете дізнатися більше про можливості Conqueror Repo Template,
-ви можете прочитати
-[Вікі](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/wiki).
-
 ## Внесок
 
 Будь ласка, прочитайте [Contributing](CONTRIBUTING.md)
@@ -90,20 +94,23 @@
 ## Версіонування
 
 Для версіонування ми використовуємо [SemVer](https://semver.org).
-Про доступні версії див.
-[теги](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
+Доступні версії ви можете подивитися
+[тут](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
 
 ## Автори
 
-Див. список [Авторів](AUTHORS.md)
+Див. список [Авторів](AUTHORS.md).
 
 ## Контриб'ютори
 
-Див. список [Contributors](CONTRIBUTORS.md)
+Якщо ви хочете щось поліпшити, то можете написати про це
+[тут](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+Ви також можете подивитися список [Контриб'юторів](CONTRIBUTORS.md).
 
 ## Ліцензія
 
-Цей проект ліцензується за ліцензією MIT - див. [LICENSE](LICENSE).
+Цей проект ліцензується за ліцензією MIT - див. [ЛIЦЕНЗIЮ](LICENSE).
 
 ## Подяки
 
