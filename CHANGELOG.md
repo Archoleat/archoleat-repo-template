@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.3](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.2...v1.3.3) (2023-12-10)
+
+
+### Bug Fixes
+
+* **mocharc:** install reporter for mocha ([#72](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/72)) ([0924d0f](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/0924d0fd79dfdb7c2efd9fa5dc03c70f83f30421))
+* **tsconfig:** switch from ES6 to NodeNext ([#71](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/71)) ([44169e9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/44169e9e9443ad1819b41fac8fd6d90685d3a377))
+
 ## [1.3.2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.1...v1.3.2) (2023-12-09)
 
 
