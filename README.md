@@ -115,7 +115,11 @@ This template includes ready-made solutions for integration with:
 -   **TypeScript:** Pre-configured TypeScript setup
     for improved reliability and development convenience.
 
+    > More about [TypeScript](#javascript--typescript) in this project.
+
 -   **Bots:**
+
+    > How to use [bots](#using-bots).
 
     -   **Dependabot:** No more wasting time updating dependencies!
 
@@ -124,7 +128,7 @@ This template includes ready-made solutions for integration with:
     -   **Welcome Bot:** For those who have created an issue or made
         a Pull Request for the first time, a thank you message will be sent.
 
--   **Issue & Pull Request Templates:** Your members will be more willing
+-   **Issue & Pull Request Templates:** Your contributors will be more willing
     to send issue and pull requests knowing you have a convenient form!
 
 ## Package.json scripts
