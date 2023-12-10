@@ -1,11 +1,21 @@
 {
+  "check-leaks": true,
   "exit": true,
   "extension": [
     "ts"
   ],
+  "fail-zero": true,
+  "forbid-pending": true,
   "inline-diffs": true,
+  "node-option": [
+    "loader=ts-node/esm"
+  ],
   "parallel": true,
   "recursive": true,
+  "reporter": "mocha-spec-reporter-with-file-names",
   "slow": 1500,
+  "spec": [
+    "__tests__"
+  ],
   "timeout": 20000
 }
