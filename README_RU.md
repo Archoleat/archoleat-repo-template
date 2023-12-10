@@ -9,7 +9,7 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
 Переводы:
-[English](README.md), [Українська](README_UA.md)
+[English](README.md)
 
 ## Оглавление
 
@@ -33,11 +33,26 @@
 предназначенный для быстрого
 запуска новых проектов с заранее настроенными
 инструментами и лучшими практиками разработки.
-Шаблон включает готовые решения для интеграции с **Git**,
-**GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
-**Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
-**Welcome Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
-**Husky & Lint Staged** and **CodeQL**.
+Шаблон включает готовые решения для интеграции с:
+
+-   **Git**.
+-   **GitHub**.
+-   **Commitizen**.
+-   **Commitlint**.
+-   **Conventional Commits**.
+-   **Husky & Lint Staged**.
+-   **CI/CD**.
+-   **Semantic Release**.
+-   **CodeQL**.
+-   **EditorConfig**.
+-   **ESLint**.
+-   **Remark**.
+-   **Mocha**.
+-   **TypeScript**.
+-   **Dependabot**.
+-   **Welcome Bot**.
+-   **Auto Merge Bot**.
+-   **Issue & Pull Request Templates**.
 
 > [!TIP]
 > Это решение очень хорошо подходит для команд,
@@ -73,27 +88,51 @@
     к различным типам проектов.
 
 -   **Интеграция с Git и GitHub:** Предварительно настроенные `.gitignore`,
-    `.gitattributes`, и другие файлы для эффективной работы с Git и GitHub.
+    `.gitattributes` и другие файлы для эффективной работы с Git и GitHub.
 
--   **Continuous Integration (CI):** Встроенная поддержка CI
-    с помощью GitHub Actions для автоматической сборки
-    и тестирования вашего кода при каждом изменении.
+    -   **Conventioanl Commits, Commitlint и Commitizen:** Если вы не хотите
+        каждый раз думать о том, как написать коммит,
+        эти плагины помогут вам.
+
+        > Они будут особенно полезны для команд, в которых
+        > постоянно спорят о написании коммитов.
+
+    -   **Husky & Lint Staged:** Не позволят вам отправить
+        плохой код в репозиторий!
+
+-   **Continuous Integration (CI):** Встроенная поддержка CI с помощью
+    GitHub Actions для автоматической сборки и тестирования
+    вашего кода при каждом изменении.
+
+    -   **Безопасность:** Включенный рабочий процесс CodeQL для обнаружения
+        и предотвращения потенциальных уязвимостей в вашем коде.
+
+    -   **Линтеры:** Помогают поддерживать последовательный
+        стиль написания кода и находить ошибки.
+
+    -   **Тесты:** Автоматизированное тестирование поможет вам сосредоточиться
+        на написании лучшего кода!
+
+    -   **Semantic Release:** Для тех, кто устал писать журналы изменений
+        и думать о том, какой номер будет у следующей версии.
 
 -   **TypeScript:** Предварительно сконфигурированная настройка TypeScript
     для повышения надежности и удобства разработки.
 
--   **CodeQL:** Включенный рабочий процесс CodeQL для обнаружения
-    и предотвращения потенциальных уязвимостей в вашем коде.
+-   **Боты:**
 
--   **Линтеры:** Помогут вам поддерживать единый стиль написания кода
-    и находить ошибки.
+    -   **Dependabot:** Больше не нужно тратить время на
+        обновление зависимостей!
 
--   **Conventional Commits, Commitlint и Commitizen:** Если вы не хотите
-    каждый раз думать о том, как написать коммит,
-    эти плагины помогут вам.
+    -   **Auto Merge Bot:** Объединяет Pull Requests, созданные
+        с помощью Dependabot.
 
-    > Они будут особенно полезны для команд, в которых
-    > идут споры о том как писать коммиты.
+    -   **Welcome Bot:** Для тех, кто создал проблему или сделал
+        Pull Request в первый раз, будет отправлено благодарственное сообщение.
+
+-   **Шаблоны Issue и Pull Request:** Ваши пользователи будут охотнее
+    отправлять Issues и Pull Requests, зная,
+    что у вас есть удобная форма!
 
 ## Сценарии Package.json
 
@@ -102,21 +141,21 @@
 -   `lint:files`: Запускает `editorconfig-checker` и
     проверяет все файлы в проекте.
 
-	  > Также запускается с помощью рабочего процесса `editorconfig.yml`.
+	   > Также запускается с помощью рабочего процесса [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml).
 
 -   `lint:markdown`: Запускает `remark` с флагом `--quiet` и
     проверяет все markdown файлы.
 
-	  > Также запускается с помощью рабочего процесса `markdown.yml`.
+	   > Также запускается с помощью рабочего процесса [`markdown.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml).
 
 -   `lint:ts`: Запускает `eslint` с флагами `--fix` и
     `--no-error-on-unmatched-pattern` для всех `TypeScript` файлов.
 
-	  > Также запускается с помощью рабочего процесса `eslint.yml`.
+	   > Также запускается с помощью рабочего процесса [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml).
 
 -   `test`: Запускает `Mocha` и тесты в папке `__tests__`.
 
-    > Также запускается с помощью рабочего процесса `mocha.yml`.
+    > Также запускается с помощью рабочего процесса [`mocha.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml).
 
 -   `cm`: Запускает `Commitizen`, `Commitlint` и `Husky` для создания коммитов
     по стандартам **Conventional Commits**.

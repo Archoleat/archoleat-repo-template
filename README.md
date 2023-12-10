@@ -9,7 +9,7 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
 Translations:
-[Русский](README_RU.md), [Українська](README_UA.md)
+[Русский](README_RU.md)
 
 ## Table of Contents
 
@@ -31,11 +31,26 @@ Translations:
 
 **Conqueror Repo Template** is a template repository designed for quickly
 starting new projects with pre-configured tools and best development practices.
-This template includes ready-made solutions for integration with **Git**,
-**GitHub**, **CI/CD**, **Dependabot**, **TypeScript**, **Mocha**,
-**Commitizen**, **Commitlint**, **Semantic Release**, **ESLint**, **Remark**,
-**Welcome Bot**, **Auto Merge Bot**, **EditorConfig**, **Issue Templates**,
-**Husky & Lint Staged** and **CodeQL**.
+This template includes ready-made solutions for integration with:
+
+-   **Git**.
+-   **GitHub**.
+-   **Commitizen**.
+-   **Commitlint**.
+-   **Conventional Commits**.
+-   **Husky & Lint Staged**.
+-   **CI/CD**.
+-   **Semantic Release**.
+-   **CodeQL**.
+-   **EditorConfig**.
+-   **ESLint**.
+-   **Remark**.
+-   **Mocha**.
+-   **TypeScript**.
+-   **Dependabot**.
+-   **Welcome Bot**.
+-   **Auto Merge Bot**.
+-   **Issue & Pull Request Templates**.
 
 > [!TIP]
 > This solution will work very well for teams
@@ -69,27 +84,48 @@ This template includes ready-made solutions for integration with **Git**,
 -   **Flexibility:** Easily customizable template to adapt
     to different project types.
 
--   **Git and GitHub Integration:** Pre-configured `.gitignore`, `.gitattributes`,
-    and other files for efficient work with Git and GitHub.
+-   **Git and GitHub Integration:** Pre-configured `.gitignore`,
+    `.gitattributes`, and other files for efficient work with Git and GitHub.
+
+    -   **Conventional Commits, Commitlint & Commitizen:** If you don't want
+        to think about how to write a commit every time,
+        these plugins will help you.
+
+        > It will be especially useful for teams that
+        > have an ongoing debate about writing commits.
+
+    -   **Husky & Lint Staged:** Won't let you submit
+        bad code to the repository!
 
 -   **Continuous Integration (CI):** Built-in CI support using GitHub Actions
     for automatic building and testing of your code with each change.
 
+    -   **Security:** Included CodeQL workflow for detecting
+        and preventing potential vulnerabilities in your code.
+
+    -   **Linters:** Help you maintain a consistent code writing style
+        and find errors.
+
+    -   **Tests:** Automated testing will help you focus on
+        writing better code!
+
+    -   **Semantic Release:** For those who are tired of writing changelogs
+        and thinking about what the next version number will be.
+
 -   **TypeScript:** Pre-configured TypeScript setup
     for improved reliability and development convenience.
 
--   **CodeQL:** Included CodeQL workflow for detecting
-    and preventing potential vulnerabilities in your code.
+-   **Bots:**
 
--   **Linters:** Help you maintain a consistent code writing style
-    and find errors.
+    -   **Dependabot:** No more wasting time updating dependencies!
 
--   **Conventional Commits, Commitlint & Commitizen:** If you don't want
-    to think about how to write a commit every time,
-    these plugins will help you.
+    -   **Auto Merge Bot:** Merges Pull Requests created with Dependabot.
 
-    > It will be especially useful for teams that
-    > have an ongoing debate about writing commits.
+    -   **Welcome Bot:** For those who have created an issue or made
+        a Pull Request for the first time, a thank you message will be sent.
+
+-   **Issue & Pull Request Templates:** Your members will be more willing
+    to send issue and pull requests knowing you have a convenient form!
 
 ## Package.json scripts
 
@@ -98,21 +134,21 @@ This template includes ready-made solutions for integration with **Git**,
 -   `lint:files`: Runs `editorconfig-checker` and
     checks all files in the project.
 
-    > Also runs with the `editorconfig.yml` workflow.
+    > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml) workflow.
 
 -   `lint:markdown`: Runs `remark` with the `--quiet` flag and
     checks all markdown files.
 
-    > Also runs with the `markdown.yml` workflow.
+    > Also runs with the [`markdown.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml) workflow.
 
 -   `lint:ts`: Runs `eslint` with the flags `--fix` and
     `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
 
-    > Also runs with the `eslint.yml` workflow.
+    > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
 
 -   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
 
-    > Also runs using the `mocha.yml` workflow.
+    > Also runs using the [`mocha.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml) workflow.
 
 -   `cm`: Runs `Commitizen`, `Commitlint`, and `Husky` to create commits
     according to **Conventional Commits** standards.
@@ -162,7 +198,7 @@ You can also view a list of [Contributors](CONTRIBUTORS.md).
 ## License
 
 This project is licensed under the MIT license - see the
-[LICENSE](LICENSE) file for details.
+[LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
