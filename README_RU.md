@@ -9,13 +9,15 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
 Переводы:
-[English](README.md), [日本語](README_JP.md), [Українська](README_UA.md)
+[English](README.md), [Українська](README_UA.md)
 
 ## Оглавление
 
 -   [Начало Работы](#начало-работы)
 -   [Преимущества](#преимущества)
 -   [Особенности](#особенности)
+-   [Сценарии Package.json](#сценарии-packagejson)
+-   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Использование Ботов](#использование-ботов)
 -   [Вклад](#вклад)
@@ -47,7 +49,7 @@
     для создания нового репозитория на GitHub.
 
     > Так как это **Публичный Шаблон** вы можете нажать на кнопку
-    > `Use This Template` для более быстрого и удобного клонирования.
+    > `Use this template` для более быстрого и удобного клонирования.
 
 1.  **Клонирование репозитория:** Клонируйте новый репозиторий
     на локальную машину.
@@ -93,6 +95,37 @@
     > Они будут особенно полезны для команд, в которых
     > идут споры о том как писать коммиты.
 
+## Сценарии Package.json
+
+-   `init`: Устанавливает `node_modules` и `husky`.
+
+-   `lint:files`: Запускает `editorconfig-checker` и
+    проверяет все файлы в проекте.
+
+	  > Также запускается с помощью рабочего процесса `editorconfig.yml`.
+
+-   `lint:markdown`: Запускает `remark` с флагом `--quiet` и
+    проверяет все markdown файлы.
+
+	  > Также запускается с помощью рабочего процесса `markdown.yml`.
+
+-   `lint:ts`: Запускает `eslint` с флагами `--fix` и
+    `--no-error-on-unmatched-pattern` для всех `TypeScript` файлов.
+
+	  > Также запускается с помощью рабочего процесса `eslint.yml`.
+
+-   `test`: Запускает `Mocha` и тесты в папке `__tests__`.
+
+    > Также запускается с помощью рабочего процесса `mocha.yml`.
+
+-   `cm`: Запускает `Commitizen`, `Commitlint` и `Husky` для создания коммитов
+    по стандартам **Conventional Commits**.
+
+## Markdown
+
+> [!TIP]
+> Все находящиеся здесь markdown файлы тоже можно использовать как шаблон!
+
 ## JavaScript & TypeScript
 
 > [!WARNING]
@@ -101,10 +134,11 @@
 
 ## Использование Ботов
 
-Чтобы использовать
-[Welcome Bot](https://github.com/apps/welcome) и
-[Auto Merge Bot](https://github.com/apps/probot-auto-merge)
-вам нужно установить их.
+> [!WARNING]
+> Чтобы использовать
+> [Welcome Bot](https://github.com/apps/welcome) и
+> [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
+> вам нужно установить их.
 
 ## Вклад
 
