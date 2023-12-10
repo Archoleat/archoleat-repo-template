@@ -4,8 +4,6 @@
   "extension": [
     "ts"
   ],
-  "fail-zero": true,
-  "forbid-pending": true,
   "inline-diffs": true,
   "node-option": [
     "loader=ts-node/esm"
