@@ -133,10 +133,11 @@
 
 ## Використання Ботів
 
-Щоб використовувати
-[Welcome Bot](https://github.com/apps/welcome) і
-[Auto Merge Bot](https://github.com/apps/probot-auto-merge)
-вам потрібно встановити їх.
+> [!WARNING]
+> Щоб використовувати
+> [Welcome Bot](https://github.com/apps/welcome) і
+> [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
+> вам потрібно встановити їх.
 
 ## Внесок
 

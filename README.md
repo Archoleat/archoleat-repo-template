@@ -130,10 +130,11 @@ This template includes ready-made solutions for integration with **Git**,
 
 ## Using Bots
 
-To use
-[Welcome Bot](https://github.com/apps/welcome) and
-[Auto Merge Bot](https://github.com/apps/probot-auto-merge)
-you need to install them.
+> [!WARNING]
+> To use
+> [Welcome Bot](https://github.com/apps/welcome) and
+> [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
+> you need to install them.
 
 ## Contributing
 
