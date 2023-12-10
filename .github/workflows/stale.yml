@@ -25,6 +25,6 @@ jobs:
           close-issue-label: close
           close-pr-label: close
           stale-issue-message: This issue is stale. You can reopen it again.
-          stale-pr-message: This pull request is stale. You can reopen it again.
+          stale-pr-message: This Pull Request is stale. You can reopen it again.
           close-issue-message: This issue is closed.
-          close-pr-message: This pull request is closed.
+          close-pr-message: This Pull Request is closed.

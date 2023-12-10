@@ -129,7 +129,7 @@ This template includes ready-made solutions for integration with:
         a Pull Request for the first time, a thank you message will be sent.
 
 -   **Issue & Pull Request Templates:** Your contributors will be more willing
-    to send issue and pull requests knowing you have a convenient form!
+    to send issue and Pull Requests knowing you have a convenient form!
 
 ## Package.json scripts
 
