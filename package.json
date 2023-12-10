@@ -5,7 +5,7 @@
     "lint:files": "editorconfig-checker",
     "lint:markdown": "remark . --quiet",
     "lint:ts": "eslint **/*.ts --fix --no-error-on-unmatched-pattern",
-    "test": "mocha __tests__",
+    "test": "mocha",
     "cm": "cz"
   },
   "devDependencies": {
@@ -33,6 +33,7 @@
     "husky": "*",
     "lint-staged": "*",
     "mocha": "*",
+    "mocha-spec-reporter-with-file-names": "*",
     "remark-cli": "*",
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",
