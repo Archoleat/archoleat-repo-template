@@ -9,13 +9,15 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
 Переклади:
-[English](README.md), [日本語](README_JP.md), [Русский](README_RU.md)
+[English](README.md), [Русский](README_RU.md)
 
 ## Зміст
 
 -   [Початок Роботи](#початок-роботи)
 -   [Переваги](#переваги)
 -   [Особливості](#особливості)
+-   [Сценарії Package.json](#сценарії-packagejson)
+-   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Використання Ботів](#використання-ботів)
 -   [Внесок](#внесок)
@@ -47,7 +49,7 @@
     для створення нового репозиторію на GitHub.
 
     > Так як це **Публічний Шаблон** ви можете натиснути на кнопку
-    > `Use This Template` для більш швидкого і зручного клонування.
+    > `Use this template` для більш швидкого і зручного клонування.
 
 1.  **Клонування сховища:** Клонуйте новий сховище на локальну машину.
 
@@ -91,6 +93,37 @@
 
     > Вони будуть особливо корисні для команд, у яких
     > точаться суперечки про те, як писати комміти.
+
+## Сценарії Package.json
+
+-   `init`: Встановлює `node_modules` і `husky`.
+
+-   `lint:files`: Запускає `editorconfig-checker` і
+    перевіряє всі файли в проекті.
+
+	  > Також запускається за допомогою робочого процесу `editorconfig.yml`.
+
+-   `lint:markdown`: Запускає `remark` з прапором `--quiet` і
+    перевіряє всі markdown файли.
+
+	  > Також запускається за допомогою робочого процесу `markdown.yml`.
+
+-   `lint:ts`: Запускає `eslint` з прапорами `--fix` і
+    `--no-error-on-unmatched-pattern` для всіх `TypeScript` файлів.
+
+	  > Також запускається за допомогою робочого процесу `eslint.yml`.
+
+-   `test`: Запускає `Mocha` і тести в папці `__tests__`.
+
+    > Також запускається за допомогою робочого процесу `mocha.yml`.
+
+- `cm`: Запускає `Commitizen`, `Commitlint` і `Husky` для створення комітів
+    за стандартами **Conventional Commits**.
+
+## Markdown
+
+> [!TIP]
+> Усі розміщені тут markdown файли теж можна використовувати як шаблон!
 
 ## JavaScript & TypeScript
 

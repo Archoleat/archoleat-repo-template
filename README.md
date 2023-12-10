@@ -9,13 +9,15 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
 Translations:
-[Русский](README_RU.md), [日本語](README_JP.md), [Українська](README_UA.md)
+[Русский](README_RU.md), [Українська](README_UA.md)
 
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
 -   [Benefits](#benefits)
 -   [Features](#features)
+-   [Package.json scripts](#packagejson-scripts)
+-   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Using Bots](#using-bots)
 -   [Contributing](#contributing)
@@ -45,7 +47,7 @@ This template includes ready-made solutions for integration with **Git**,
     to create a new repository on GitHub.
 
     > Since this is a **Public Template** you can click the button
-    > `Use This Template` for a faster and more convenient cloning.
+    > `Use this template` for a faster and more convenient cloning.
 
 1.  **Clone the Repository:** Clone your new repository to your local machine.
 
@@ -88,6 +90,37 @@ This template includes ready-made solutions for integration with **Git**,
 
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
+
+## Package.json scripts
+
+-   `init`: Installs `node_modules` and `husky`.
+
+-   `lint:files`: Runs `editorconfig-checker` and
+    checks all files in the project.
+
+    > Also runs with the `editorconfig.yml` workflow.
+
+-   `lint:markdown`: Runs `remark` with the `--quiet` flag and
+    checks all markdown files.
+
+    > Also runs with the `markdown.yml` workflow.
+
+-   `lint:ts`: Runs `eslint` with the flags `--fix` and
+    `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
+
+    > Also runs with the `eslint.yml` workflow.
+
+-   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
+
+    > Also runs using the `mocha.yml` workflow.
+
+-   `cm`: Runs `Commitizen`, `Commitlint`, and `Husky` to create commits
+    according to **Conventional Commits** standards.
+
+## Markdown
+
+> [!TIP]
+> All markdown files here can also be used as a template!
 
 ## JavaScript & TypeScript
 
