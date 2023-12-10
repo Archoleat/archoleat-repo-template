@@ -34,4 +34,4 @@ jobs:
         run: npm ci
 
       - name: Markdown
-        run: npm run markdown:lint
+        run: npm run lint:markdown
