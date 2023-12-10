@@ -3,9 +3,7 @@
     ".releaserc.json",
     "CHANGELOG.md",
     "config.yml",
-    "README_JP.md",
     "README_RU.md",
-    "README_UA.md",
     "README.md"
   ]
 }
