@@ -7,6 +7,10 @@ on:
     types:
       - completed
   pull_request:
+    branches:
+      - main
+    paths:
+      - '**/*.ts'
   push:
     branches:
       - main
