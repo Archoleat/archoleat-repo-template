@@ -2,12 +2,12 @@ name: Commit Lint Messages
 
 on:
   pull_request:
-    branches-ignore:
-      - dependabot
   push:
 
 jobs:
   commit-lint-messages:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
     name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 10
