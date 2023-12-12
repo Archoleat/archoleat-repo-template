@@ -6,7 +6,7 @@ on:
 
 jobs:
   commit-lint-messages:
-    if: github.actor != 'dependabot[bot]'
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     name: Lint
     runs-on: ubuntu-latest
