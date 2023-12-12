@@ -3,8 +3,10 @@ name: Commit Lint Messages
 on:
   pull_request:
     branches-ignore:
-      - dependabot
+      - 'dependabot/*'
   push:
+    branches-ignore:
+      - 'dependabot/*'
 
 jobs:
   commit-lint-messages:
