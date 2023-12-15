@@ -1,11 +1,11 @@
-name: Commit Lint Messages
+name: Lint Commit Messages
 
 on:
   pull_request:
   push:
 
 jobs:
-  commit-lint-messages:
+  lint-commit-messages:
     if: ${{ github.actor != 'dependabot[bot]' }}
 
     name: Lint
@@ -13,8 +13,8 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Commit
+      - name: Lint
         uses: wagoid/commitlint-github-action@v5
