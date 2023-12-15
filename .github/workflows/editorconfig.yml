@@ -1,4 +1,4 @@
-name: EditorConfig
+name: Editorconfig
 
 on:
   workflow_run:
