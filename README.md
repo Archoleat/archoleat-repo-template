@@ -4,7 +4,7 @@
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Test)
-![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=Editorconfig)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
@@ -75,6 +75,15 @@ This template includes ready-made solutions for integration with:
 
 1.  **Configure CI/CD:** Modify GitHub Actions
     settings to fit your CI/CD requirements.
+
+    > **For those unfamiliar with GitHub Actions**,
+    > our workflows use
+    > [chain](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
+    > if you want to add more workflows to this chain.
+    > workflows, it won't work, because the chain only supports
+    > only three levels, example: `workflow A` > `workflow B` > `workflow C` >
+    > `workflow D`, if you add `workflow E` to the chain.
+    > it won't work!
 
 ## Benefits
 
