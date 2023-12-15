@@ -4,7 +4,7 @@
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Test)
-![EditorConfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=EditorConfig)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=Editorconfig)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
 
@@ -78,6 +78,15 @@
 
 1.  **Настройка CI/CD:** Измените настройки GitHub Actions
     в соответствии с вашими требованиями к CI/CD.
+
+    > **Для тех кто плохо знаком с GitHub Actions**,
+    > в наших рабочих процессах используется
+    > [цепочка](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
+    > если вы захотите добавить в эту цепочку ещё несколько
+    > рабочих процессов то это не сработает, так как цепочка поддерхивает
+    > только три уровня, пример: `workflow A` > `workflow B` > `workflow C` >
+    > `workflow D`, если в эту цепь добавить `workflow E`
+    > то это не будет работать!
 
 ## Преимущества
 

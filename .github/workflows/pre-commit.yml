@@ -1,4 +1,4 @@
-name: Pre commit
+name: Pre Commit
 
 on:
   pull_request:
@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -20,5 +20,5 @@ jobs:
         with:
           python-version: 3.12
 
-      - name: Pre-commit
+      - name: Lint
         uses: pre-commit/action@v3.0.0

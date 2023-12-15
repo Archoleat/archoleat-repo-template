@@ -3,6 +3,8 @@ name: CodeQL
 on:
   workflow_run:
     workflows:
+      - Lint Commit Messages
+      - Pre Commit
       - Semantic pull request
     types:
       - completed
@@ -35,10 +37,10 @@ jobs:
           - javascript-typescript
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Initialize CodeQL
+      - name: Initialize
         uses: github/codeql-action/init@v2
         with:
           languages: ${{ matrix.language }}
@@ -46,7 +48,7 @@ jobs:
       - name: Auto Build
         uses: github/codeql-action/autobuild@v2
 
-      - name: Perform CodeQL Analysis
+      - name: Perform Analysis
         uses: github/codeql-action/analyze@v2
         with:
           category: /language:${{ matrix.language }}
