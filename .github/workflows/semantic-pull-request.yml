@@ -11,6 +11,8 @@ on:
 
 jobs:
   validate-pull-request-title:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
     name: Validate Pull Request title
     runs-on: ubuntu-latest
     timeout-minutes: 10
