@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -33,5 +33,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: EditorConfig
+      - name: Lint
         run: npm run lint:files

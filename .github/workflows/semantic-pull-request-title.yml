@@ -1,4 +1,4 @@
-name: Semantic pull request
+name: Semantic Pull Request Title
 
 on:
   pull_request_target:
@@ -10,15 +10,15 @@ on:
       - main
 
 jobs:
-  validate-pull-request-title:
+  lint-pull-request-title:
     if: ${{ github.actor != 'dependabot[bot]' }}
 
-    name: Validate Pull Request title
+    name: Lint Pull Request title
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Validate
+      - name: Lint
         uses: amannn/action-semantic-pull-request@v5
         with:
           subjectPattern: ^(?![A-Z]).+$
