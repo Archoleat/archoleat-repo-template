@@ -25,7 +25,6 @@
     "import/no-commonjs": "error",
     "import/exports-last": "error",
     "import/group-exports": "warn",
-    "import/max-dependencies": "warn",
     "import/no-anonymous-default-export": "error",
     "import/no-namespace": "error",
     "import/no-unassigned-import": "error",
