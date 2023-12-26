@@ -4,7 +4,7 @@
     "init": "npm i && husky install",
     "lint:files": "editorconfig-checker",
     "lint:markdown": "remark . --quiet",
-    "lint:ts": "eslint **/*.ts --fix --no-error-on-unmatched-pattern",
+    "lint:ts": "eslint **/*.ts --fix",
     "test": "mocha",
     "cm": "cz"
   },
