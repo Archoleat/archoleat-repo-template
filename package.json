@@ -1,13 +1,29 @@
 {
   "type": "module",
+  "main": "src/index.ts",
   "scripts": {
     "init": "npm i && husky install",
     "lint:files": "editorconfig-checker",
     "lint:markdown": "remark . --quiet",
-    "lint:ts": "eslint **/*.ts --fix --no-error-on-unmatched-pattern",
+    "lint:ts": "eslint src/**/*.ts --fix",
     "test": "mocha",
     "cm": "cz"
   },
+  "author": "nikkeyl",
+  "name": "conqueror-repo-template",
+  "description": "Now you can quickly set up your repository!",
+  "version": "1.3.3",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "repo-template",
+    "quick-start"
+  ],
+  "files": [
+    "__tests__",
+    "src",
+    ""
+  ],
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
