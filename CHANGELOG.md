@@ -2,14 +2,12 @@
 
 ## [1.3.3](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.2...v1.3.3) (2023-12-10)
 
-
 ### Bug Fixes
 
 * **mocharc:** install reporter for mocha ([#72](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/72)) ([0924d0f](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/0924d0fd79dfdb7c2efd9fa5dc03c70f83f30421))
 * **tsconfig:** switch from ES6 to NodeNext ([#71](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/71)) ([44169e9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/44169e9e9443ad1819b41fac8fd6d90685d3a377))
 
 ## [1.3.2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.1...v1.3.2) (2023-12-09)
-
 
 ### Bug Fixes
 
@@ -19,20 +17,17 @@ Changelog
 
 ## [1.3.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.0...v1.3.1) (2023-12-08)
 
-
 ### Bug Fixes
 
 * **ci:** separate `pull_request` trigger ([#52](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/52)) ([6899cbc](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/6899cbc6d6fa2777b9c3ba8e69440ff575a088e8))
 
 ## [1.3.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.1...v1.3.0) (2023-12-08)
 
-
 ### Features
 
 * **docs:** add readme for other languages ([#47](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/47)) ([7ad0871](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/7ad0871bcf7335796024b9e27af1105f6f0f027e))
 
 ## [1.2.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.2.0...v1.2.1) (2023-12-07)
-
 
 ### Bug Fixes
 
@@ -43,11 +38,9 @@ Changelog
 
 ## [1.2.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.1.0...v1.2.0) (2023-12-06)
 
-
 ### Features
 
 * **commitizen:** for conventional commits ([#24](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/24)) ([c88c4f5](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c88c4f52410a35b46b34d20465c43a83836abddb))
-
 
 ### Bug Fixes
 
@@ -57,22 +50,19 @@ Changelog
 
 ## [1.1.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.0.0...v1.1.0) (2023-11-23)
 
-
 ### Features
 
 * mocha and chai ([#11](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/11)) ([23c8fc9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/23c8fc9a2d67e21195394b393c378f714b0ccbe9))
 
 ## 1.0.0 (2023-11-22)
 
-
 ### Features
 
-* .ecrc ([fa211e6](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/fa211e69b6ae304bef410704a8ea1d83acbc3e2c))
-* .eslintignore ([933db70](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/933db70bc0b70d7e914b609d933843a4bc293a96))
-* auto generate changelog ([#2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/2)) ([cf56110](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/cf56110a00bcb4cc38120dd290b480a8d47d674d))
-* files ([caac9aa](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/caac9aa41c71c90a73f7c6f0528b73bd3f8ba761))
-* MIT LICENSE ([8252f99](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8252f995ee7ec9838c83d91d3057530240fdb6ec))
-
+* **.ecrc** ([fa211e6](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/fa211e69b6ae304bef410704a8ea1d83acbc3e2c))
+* **.eslintignore** ([933db70](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/933db70bc0b70d7e914b609d933843a4bc293a96))
+* **auto generate changelog** ([#2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/2)) ([cf56110](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/cf56110a00bcb4cc38120dd290b480a8d47d674d))
+* **files** ([caac9aa](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/caac9aa41c71c90a73f7c6f0528b73bd3f8ba761))
+* **MIT LICENSE** ([8252f99](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8252f995ee7ec9838c83d91d3057530240fdb6ec))
 
 ### Bug Fixes
 

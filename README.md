@@ -19,6 +19,7 @@ Translations:
 -   [Package.json scripts](#packagejson-scripts)
 -   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
+-   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
@@ -45,6 +46,7 @@ This template includes ready-made solutions for integration with:
 -   **EditorConfig**.
 -   **ESLint**.
 -   **Remark**.
+-   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
 -   **Dependabot**.
@@ -163,6 +165,8 @@ This template includes ready-made solutions for integration with:
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
 
+-   `code:style`:
+
 -   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
 
     > Also runs using the [`mocha.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml) workflow.
@@ -180,6 +184,13 @@ This template includes ready-made solutions for integration with:
 > [!WARNING]
 > This template is fully customized with **JavaScript ES6**.
 > Also, only **TypeScript** is used here.
+
+## Prettier
+
+> [!WARNING]
+> You need to install the **Prettier** extension for it to work.<br>
+> You can see all necessary extensions for **Visual Studio Code**
+> [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
 ## Using Bots
 

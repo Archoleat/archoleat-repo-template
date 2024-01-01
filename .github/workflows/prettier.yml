@@ -1,28 +1,21 @@
-name: Mocha
+name: Prettier
 
 on:
   workflow_run:
     workflows:
-      - EditorConfig
-      - ESLint
-      - Markdown
-      - Prettier
+      - CodeQL
     types:
       - completed
   pull_request:
     branches:
       - main
-    paths:
-      - '**/*.ts'
   push:
     branches:
       - main
-    paths:
-      - '**/*.ts'
 
 jobs:
-  test:
-    name: Test
+  prettier:
+    name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -40,5 +33,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: Tests
-        run: npm run test
+      - name: Lint
+        run: npm run code:style --check

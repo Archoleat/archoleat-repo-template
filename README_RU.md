@@ -19,6 +19,7 @@
 -   [Сценарии Package.json](#сценарии-packagejson)
 -   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
+-   [Prettier](#prettier)
 -   [Использование Ботов](#использование-ботов)
 -   [Вклад](#вклад)
 -   [Версионирование](#версионирование)
@@ -47,6 +48,7 @@
 -   **EditorConfig**.
 -   **ESLint**.
 -   **Remark**.
+-   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
 -   **Dependabot**.
@@ -187,6 +189,13 @@
 > [!WARNING]
 > Этот шаблон полностью настроен под **JavaScript ES6**.
 > Также здесь используется только **TypeScript**.
+
+## Prettier
+
+> [!WARNING]
+> Для его работы вам необходимо установить расширение **Prettier**.<br>
+> Вы можете посмотреть все необходимые расширения для **Visual Studio Code**
+> [здесь](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
 ## Использование Ботов
 

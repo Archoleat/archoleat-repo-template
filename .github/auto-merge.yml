@@ -8,7 +8,7 @@ minApprovals:
   OWNER: 0
 
 requiredReviewers:
-- nikkeyl
+  - nikkeyl
 
 requiredLabels:
   - dependencies
