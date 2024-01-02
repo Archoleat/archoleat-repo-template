@@ -197,6 +197,11 @@ This template includes ready-made solutions for integration with:
 > You can see all necessary extensions for **Visual Studio Code**
 > [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
+> [!TIP]
+> If you want to change the rules in `.prettierrc.json` you can do it
+> in `.editorconfig`, prettier will automatically pick up the rules
+> from editorconfig.
+
 > [!NOTE]
 > All `markdown` files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
