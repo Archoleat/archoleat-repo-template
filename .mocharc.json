@@ -3,7 +3,6 @@
   "exit": true,
   "extension": ["ts"],
   "inline-diffs": true,
-  "node-option": ["loader=ts-node/esm"],
   "parallel": true,
   "recursive": true,
   "reporter": "mocha-spec-reporter-with-file-names",
