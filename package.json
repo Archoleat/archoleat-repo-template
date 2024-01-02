@@ -7,7 +7,7 @@
     "lint:markdown": "remark . --quiet",
     "lint:ts": "eslint src/**/*.ts --fix",
     "pretty": "prettier . --write",
-    "test": "ts-mocha",
+    "test": "mocha",
     "cm": "cz"
   },
   "author": "",
@@ -53,7 +53,6 @@
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
     "semantic-release": "*",
-    "ts-mocha": "*",
     "ts-node": "*",
     "typescript": "*"
   }
