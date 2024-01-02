@@ -2,29 +2,29 @@
 
 Please, go through these steps before you submit a Pull Request.
 
--   Make sure that your Pull Request is not a duplicate.
+- Make sure that your Pull Request is not a duplicate.
 
--   If not, then make sure that:
+- If not, then make sure that:
 
-    -   You have done your changes in a separate branch.
-        Branches MUST have descriptive names that start with either:
-        `fix/`, `feature/` or `refactor` prefixes.
+  - You have done your changes in a separate branch.
+    Branches MUST have descriptive names that start with either:
+    `fix/`, `feature/` or `refactor` prefixes.
 
-        > Example:<br>
-        > Good: `fix/signin-issue`, `feature/issue-templates` or `refactor/button`.
+    > Example:<br>
+    > Good: `fix/signin-issue`, `feature/issue-templates` or `refactor/button`.
 
-    -   You have a descriptive commit message with a short title (first line).
+  - You have a descriptive commit message with a short title (first line).
 
-    -   Make sure there are no errors in the code.
+  - Make sure there are no errors in the code.
 
--   **After** these steps, you're ready to open a Pull Request.
+- **After** these steps, you're ready to open a Pull Request.
 
-    -   Give a descriptive title to your Pull Request.
+  - Give a descriptive title to your Pull Request.
 
-    -   Describe your changes.
+  - Describe your changes.
 
-    -   Put `closes #XXXX` in your comment to auto-close
-        the issue that your Pull Request fixes (if such).
+  - Put `closes #XXXX` in your comment to auto-close
+    the issue that your Pull Request fixes (if such).
 
 IMPORTANT: Please see our
 [Contribution Guidelines](../CONTRIBUTING.md) for details.
