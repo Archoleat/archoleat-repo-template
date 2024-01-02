@@ -166,7 +166,9 @@ This template includes ready-made solutions for integration with:
 -   `pretty`: Runs `Prettier` with the `--write` flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
-    > workflow, `prettier` is started with the `--check` flag.
+    > workflow, `prettier` is run with the `--check` flag.
+    >
+    > Also run with a `pre-commit` hook.
 
 -   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
 
