@@ -10,20 +10,16 @@
     "test": "mocha",
     "cm": "cz"
   },
-  "author": "nikkeyl",
-  "name": "conqueror-repo-template",
-  "description": "Now you can quickly set up your repository!",
-  "version": "1.3.3",
+  "author": "",
+  "name": "your-project",
+  "description": "",
+  "version": "1.0.0",
   "license": "MIT",
-  "keywords": [
-    "template",
-    "repo-template",
-    "quick-start"
-  ],
+  "keywords": [],
   "files": [
-    "__tests__",
-    "src",
-    ""
+    "dist",
+    "lib",
+    "src"
   ],
   "devDependencies": {
     "@commitlint/cli": "*",
