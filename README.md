@@ -195,7 +195,7 @@ This template includes ready-made solutions for integration with:
 > You can see all necessary extensions for **Visual Studio Code**
 > [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
-> [!INFO]
+> [!NOTE]
 > All `markdown` files ignored.
 
 ## Using Bots
