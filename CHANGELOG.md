@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.3...v1.4.0) (2024-01-02)
+
+
+### Features
+
+* prettier ([#104](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/104)) ([08d229c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/08d229c87d68b868a35e02bf020d1d262ac8963b))
+
+
+### Reverts
+
+* **contributing:** prevented leakage ([b927732](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/b9277323975a0d62c6b065e492ec7680def54c99))
+
 ## [1.3.3](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.2...v1.3.3) (2023-12-10)
 
 ### Bug Fixes
