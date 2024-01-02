@@ -163,7 +163,7 @@ This template includes ready-made solutions for integration with:
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
 
--   `code:style`: Runs `Prettier` with the `--write` flag.
+-   `pretty`: Runs `Prettier` with the `--write` flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
     > workflow, `prettier` is started with the `--check` flag.

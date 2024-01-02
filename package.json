@@ -5,7 +5,7 @@
     "lint:files": "editorconfig-checker",
     "lint:markdown": "remark . --quiet",
     "lint:ts": "eslint **/*.ts --fix",
-    "code:style": "prettier . --write",
+    "pretty": "prettier . --write",
     "test": "mocha",
     "cm": "cz"
   },
