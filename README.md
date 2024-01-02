@@ -180,7 +180,7 @@ This template includes ready-made solutions for integration with:
 ## Markdown
 
 > [!TIP]
-> All markdown files here can also be used as a template!
+> All **markdown** files here can also be used as a template!
 
 ## JavaScript & TypeScript
 
@@ -203,7 +203,7 @@ This template includes ready-made solutions for integration with:
 > from editorconfig.
 
 > [!NOTE]
-> All `markdown` files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
+> All **markdown** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
