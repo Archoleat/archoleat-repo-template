@@ -196,7 +196,7 @@ This template includes ready-made solutions for integration with:
 > [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
 > [!NOTE]
-> All `markdown` files ignored.
+> All `markdown` files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
