@@ -5,11 +5,9 @@
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Test)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=Editorconfig)
+![Prettier](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/prettier.yml?label=Prettier)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
-
-Translations:
-[Русский](README_RU.md)
 
 ## Table of Contents
 
@@ -19,6 +17,7 @@ Translations:
 -   [Package.json scripts](#packagejson-scripts)
 -   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
+-   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
@@ -45,6 +44,7 @@ This template includes ready-made solutions for integration with:
 -   **EditorConfig**.
 -   **ESLint**.
 -   **Remark**.
+-   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
 -   **Dependabot**.
@@ -79,7 +79,7 @@ This template includes ready-made solutions for integration with:
     > **For those unfamiliar with GitHub Actions**,
     > our workflows use
     > [chain](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
-    > if you want to add more workflows to this chain.
+    > if you want to add more workflows to this chain,
     > workflows, it won't work, because the chain only supports
     > only three levels, example: `workflow A` > `workflow B` > `workflow C` >
     > `workflow D`, if you add `workflow E` to the chain.
@@ -163,6 +163,13 @@ This template includes ready-made solutions for integration with:
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
 
+-   `pretty`: Runs `Prettier` with the `--write` flag.
+
+    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
+    > workflow, `prettier` is run with the `--check` flag.
+    >
+    > Also run with a `pre-commit` hook.
+
 -   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
 
     > Also runs using the [`mocha.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml) workflow.
@@ -173,13 +180,30 @@ This template includes ready-made solutions for integration with:
 ## Markdown
 
 > [!TIP]
-> All markdown files here can also be used as a template!
+> All **markdown** files here can also be used as a template!
 
 ## JavaScript & TypeScript
 
 > [!WARNING]
 > This template is fully customized with **JavaScript ES6**.
+>
 > Also, only **TypeScript** is used here.
+
+## Prettier
+
+> [!WARNING]
+> You need to install the **Prettier** extension for it to work.
+>
+> You can see all necessary extensions for **Visual Studio Code**
+> [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
+
+> [!TIP]
+> If you want to change the rules in `.prettierrc.json` you can do it
+> in `.editorconfig`, prettier will automatically pick up the rules
+> from editorconfig.
+
+> [!NOTE]
+> All **markdown** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 

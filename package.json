@@ -6,6 +6,7 @@
     "lint:files": "editorconfig-checker",
     "lint:markdown": "remark . --quiet",
     "lint:ts": "eslint src/**/*.ts --fix",
+    "pretty": "prettier . --write",
     "test": "mocha",
     "cm": "cz"
   },
@@ -50,6 +51,7 @@
     "lint-staged": "*",
     "mocha": "*",
     "mocha-spec-reporter-with-file-names": "*",
+    "prettier": "*",
     "remark-cli": "*",
     "remark-preset-lint-consistent": "*",
     "remark-preset-lint-markdown-style-guide": "*",

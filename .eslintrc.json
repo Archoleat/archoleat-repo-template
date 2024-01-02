@@ -7,10 +7,7 @@
     "plugin:no-use-extend-native/recommended",
     "plugin:promise/recommended"
   ],
-  "plugins": [
-    "import",
-    "sonarjs"
-  ],
+  "plugins": ["import", "sonarjs"],
   "env": {
     "browser": true,
     "es6": true

@@ -1,7 +1,5 @@
 {
-  "branches": [
-    "main"
-  ],
+  "branches": ["main"],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -62,11 +60,7 @@
           }
         ],
         "parserOpts": {
-          "noteKeywords": [
-            "BREAKING CHANGE",
-            "BREAKING CHANGES",
-            "BREAKING"
-          ]
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
         }
       }
     ],
@@ -75,10 +69,7 @@
       {
         "preset": "conventionalcommits",
         "writerOpts": {
-          "commitsSort": [
-            "scope",
-            "subject"
-          ]
+          "commitsSort": ["scope", "subject"]
         }
       }
     ],
@@ -91,9 +82,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": [
-          "CHANGELOG.md"
-        ],
+        "assets": ["CHANGELOG.md"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
