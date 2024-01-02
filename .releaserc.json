@@ -27,10 +27,6 @@
             "release": "minor"
           },
           {
-            "tag": "feature",
-            "release": "minor"
-          },
-          {
             "tag": "fix",
             "release": "patch"
           },
@@ -47,10 +43,6 @@
             "release": "patch"
           },
           {
-            "tag": "security",
-            "release": "patch"
-          },
-          {
             "tag": "style",
             "release": "patch"
           },
@@ -60,7 +52,7 @@
           }
         ],
         "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
         }
       }
     ],
@@ -86,7 +78,13 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
-    "@semantic-release/github",
-    "semantic-release-github-actions-tags"
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false,
+        "tarballDir": "dist"
+      }
+    ],
+    "@semantic-release/github"
   ]
 }
