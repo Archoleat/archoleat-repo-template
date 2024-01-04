@@ -11,11 +11,11 @@ on:
 
 jobs:
   lint-pull-request-title:
-    if: ${{ github.actor != 'dependabot[bot]' }}
-
     name: Lint Pull Request title
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Lint

@@ -20,6 +20,7 @@
 -   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
 -   [Helpers](#helpers)
+-   [Change of Maintainer](#change-of-maintainer)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
@@ -119,6 +120,12 @@ execution time, which means it will significantly reduce your costs!
     -   **Linters:** Help you maintain a consistent code writing style
         and find errors.
 
+        > By default **eslint**, **prettier**, **editorconfig-checker** and
+        > **remark** check all files in the project, if you want to change this
+        > behavior then go to [`package.json`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/package.json)
+        > and [`lintstagedrc.json`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.lintstagedrc.json)
+        > files.
+
     -   **Tests:** Automated testing will help you focus on
         writing better code!
 
@@ -194,8 +201,8 @@ execution time, which means it will significantly reduce your costs!
 > [!WARNING]
 > You need to install the **Prettier** extension for it to work.
 >
-> You can see all necessary extensions for **Visual Studio Code**
-> [here](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
+> You can see all necessary extensions for **Visual Studio Code** in
+> [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
 
 > [!TIP]
 > If you want to change the rules in `.prettierrc.json` you can do it
@@ -233,6 +240,26 @@ this package holds:
 > if you want configuration and snippet files to be added for your IDE
 > or code editor please create an [**issue**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/issues/new/choose)
 > or **Pull Request** with the new files.
+
+## Change of Maintainer
+
+The following files use the name **nikkeyl** by default:
+
+-   [`AUTHORS.md`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/AUTHORS.md).
+-   [`CODE_OF_CONDUCT.md`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CODE_OF_CONDUCT.md).
+-   [`CONTRIBUTING.md`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CONTRIBUTING.md).
+-   [`CODEOWNERS`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/CODEOWNERS).
+-   [`dependabot.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/dependabot.yml).
+-   [`bug-report.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
+-   [`feature-request.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/feature-request.yml).
+-   [`refactor-request.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/refactor-request.yml).
+-   [`wiki-improvement.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/wiki-improvement.yml).
+
+Before using this template, replace this name with your
+name or the name of your team.
+
+> [!CAUTION]
+> Don't forget to change your license!
 
 ## Contributing
 

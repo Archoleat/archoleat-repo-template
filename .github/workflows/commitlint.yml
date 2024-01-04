@@ -6,11 +6,11 @@ on:
 
 jobs:
   lint-commit-messages:
-    if: ${{ github.actor != 'dependabot[bot]' }}
-
     name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout Repository

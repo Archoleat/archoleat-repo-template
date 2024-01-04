@@ -24,7 +24,6 @@
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
-    "@commitlint/types": "*",
     "@semantic-release/changelog": "*",
     "@semantic-release/git": "*",
     "@types/chai": "*",
