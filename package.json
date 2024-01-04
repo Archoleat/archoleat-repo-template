@@ -2,10 +2,10 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install",
-    "lint:files": "editorconfig-checker",
-    "lint:markdown": "remark . --quiet",
-    "lint:ts": "eslint **/*.ts --fix",
-    "pretty": "prettier . --write",
+    "editorconfig:lint": "editorconfig-checker",
+    "remark:lint": "remark . --quiet",
+    "eslint:lint": "eslint **/*.ts --fix",
+    "prettier:fix": "prettier . --write",
     "test": "mocha",
     "cm": "cz"
   },

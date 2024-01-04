@@ -163,7 +163,7 @@ execution time, which means it will significantly reduce your costs!
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
 
--   `pretty`: Runs `Prettier` with the `--write` flag.
+-   `prettier:fix`: Runs `Prettier` with the `--write` flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
     > workflow, `prettier` is run with the `--check` flag.
