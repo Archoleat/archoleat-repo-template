@@ -1,7 +1,3 @@
-import type { UserConfig } from '@commitlint/types';
-
-const commitLintConfig: UserConfig = {
+export default {
   extends: ['@commitlint/config-conventional'],
 };
-
-export default commitLintConfig;
