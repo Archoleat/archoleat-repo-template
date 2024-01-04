@@ -12,7 +12,6 @@
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
--   [Benefits](#benefits)
 -   [Features](#features)
 -   [Package.json scripts](#packagejson-scripts)
 -   [Markdown](#markdown)
@@ -87,12 +86,6 @@ This template includes ready-made solutions for integration with:
     > `workflow D`, if you add `workflow E` to the chain.
     > it won't work!
 
-## Benefits
-
-Also suitable for private repositories! GitHub Actions use
-**cache**, **timeout-minutes**, and **path filters** to reduce the
-execution time, which means it will significantly reduce your costs!
-
 ## Features
 
 -   **Flexibility:** Easily customizable template to adapt
@@ -113,6 +106,10 @@ execution time, which means it will significantly reduce your costs!
 
 -   **Continuous Integration (CI):** Built-in CI support using GitHub Actions
     for automatic building and testing of your code with each change.
+
+    > Also suitable for private repositories! GitHub Actions use
+    > **cache**, **timeout-minutes**, and **path filters** to reduce the
+    > execution time, which means it will significantly reduce your costs!
 
     -   **Security:** Included CodeQL workflow for detecting
         and preventing potential vulnerabilities in your code.
@@ -155,17 +152,17 @@ execution time, which means it will significantly reduce your costs!
 
 -   `init`: Installs **node_modules** and **husky**.
 
--   `lint:files`: Runs `editorconfig-checker` and
+-   `editorconfig:lint`: Runs `editorconfig-checker` and
     checks all files in the project.
 
     > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml) workflow.
 
--   `lint:markdown`: Runs `remark` with the `--quiet` flag and
+-   `remark:lint`: Runs `remark` with the `--quiet` flag and
     checks all markdown files.
 
     > Also runs with the [`markdown.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml) workflow.
 
--   `lint:ts`: Runs `eslint` with the flags `--fix` and
+-   `eslint:lint`: Runs `eslint` with the flags `--fix` and
     `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
