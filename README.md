@@ -19,6 +19,7 @@
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
+-   [Helpers](#helpers)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
@@ -87,10 +88,9 @@ This template includes ready-made solutions for integration with:
 
 ## Benefits
 
-> [!TIP]
-> Also suitable for private repositories! GitHub Actions use
-> **cache**, **timeout-minutes**, and **path filters** to reduce the
-> execution time, which means it will significantly reduce your costs!
+Also suitable for private repositories! GitHub Actions use
+**cache**, **timeout-minutes**, and **path filters** to reduce the
+execution time, which means it will significantly reduce your costs!
 
 ## Features
 
@@ -146,7 +146,7 @@ This template includes ready-made solutions for integration with:
 
 ## Package.json scripts
 
--   `init`: Installs `node_modules` and `husky`.
+-   `init`: Installs **node_modules** and **husky**.
 
 -   `lint:files`: Runs `editorconfig-checker` and
     checks all files in the project.
@@ -170,7 +170,7 @@ This template includes ready-made solutions for integration with:
     >
     > Also run with a `pre-commit` hook.
 
--   `test`: Runs `Mocha` and the tests in the `__tests__` folder.
+-   `test`: Runs `Mocha` and the tests in the **__tests__/** folder.
 
     > Also runs using the [`mocha.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml) workflow.
 
@@ -212,6 +212,27 @@ This template includes ready-made solutions for integration with:
 > [Welcome Bot](https://github.com/apps/welcome) and
 > [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 > you need to install them.
+
+## Helpers
+
+If you want to further customize your repository or vscode,
+you can download [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers),
+this package holds:
+
+-   GitHub branch and tag protection rules.
+-   Extended version of the `.npmrc` file.
+-   Bash console theme.
+-   `.gitconfig`.
+-   `.gitignore_global`.
+-   `.gitmessage.txt`.
+-   `settings.json` and `extensions.json` for vscode.
+-   Snippets for **js**, **ts**, **scss**, **pug** and **json**.
+
+> [!WARNING]
+> **Conqueror Helpers** contains configuration and snippets for **vscode only**,
+> if you want configuration and snippet files to be added for your IDE
+> or code editor please create an [**issue**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/issues/new/choose)
+> or **Pull Request** with the new files.
 
 ## Contributing
 
