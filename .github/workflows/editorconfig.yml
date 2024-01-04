@@ -34,4 +34,4 @@ jobs:
         run: npm ci
 
       - name: Lint
-        run: npm run lint:files
+        run: npm run editorconfig:lint
