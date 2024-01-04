@@ -1,7 +1,5 @@
 # Project Contributors
 
-## People
-
 ## Bots
 
 -   Semantic Release Bot |
