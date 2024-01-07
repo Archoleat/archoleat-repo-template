@@ -14,6 +14,7 @@
 -   [Getting Started](#getting-started)
 -   [Features](#features)
 -   [Package.json scripts](#packagejson-scripts)
+-   [Template for NPM Package](#template-for-npm-package)
 -   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Prettier](#prettier)
@@ -180,6 +181,13 @@ This template includes ready-made solutions for integration with:
 
 -   `cm`: Runs `Commitizen`, `Commitlint`, and `Husky` to create commits
     according to **Conventional Commits** standards.
+
+## Template for NPM Package
+
+If you are creating a plugin for **npm** then you can use the [`npm`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tree/npm)
+branch.
+
+Everything you need is already configured in it.
 
 ## Markdown
 
