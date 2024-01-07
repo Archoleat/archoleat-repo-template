@@ -158,6 +158,13 @@ This template includes ready-made solutions for integration with:
 
     > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml) workflow.
 
+-   `prettier:fix`: Runs `Prettier` with the `--write` flag.
+
+    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
+    > workflow, `prettier` is run with the `--check` flag.
+    >
+    > Also run with a `pre-commit` hook.
+
 -   `remark:lint`: Runs `remark` with the `--quiet` flag and
     checks all markdown files.
 
@@ -167,13 +174,6 @@ This template includes ready-made solutions for integration with:
     `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
-
--   `prettier:fix`: Runs `Prettier` with the `--write` flag.
-
-    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
-    > workflow, `prettier` is run with the `--check` flag.
-    >
-    > Also run with a `pre-commit` hook.
 
 -   `test`: Runs `Mocha` and the tests in the **__tests__/** folder.
 
