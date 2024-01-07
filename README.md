@@ -21,10 +21,10 @@
 -   [Using Bots](#using-bots)
 -   [Helpers](#helpers)
 -   [Change of Maintainer](#change-of-maintainer)
--   [Contributing](#contributing)
--   [Versioning](#versioning)
 -   [Authors](#authors)
 -   [Contributors](#contributors)
+-   [Contributing](#contributing)
+-   [Versioning](#versioning)
 -   [License](#license)
 -   [Acknowledgments](#acknowledgments)
 
@@ -158,6 +158,13 @@ This template includes ready-made solutions for integration with:
 
     > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml) workflow.
 
+-   `prettier:fix`: Runs `Prettier` with the `--write` flag.
+
+    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
+    > workflow, `prettier` is run with the `--check` flag.
+    >
+    > Also run with a `pre-commit` hook.
+
 -   `remark:lint`: Runs `remark` with the `--quiet` flag and
     checks all markdown files.
 
@@ -167,13 +174,6 @@ This template includes ready-made solutions for integration with:
     `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
-
--   `prettier:fix`: Runs `Prettier` with the `--write` flag.
-
-    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
-    > workflow, `prettier` is run with the `--check` flag.
-    >
-    > Also run with a `pre-commit` hook.
 
 -   `test`: Runs `Mocha` and the tests in the **__tests__/** folder.
 
@@ -266,6 +266,17 @@ name or the name of your team.
 > [!CAUTION]
 > Don't forget to change your license!
 
+## Authors
+
+See also the list of [Authors](AUTHORS.md).
+
+## Contributors
+
+If you want to improve something, you can write about it
+[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+You can also view a list of [Contributors](CONTRIBUTORS.md).
+
 ## Contributing
 
 Please read [Contributing](CONTRIBUTING.md)
@@ -277,17 +288,6 @@ and the process for submitting Pull Requests to us.
 We use [SemVer](https://semver.org) for versioning.
 You can see the available versions
 [here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
-
-## Authors
-
-See also the list of [Authors](AUTHORS.md).
-
-## Contributors
-
-If you want to improve something, you can write about it
-[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
-
-You can also view a list of [Contributors](CONTRIBUTORS.md).
 
 ## License
 
