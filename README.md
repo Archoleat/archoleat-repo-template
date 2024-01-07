@@ -21,10 +21,10 @@
 -   [Using Bots](#using-bots)
 -   [Helpers](#helpers)
 -   [Change of Maintainer](#change-of-maintainer)
--   [Contributing](#contributing)
--   [Versioning](#versioning)
 -   [Authors](#authors)
 -   [Contributors](#contributors)
+-   [Contributing](#contributing)
+-   [Versioning](#versioning)
 -   [License](#license)
 -   [Acknowledgments](#acknowledgments)
 
@@ -265,6 +265,17 @@ name or the name of your team.
 > [!CAUTION]
 > Don't forget to change your license!
 
+## Authors
+
+See also the list of [Authors](AUTHORS.md).
+
+## Contributors
+
+If you want to improve something, you can write about it
+[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+You can also view a list of [Contributors](CONTRIBUTORS.md).
+
 ## Contributing
 
 Please read [Contributing](CONTRIBUTING.md)
@@ -276,17 +287,6 @@ and the process for submitting Pull Requests to us.
 We use [SemVer](https://semver.org) for versioning.
 You can see the available versions
 [here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
-
-## Authors
-
-See also the list of [Authors](AUTHORS.md).
-
-## Contributors
-
-If you want to improve something, you can write about it
-[here](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
-
-You can also view a list of [Contributors](CONTRIBUTORS.md).
 
 ## License
 
