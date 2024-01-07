@@ -184,10 +184,9 @@ This template includes ready-made solutions for integration with:
 
 ## Template for NPM Package
 
-If you are creating a plugin for **npm** then you can use the [`npm`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tree/npm)
-branch.
+If you are creating a plugin for **npm** then you can use this branch.
 
-Everything you need is already configured in it.
+Everything you need is already configured here.
 
 ## Markdown
 
