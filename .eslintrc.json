@@ -2,10 +2,10 @@
   "extends": [
     "airbnb-base",
     "airbnb-typescript/base",
-    "plugin:sonarjs/recommended",
-    "plugin:optimize-regex/recommended",
     "plugin:no-use-extend-native/recommended",
-    "plugin:promise/recommended"
+    "plugin:optimize-regex/recommended",
+    "plugin:promise/recommended",
+    "plugin:sonarjs/recommended"
   ],
   "plugins": ["import", "sonarjs"],
   "env": {
@@ -18,13 +18,13 @@
     "sourceType": "module"
   },
   "rules": {
-    "import/no-unused-modules": "error",
-    "import/no-commonjs": "error",
     "import/exports-last": "error",
     "import/group-exports": "warn",
     "import/no-anonymous-default-export": "error",
+    "import/no-commonjs": "error",
     "import/no-namespace": "error",
     "import/no-unassigned-import": "error",
+    "import/no-unused-modules": "error",
     "sonarjs/elseif-without-else": "error",
     "sonarjs/no-inverted-boolean-check": "error"
   }

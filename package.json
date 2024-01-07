@@ -4,9 +4,9 @@
   "scripts": {
     "init": "npm i && husky install",
     "editorconfig:lint": "editorconfig-checker",
+    "prettier:fix": "prettier . --write",
     "remark:lint": "remark . --quiet",
     "eslint:lint": "eslint **/*.ts --fix",
-    "prettier:fix": "prettier . --write",
     "test": "mocha",
     "cm": "cz"
   },
