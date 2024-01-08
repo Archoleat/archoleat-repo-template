@@ -153,24 +153,24 @@ This template includes ready-made solutions for integration with:
 
 -   `init`: Installs **node_modules** and **husky**.
 
--   `editorconfig:lint`: Runs `editorconfig-checker` and
+-   `lint:editorconfig`: Runs `editorconfig-checker` and
     checks all files in the project.
 
     > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml) workflow.
 
--   `prettier:fix`: Runs `Prettier` with the `--write` flag.
+-   `fix:prettier`: Runs `Prettier` with the `--write` flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
     > workflow, `prettier` is run with the `--check` flag.
     >
     > Also run with a `pre-commit` hook.
 
--   `remark:lint`: Runs `remark` with the `--quiet` flag and
+-   `lint:remark`: Runs `remark` with the `--quiet` flag and
     checks all markdown files.
 
     > Also runs with the [`markdown.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml) workflow.
 
--   `eslint:lint`: Runs `eslint` with the flags `--fix` and
+-   `lint:eslint`: Runs `eslint` with the flags `--fix` and
     `--no-error-on-unmatched-pattern` flags for all `TypeScript` files.
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml) workflow.
@@ -215,7 +215,7 @@ Everything you need is already configured in it.
 > from editorconfig.
 
 > [!NOTE]
-> All **markdown** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
+> All **markdown** and **ignore** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
