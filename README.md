@@ -215,7 +215,7 @@ Everything you need is already configured in it.
 > from editorconfig.
 
 > [!NOTE]
-> All **markdown** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
+> All **markdown** and **ignore** files [ignored](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
