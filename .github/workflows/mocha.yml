@@ -13,12 +13,12 @@ on:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'src/**/*.ts'
   push:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'src/**/*.ts'
 
 jobs:
   test:
