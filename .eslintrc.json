@@ -20,11 +20,9 @@
   "rules": {
     "import/exports-last": "error",
     "import/group-exports": "warn",
-    "import/no-anonymous-default-export": "error",
     "import/no-commonjs": "error",
     "import/no-namespace": "error",
     "import/no-unassigned-import": "error",
-    "import/no-unused-modules": "error",
     "sonarjs/elseif-without-else": "error",
     "sonarjs/no-inverted-boolean-check": "error"
   }
