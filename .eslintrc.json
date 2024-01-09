@@ -1,13 +1,6 @@
 {
-  "extends": [
-    "airbnb-base",
-    "airbnb-typescript/base",
-    "plugin:no-use-extend-native/recommended",
-    "plugin:optimize-regex/recommended",
-    "plugin:promise/recommended",
-    "plugin:sonarjs/recommended"
-  ],
-  "plugins": ["import", "sonarjs"],
+  "extends": ["airbnb-base", "airbnb-typescript/base"],
+  "plugins": ["import", "unicorn"],
   "env": {
     "browser": true,
     "es6": true
@@ -19,11 +12,12 @@
   },
   "rules": {
     "import/exports-last": "error",
+    "import/extensions": "warn",
     "import/group-exports": "warn",
     "import/no-commonjs": "error",
     "import/no-namespace": "error",
     "import/no-unassigned-import": "error",
-    "sonarjs/elseif-without-else": "error",
-    "sonarjs/no-inverted-boolean-check": "error"
+    "unicorn/no-unused-properties": "error",
+    "unicorn/string-content": "error"
   }
 }
