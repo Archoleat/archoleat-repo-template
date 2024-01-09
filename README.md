@@ -19,6 +19,7 @@
 -   [JavaScript & TypeScript](#javascript--typescript)
 -   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
+-   [If You're Building a Website](#if-youre-building-a-website)
 -   [Helpers](#helpers)
 -   [Change of Maintainer](#change-of-maintainer)
 -   [Authors](#authors)
@@ -223,6 +224,14 @@ Everything you need is already configured here.
 > [Welcome Bot](https://github.com/apps/welcome) and
 > [Auto Merge Bot](https://github.com/apps/probot-auto-merge)
 > you need to install them.
+
+## If You're Building a Website
+
+[**Browtest**](https://github.com/Conqueror-Site-Builder/browtest)
+is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
+(**Chromium**) Edge and Chrome, will allow you to quickly and easily view
+the site in all the necessary browsers, also it will be a salvation for
+those who do not have the opportunity to buy Apple products.
 
 ## Helpers
 
