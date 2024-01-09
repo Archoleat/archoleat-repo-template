@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install",
-    "lint:editorconfig": "editorconfig-checker",
     "fix:prettier": "prettier . --write",
+    "lint:editorconfig": "editorconfig-checker",
     "lint:remark": "remark . --quiet",
     "lint:eslint": "eslint **/*.ts --fix",
     "test": "mocha",
