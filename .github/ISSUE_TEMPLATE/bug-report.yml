@@ -11,19 +11,10 @@ body:
     attributes:
       value: Thanks for taking the time to fill out this bug report!
 
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true
-
   - type: textarea
-    id: what-happened
+    id: describe
     attributes:
-      label: What Happened?
+      label: Describe
       description: Describe what happened.
       placeholder: Tell us what you see
     validations:
@@ -70,5 +61,5 @@ body:
     attributes:
       label: Code of Conduct
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I Agree to Follow This Project's Code of Conduct
           required: true

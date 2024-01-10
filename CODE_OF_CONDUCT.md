@@ -53,7 +53,7 @@ response to any behavior that they deem inappropriate, threatening, offensive,
 or harmful.
 
 Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
+comments, commits, code, wiki edits, **Issues**, and other contributions that are
 not aligned to this Code of Conduct,
 and will communicate reasons for moderation decisions when appropriate.
 
@@ -69,7 +69,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[email](mailto:nikkeyl.dev@gmail.com).
+[**email**](mailto:nikkeyl.dev@gmail.com).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -123,16 +123,16 @@ community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+This Code of Conduct is adapted from the [**Contributor Covenant**][homepage],
 version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
+[**https://www.contributor-covenant.org/version/2/1/code_of_conduct.html**][v2.1].
 
 Community Impact Guidelines were inspired by
-[Mozilla's Code of Conduct enforcement ladder][mozilla coc].
+[**Mozilla's Code of Conduct enforcement ladder**][mozilla coc].
 
-For answers to common questions about this Code of Conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][faq]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
+For answers to common questions about this Code of Conduct, see the **FAQ** at
+[**https://www.contributor-covenant.org/faq**][faq]. Translations are available at
+[**https://www.contributor-covenant.org/translations**][translations].
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html

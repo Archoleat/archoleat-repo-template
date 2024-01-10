@@ -21,7 +21,7 @@ on:
       - 'src/**/*.ts'
 
 jobs:
-  test:
+  mocha:
     name: Test
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -33,9 +33,9 @@ jobs:
       - name: Setup NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version-file: .nvmrc
-          cache: npm
           cache-dependency-path: package-lock.json
+          cache: npm
+          node-version-file: .nvmrc
 
       - name: Install Dependencies
         run: npm ci
