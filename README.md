@@ -280,8 +280,8 @@ The following files use the name **nikkeyl** by default:
 -   [**`CODE_OF_CONDUCT.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CODE_OF_CONDUCT.md).
 -   [**`CODEOWNERS`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/CODEOWNERS).
 -   [**`bug-report.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
--   [**`feature-request.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/feature-request.yml).
--   [**`wiki-improvement.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/wiki-improvement.yml).
+-   [**`enhancement-request.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/enhancement-request.yml).
+-   [**`docs-enhancement.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/docs-enhancement.yml).
 
 Before using this template, replace this name with your
 name or the name of your team.
