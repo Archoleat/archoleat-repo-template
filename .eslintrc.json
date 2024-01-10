@@ -1,18 +1,17 @@
 {
-  "extends": ["airbnb-base", "airbnb-typescript/base"],
-  "plugins": ["import", "unicorn"],
   "env": {
     "browser": true,
     "es6": true
   },
+  "extends": ["airbnb-base", "airbnb-typescript/base"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "project": "tsconfig.json",
     "sourceType": "module"
   },
+  "plugins": ["import", "unicorn"],
   "rules": {
     "import/exports-last": "error",
-    "import/extensions": "warn",
     "import/group-exports": "warn",
     "import/no-commonjs": "error",
     "import/no-namespace": "error",

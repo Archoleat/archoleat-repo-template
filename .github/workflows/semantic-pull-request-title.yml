@@ -10,8 +10,8 @@ on:
       - main
 
 jobs:
-  lint-pull-request-title:
-    name: Lint Pull Request title
+  semantic-pull-request-title:
+    name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

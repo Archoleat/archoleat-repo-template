@@ -25,11 +25,7 @@ for all involved. The community looks forward to your contributions.
 -   [I Want To Contribute](#i-want-to-contribute)
 -   [Reporting Bugs](#reporting-bugs)
 -   [Suggesting Enhancements](#suggesting-enhancements)
--   [Your First Code Contribution](#your-first-code-contribution)
 -   [Improving The Documentation](#improving-the-documentation)
--   [Styleguides](#styleguides)
--   [Commit Messages](#commit-messages)
--   [Join The Project Team](#join-the-project-team)
 
 ## Code of Conduct
 
@@ -52,7 +48,7 @@ If you then still feel the need to ask a question and need clarification,
 we recommend the following:
 
 -   Open an
-    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new).
+    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
 
 -   Provide as much context as you can about what you're running into.
 
@@ -121,7 +117,7 @@ We use GitHub **Issues** to track bugs and errors.
 If you run into an **Issue** with the project:
 
 -   Open an
-    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new).
+    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
     (Since we can't be sure at this point whether it is a bug or not,
     we ask you not to talk about a bug yet and not to label the **Issue**.)
 
@@ -152,7 +148,7 @@ Once it's filed:
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion for
-Conqueror-repo-template, **including completely new features and minor
+**Conqueror Repo Template**, **including completely new features and minor
 improvements to existing functionality**. Following these guidelines
 will help maintainers and the community to understand your suggestion
 and find related suggestions.
@@ -180,7 +176,7 @@ and find related suggestions.
 
 #### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues).
+Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
 
 -   Use a **clear and descriptive title** for the **Issue** to identify
     the suggestion.
@@ -188,28 +184,40 @@ Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Co
 -   Provide a **step-by-step description of the suggested enhancement**
     in as many details as possible.
 
--   **Describe the current behavior** and **explain which behavior you expected
-    to see instead** and why. At this point you can also tell which
-    alternatives do not work for you.
-
--   You may want to **include screenshots and animated GIFs** which
-    help you demonstrate the steps or point out the part which the
-    suggestion is related to. You can use
-    [**this tool**](https://www.cockos.com/licecap/) to record **GIFs** on **macOS**
-    and **Windows**, and [**this tool**](https://github.com/colinkeenan/silentcast)
-    or [**this tool**](https://github.com/GNOME/byzanz) on **Linux**.
-
 -   **Explain why this enhancement would be useful** to most
-    Conqueror-repo-template users. You may also want to point
+    **Conqueror Repo Template** users. You may also want to point
     out the other projects that solved it better and which
     could serve as inspiration.
 
-### Your First Code Contribution
-
 ### Improving The Documentation
 
-## Style Guides
+Enhancing the documentation of **Conqueror Repo Template** is
+crucial for ensuring its usability and accessibility to a wider
+audience. Comprehensive and well-structured documentation empowers
+users to effectively leverage the template's features and effectively
+build their projects.
 
-### Commit Messages
+#### Before Submitting Documentation Enhancements
 
-## Join The Project Team
+-   Thoroughly review the existing
+    documentation to identify areas for improvement. Consider aspects
+    like clarity, comprehensiveness, and ease of navigation.
+
+-   Clearly define the specific objectives
+    of your proposed documentation enhancements. What specific aspects
+    of the documentation need to be improved? How will these enhancements
+    benefit users?
+
+-   Explain the context surrounding the proposed enhancements.
+    Consider the current state of the documentation, any common user pain points,
+    and how your suggestions address these issues.
+
+#### How to Submit Documentation Enhancements
+
+Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+
+-   Use a **clear and descriptive title** for the **Issue** to identify
+    the suggestion.
+
+-   **Explain why this enhancement would be useful** to most
+    **Conqueror Repo Template** users.

@@ -279,12 +279,9 @@ The following files use the name **nikkeyl** by default:
 
 -   [**`AUTHORS.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/AUTHORS.md).
 -   [**`CODE_OF_CONDUCT.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CODE_OF_CONDUCT.md).
--   [**`CONTRIBUTING.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CONTRIBUTING.md).
 -   [**`CODEOWNERS`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/CODEOWNERS).
--   [**`dependabot.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/dependabot.yml).
 -   [**`bug-report.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
 -   [**`feature-request.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/feature-request.yml).
--   [**`refactor-request.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/refactor-request.yml).
 -   [**`wiki-improvement.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/wiki-improvement.yml).
 
 Before using this template, replace this name with your
