@@ -1,11 +1,11 @@
-name: Lint Commit Messages
+name: Commit Lint
 
 on:
   pull_request:
   push:
 
 jobs:
-  lint-commit-messages:
+  commit-lint:
     name: Lint
     runs-on: ubuntu-latest
     timeout-minutes: 10

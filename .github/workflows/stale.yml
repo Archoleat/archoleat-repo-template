@@ -18,13 +18,13 @@ jobs:
       - name: Stale
         uses: actions/stale@v9
         with:
+          close-issue-label: close
+          close-issue-message: This issue is closed.
+          close-pr-label: close
+          close-pr-message: This Pull Request is closed.
           exempt-issue-labels: bug,fix,security,question
           exempt-pr-labels: bug,fix,security
           stale-issue-label: stale
-          stale-pr-label: stale
-          close-issue-label: close
-          close-pr-label: close
           stale-issue-message: This issue is stale. You can reopen it again.
+          stale-pr-label: stale
           stale-pr-message: This Pull Request is stale. You can reopen it again.
-          close-issue-message: This issue is closed.
-          close-pr-message: This Pull Request is closed.
