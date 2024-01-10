@@ -7,13 +7,10 @@ minApprovals:
   COLLABORATOR: 0
   OWNER: 0
 
-requiredReviewers:
-  - nikkeyl
-
-requiredLabels:
-  - dependencies
-
 mergeCommitMessage: |
   {title} (#{number})
 
   {body}
+
+requiredLabels:
+  - dependencies

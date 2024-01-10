@@ -5,12 +5,8 @@ updates:
     directory: /
     schedule:
       interval: monthly
-    reviewers:
-      - nikkeyl
 
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: daily
-    reviewers:
-      - nikkeyl

@@ -6,10 +6,10 @@ please let us know as described below.
 ## Reporting Security Issues
 
 **Please report security vulnerabilities via
-Public GitHub issues using the `Report Security Vulnerability`**.
+Public GitHub Issues using the `Report Security Vulnerability`**.
 
 Please provide the requested information below (as much as you can provide)
-to help us better understand the nature and extent of the potential issue:
+to help us better understand the nature and extent of the potential **Issue**:
 
 -   Problem type
 -   Full paths to source files associated with the manifestation of the problem.
