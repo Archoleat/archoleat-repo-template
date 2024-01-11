@@ -237,10 +237,10 @@ Everything you need is already configured here.
 If you want to create a website then [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
 is more suitable for you.
 
-<!-- ### Zenitt -->
+<!-- ### ArchUI -->
 
 <!-- If you want to create a website but Conqueror is not suitable for you,
-you can use our [**Zenitt**](https://github.com/Conqueror-Site-Builder/zenitt)
+you can use our [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui)
 library to style your website. -->
 
 ### Browtest
