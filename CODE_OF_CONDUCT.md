@@ -53,9 +53,9 @@ response to any behavior that they deem inappropriate, threatening, offensive,
 or harmful.
 
 Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, **Issues**, and other contributions that are
-not aligned to this Code of Conduct,
-and will communicate reasons for moderation decisions when appropriate.
+comments, commits, code, wiki edits, **Issues**, and other contributions that
+are not aligned to this Code of Conduct, and will communicate reasons for
+moderation decisions when appropriate.
 
 ## Scope
 
@@ -123,19 +123,19 @@ community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [**Contributor Covenant**][homepage],
+This Code of Conduct is adapted from the
+[**Contributor Covenant**](https://www.contributor-covenant.org),
 version 2.1, available at
-[**https://www.contributor-covenant.org/version/2/1/code_of_conduct.html**][v2.1].
+**https://www.contributor-covenant.org/version/2/1/code_of_conduct.html**.
 
 Community Impact Guidelines were inspired by
 [**Mozilla's Code of Conduct enforcement ladder**][mozilla coc].
 
 For answers to common questions about this Code of Conduct, see the **FAQ** at
-[**https://www.contributor-covenant.org/faq**][faq]. Translations are available at
+[**https://www.contributor-covenant.org/faq**][faq].
+Translations are available at
 [**https://www.contributor-covenant.org/translations**][translations].
 
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [mozilla coc]: https://github.com/mozilla/diversity
 [faq]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
