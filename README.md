@@ -95,7 +95,8 @@ This template includes ready-made solutions for integration with:
     to different project types.
 
 -   **Git and GitHub Integration**: Pre-configured **`.gitignore`**,
-    **`.gitattributes`**, and other files for efficient work with Git and GitHub.
+    **`.gitattributes`**, and other files for efficient work with
+    Git and GitHub.
 
     -   **Conventional Commits, Commitlint & Commitizen**: If you don't want
         to think about how to write a commit every time,
@@ -180,7 +181,7 @@ This template includes ready-made solutions for integration with:
     > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml)
     > workflow.
 
--   **`test`**: Runs **`Mocha`** and the tests in the **__tests__/** folder.
+-   **`test`**: Runs **`Mocha`** and the tests in the **\_\_tests\_\_/** folder.
 
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.

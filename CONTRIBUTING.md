@@ -84,8 +84,8 @@ potential bug as fast as possible.
     [**this section**](#i-have-a-question)).
 
 -   To see if other users have experienced (and potentially already solved)
-    the same **Issue** you are having, check if there is not already a bug report
-    existing for your bug or error in the
+    the same **Issue** you are having, check if there is not already
+    a bug report existing for your bug or error in the
     [**bug tracker**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues?q=label%3Abug).
 
 -   Also make sure to search the internet (including **Stack Overflow**)
@@ -111,7 +111,8 @@ potential bug as fast as possible.
 #### How Do I Submit a Good Bug Report?
 
 > You must never report security related **Issues**, vulnerabilities or bugs
-> including sensitive information to the **Issue** tracker, or elsewhere in public.
+> including sensitive information to the **Issue** tracker,
+> or elsewhere in public.
 
 We use GitHub **Issues** to track bugs and errors.
 If you run into an **Issue** with the project:
@@ -137,13 +138,14 @@ Once it's filed:
 
 -   A team member will try to reproduce the **Issue** with your provided steps.
     If there are no reproduction steps or no obvious way to reproduce
-    the **Issue**, the team will ask you for those steps and mark the **Issue** as
-    **`needs-repro`**. Bugs with the **`needs-repro`** tag will not be addressed
-    until they are reproduced.
+    the **Issue**, the team will ask you for those steps and mark the **Issue*
+    as **`needs-repro`**. Bugs with the **`needs-repro`** tag will not be
+    addressed until they are reproduced.
 
--   If the team is able to reproduce the **Issue**, it will be marked **`needs-fix`**,
-    as well as possibly other tags (such as **`critical`**), and the **Issue** will be
-    left to be [**implemented by someone**](#your-first-code-contribution).
+-   If the team is able to reproduce the **Issue**, it will be marked
+    **`needs-fix`**, as well as possibly other tags (such as **`critical`**),
+    and the **Issue** will be left to be
+    [**implemented by someone**](#your-first-code-contribution).
 
 ### Suggesting Enhancements
 
@@ -209,8 +211,8 @@ build their projects.
     benefit users?
 
 -   Explain the context surrounding the proposed enhancements.
-    Consider the current state of the documentation, any common user pain points,
-    and how your suggestions address these issues.
+    Consider the current state of the documentation, any common user
+    pain points, and how your suggestions address these issues.
 
 #### How to Submit Documentation Enhancements
 
