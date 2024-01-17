@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.4.0...v1.4.1) (2024-01-17)
+
+
+### Bug Fixes
+
+* `release.yml` ([#147](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/147)) ([0842ed6](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
+
+
+### Reverts
+
+* **mocha:** remove `ts-mocha` ([#108](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/108)) ([43be8d8](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/43be8d8ca375f8eb4c89dfd75da21960c6e877ab))
+
 ## [1.4.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.3.3...v1.4.0) (2024-01-02)
 
 
