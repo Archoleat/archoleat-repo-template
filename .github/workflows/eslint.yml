@@ -3,10 +3,7 @@ name: ESLint
 on:
   workflow_run:
     workflows:
-      - CodeQL
-      - Lint Commit Messages
-      - Pre Commit
-      - Semantic pull request
+      - Commit Lint
     types:
       - completed
   pull_request:
