@@ -213,7 +213,7 @@ Everything you need is already configured here.
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
-> [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/helpers/.vscode/settings.json).
+> [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
 
 > [!TIP]
 > If you want to change the rules in **`.prettierrc.json`** you can do it
@@ -254,7 +254,7 @@ those who do not have the opportunity to buy **Apple** products.
 
 ## Helpers
 
-If you want to further customize your repository or vscode,
+If you want to further customize your repository or Visual Studio Code,
 you can download [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers),
 this package holds:
 
@@ -264,8 +264,7 @@ this package holds:
 -   **`.gitconfig`**.
 -   **`.gitignore_global`**.
 -   **`.gitmessage.txt`**.
--   **`settings.json`** and **`extensions.json`** for vscode.
--   Snippets for **js**, **ts**, **scss**, **pug** and **json**.
+-   **`settings.json`** for Visual Studio Code.
 
 > [!WARNING]
 > **Conqueror Helpers** contains configuration and snippets for **vscode only**,
