@@ -12,6 +12,7 @@ on:
 jobs:
   semantic-pull-request-title:
     name: Lint
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
