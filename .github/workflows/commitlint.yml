@@ -2,11 +2,16 @@ name: Commit Lint
 
 on:
   pull_request:
+    branches:
+      - main
   push:
+    branches:
+      - main
 
 jobs:
   commit-lint:
     name: Lint
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 

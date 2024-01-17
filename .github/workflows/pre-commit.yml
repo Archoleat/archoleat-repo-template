@@ -8,6 +8,7 @@ on:
 jobs:
   pre-commit:
     name: Lint
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
