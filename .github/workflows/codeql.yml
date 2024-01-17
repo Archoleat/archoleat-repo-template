@@ -1,13 +1,6 @@
 name: CodeQL
 
 on:
-  workflow_run:
-    workflows:
-      - Lint Commit Messages
-      - Pre Commit
-      - Semantic pull request
-    types:
-      - completed
   pull_request:
     branches:
       - main
