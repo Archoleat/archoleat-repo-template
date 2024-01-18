@@ -5,6 +5,12 @@
       "options": {
         "singleQuote": true
       }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "trailingComma": "none"
+      }
     }
   ]
 }

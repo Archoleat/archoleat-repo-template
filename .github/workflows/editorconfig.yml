@@ -3,7 +3,7 @@ name: Editorconfig
 on:
   workflow_run:
     workflows:
-      - CodeQL
+      - Commit Lint
     types:
       - completed
   pull_request:
@@ -19,6 +19,8 @@ jobs:
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Checkout Repository
