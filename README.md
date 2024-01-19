@@ -14,6 +14,7 @@
 -   [Getting Started](#getting-started)
 -   [Features](#features)
 -   [Package.json scripts](#packagejson-scripts)
+-   [Workflows](#workflows)
 -   [Template for NPM Package](#template-for-npm-package)
 -   [Markdown](#markdown)
 -   [JavaScript & TypeScript](#javascript--typescript)
@@ -188,6 +189,37 @@ This template includes ready-made solutions for integration with:
 
 -   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create
     commits according to **Conventional Commits** standards.
+
+## Workflows
+
+-   **`codeql.yml`**: Checks **TypeScript** for vulnerabilities.
+
+-   **`commitlint.yml`**: Checks the commit message according to
+    the **conventionalcommits** standard.
+
+-   **`create-pull-request.yml`**: Automatically creates a Pull Request
+    when pushing a branch to the repository.
+
+-   **`editorconfig.yml`**: Checks all files with **editorconfig-checker**.
+
+-   **`eslint.yml`**: Checks all **TypeScript** files with **ESLint**.
+
+-   **`markdown.yml`**: Checks all Markdown files with **remark**.
+
+-   **`mocha.yml`**: Tests all TypeScript files with **Mocha**.
+
+-   **`pre-commit.yml`**: Runs a check on the contents of the Pull Request
+    before merging.
+
+-   **`prettier.yml`**: Checks all files with **Prettier**.
+
+-   **`release.yml`**: Creates release.
+
+-   **`semantic-pull-request.yml`**: Validates the Pull Request title
+    against the **conventionalcommits** standard.
+
+-   **`stale.yml`**: Removes issues that have not been active for more than
+    60 days.
 
 ## Template for NPM Package
 

@@ -1,0 +1,19 @@
+name: Create Pull Request
+
+on:
+  push:
+
+jobs:
+  create-pull-request:
+    name: On Branch Push
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Create Pull Request
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULL_REQUEST_BRANCH: main
+          PULL_REQUEST_TITLE: ${{ github.event.head_commit.message }}

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.4.1...v1.5.0) (2024-01-19)
+
+
+### Features
+
+* `create-pr` workflow ([#155](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/155)) ([54e4e1c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/54e4e1c9502fd69f83370ab98b18c6ce7e9c1d77))
+
 ## [1.4.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.4.0...v1.4.1) (2024-01-17)
 
 
