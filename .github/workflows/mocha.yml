@@ -4,6 +4,7 @@ on:
   workflow_run:
     workflows:
       - EditorConfig
+      - ESLint
       - Prettier
     types:
       - completed
