@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Bot Name
-        run: git config user.name 'Stale[bot]'
+        run: git config --local user.name 'Stale[bot]'
 
       - name: Stale
         uses: actions/stale@v9
