@@ -12,10 +12,11 @@ jobs:
 
     steps:
       - run: sudo -l
+      - uses: actions/checkout@v4
       - name: Bot Name
         run: |
           git config --global user.email 'create-pr[bot]@users.noreply.github.com'
-          git config user.name 'Create Pull Request[bot]'
+          git config --local user.name 'Create Pull Request[bot]'
 
       - name: Create Pull Request
         uses: vsoch/pull-request-action@master
