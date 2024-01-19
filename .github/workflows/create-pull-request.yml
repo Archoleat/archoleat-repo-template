@@ -11,7 +11,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - run: sudo -l
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: Bot Name
         run: git config --local user.name 'Create Pull Request[bot]'
 
