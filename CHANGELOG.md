@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.5.0...v1.6.0) (2024-01-19)
+
+
+### Features
+
+* add `husky` as submodule ([#165](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/165)) ([0ecfe5b](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/0ecfe5be1b23d8beaf968dd4f625e657cf461888))
+
 ## [1.5.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.4.1...v1.5.0) (2024-01-19)
 
 
