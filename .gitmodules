@@ -1,0 +1,3 @@
+[submodule ".husky"]
+	path = .husky
+	url = https://github.com/Conqueror-Site-Builder/.husky.git
