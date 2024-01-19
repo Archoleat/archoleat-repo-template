@@ -11,6 +11,10 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - run: sudo -l
+      - name: Bot Name
+        run: git config --local user.name 'Create Pull Request[bot]'
+
       - name: Create Pull Request
         uses: vsoch/pull-request-action@master
         env:
