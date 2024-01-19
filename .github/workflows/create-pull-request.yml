@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Bot Name
-        run: git config --local user.name 'Create Pull Request[bot]'
+        run: git config user.name 'Create Pull Request[bot]'
 
       - name: Create Pull Request
         uses: vsoch/pull-request-action@master
