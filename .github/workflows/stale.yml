@@ -16,6 +16,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Bot Name
+        run: git config --local user.name 'Stale[bot]'
+
       - name: Stale
         uses: actions/stale@v9
         with:
