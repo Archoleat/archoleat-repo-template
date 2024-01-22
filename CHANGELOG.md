@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.6.0...v1.7.0) (2024-01-22)
+
+
+### Features
+
+* `dependabot` auto merge ([#168](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/168)) ([2559377](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/2559377c6ce546a0d3ca105ca9ead78dc19902b6))
+
 ## [1.6.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.5.0...v1.6.0) (2024-01-19)
 
 
