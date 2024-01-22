@@ -2,12 +2,12 @@ name: Semantic Pull Request Title
 
 on:
   pull_request_target:
+    branches:
+      - main
     types:
       - edited
       - opened
       - synchronize
-    branches:
-      - main
 
 jobs:
   semantic-pull-request-title:
