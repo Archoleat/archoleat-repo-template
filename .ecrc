@@ -1,6 +1,5 @@
 {
   "exclude": [
-    ".releaserc.json",
     "CHANGELOG.md",
     "config.yml",
     "CONTRIBUTING.md",
