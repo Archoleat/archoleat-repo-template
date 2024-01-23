@@ -4,7 +4,6 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "preset": "conventionalcommits",
         "releaseRules": [
           {
             "tag": "build",
@@ -59,7 +58,17 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "preset": "conventionalcommits",
+        "presetConfig": {
+          "types": [
+            { "type": "docs", "section": "Documentation" },
+            { "type": "style", "section": "Styles" },
+            { "type": "chore", "section": "Miscellaneous Chores" },
+            { "type": "refactor", "section": "Code Refactoring" },
+            { "type": "test", "section": "Tests" },
+            { "type": "build", "section": "Build System" },
+            { "type": "ci", "section": "Continuous Integration" }
+          ]
+        },
         "writerOpts": {
           "commitsSort": ["scope", "subject"]
         }
@@ -71,13 +80,8 @@
         "changelogTitle": "# Changelog"
       }
     ],
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["CHANGELOG.md"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ],
+    "@semantic-release/git",
     "@semantic-release/github"
-  ]
+  ],
+  "preset": "conventionalcommits"
 }
