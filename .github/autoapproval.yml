@@ -1,8 +1,0 @@
-from_owner:
-  - dependabot[bot]
-required_labels:
-  - dependencies
-apply_labels:
-  - auto-approved
-auto_squash_merge_labels:
-  - auto-squash-merge
