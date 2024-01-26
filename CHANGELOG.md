@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.1...v1.7.2) (2024-01-26)
+
+
+### Bug Fixes
+
+* **releaserc:** add `type` instead `tag` ([#191](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/191)) ([3bd8fdb](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/3bd8fdbddd8130c7a5ec1153a0bd81d1d3aaa11f))
+
+
+### Code Refactoring
+
+* **releaserc:** hidden last sections ([#190](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/190)) ([a68daab](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/a68daab9ddcc0e5ec1fe8d998e2a437ce78c6ec4))
+
 ## [1.7.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.0...v1.7.1) (2024-01-26)
 
 
