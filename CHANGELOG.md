@@ -1,5 +1,54 @@
 # Changelog
 
+## [1.7.1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.0...v1.7.1) (2024-01-26)
+
+
+### Bug Fixes
+
+* **releaserc:** add more types ([#189](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/189)) ([768e9a1](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/768e9a15666189ec61224381a8c74574a746e7c8))
+
+
+### Code Refactoring
+
+* **commitlint:** add `rc` file instead `ts` ([#185](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/185)) ([6d36a6b](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/6d36a6bd1373f76dcca98aabbdc3bc89acaac61b))
+* **dependabot:** change intervals ([#181](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/181)) ([e856b7e](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/e856b7ede5890b653d244be32e59e0611f5c678e))
+* **ecrc:** remove `releaserc` from ignore ([#178](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/178)) ([5825c30](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/5825c30eb5bac0c65ac656ee08e46c104f2cdf0c))
+* **eslint:** add parser ([#186](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/186)) ([dc66475](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/dc664753bb781709c48375410cfc440ed7e629ea))
+* **releaserc:** remove default options ([#177](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/177)) ([b9fdde9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/b9fdde98577f652ccf7c6d378e1320e925b133cf))
+* remove `auto-merge.yml` ([#174](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/174)) ([8587ca2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8587ca238eea6cfeb52f4ea06744b469c6db1c5a))
+* remove auto-approve bot ([#180](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/180)) ([c3e888a](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c3e888aa1b111063a33ffcac419594ccbf94cd1c))
+* **specs:** rename `__tests__` to `specs` ([#184](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/184)) ([f0e77cb](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/f0e77cbea248b8b9897b9e34c6f160c0459b0292))
+
+
+### Documentation
+
+* **readme:** add `husky` section ([#187](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/187)) ([73cd375](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/73cd3756254cedc3892a7cf21c445d1cf2386f01))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @commitlint/cli from 18.4.4 to 18.5.0 ([e7bafc9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/e7bafc9b74062f65b7bfeab0107b11f110b2a3b8))
+* **deps-dev:** bump @commitlint/cli from 18.4.4 to 18.5.0 ([#171](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/171)) ([849143c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/849143c1771774dfc07c0a97cda2713a5e124177)), closes [#3855](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3855) [#3820](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3820) [#3863](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3863) [#3819](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3819) [conventional-changelog/commitlint#3840](https://github.com/conventional-changelog/commitlint/issues/3840) [conventional-changelog/commitlint#3841](https://github.com/conventional-changelog/commitlint/issues/3841) [conventional-changelog/commitlint#3843](https://github.com/conventional-changelog/commitlint/issues/3843) [conventional-changelog/commitlint#3864](https://github.com/conventional-changelog/commitlint/issues/3864) [conventional-changelog/commitlint#3841](https://github.com/conventional-changelog/commitlint/issues/3841) [conventional-changelog/commitlint#3855](https://github.com/conventional-changelog/commitlint/issues/3855) [conventional-changelog/commitlint#3863](https://github.com/conventional-changelog/commitlint/issues/3863) [#3863](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3863) [#3819](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3819) [#3863](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3863)
+* **deps-dev:** bump @commitlint/config-conventional ([2efe80b](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/2efe80bfbe346dcc1c9459c2119993025149ea6c))
+* **deps-dev:** bump @commitlint/config-conventional from 18.4.4 to 18.5.0 ([#173](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/173)) ([8555a88](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8555a882a7c3251964382fc07171d372eaaeb5d0)), closes [#3855](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3855) [#3820](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3820) [#3863](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3863) [#3819](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/3819) [conventional-changelog/commitlint#3840](https://github.com/conventional-changelog/commitlint/issues/3840) [conventional-changelog/commitlint#3841](https://github.com/conventional-changelog/commitlint/issues/3841) [conventional-changelog/commitlint#3843](https://github.com/conventional-changelog/commitlint/issues/3843) [conventional-changelog/commitlint#3864](https://github.com/conventional-changelog/commitlint/issues/3864) [conventional-changelog/commitlint#3841](https://github.com/conventional-changelog/commitlint/issues/3841) [conventional-changelog/commitlint#3855](https://github.com/conventional-changelog/commitlint/issues/3855) [conventional-changelog/commitlint#3863](https://github.com/conventional-changelog/commitlint/issues/3863)
+* **deps-dev:** bump @types/node from 20.11.5 to 20.11.6 ([e3f52f5](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/e3f52f56c1545423be2116e95c9bb3a77da7cda7))
+* **deps-dev:** bump @types/node from 20.11.5 to 20.11.6 ([#179](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/179)) ([64e0f6c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/64e0f6c56df45c46c7025c6693f9e4f28900f275))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([59990aa](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/59990aa69aeb019faee6c848dd8b1661f775895a))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.19.0 to 6.19.1 ([#170](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/170)) ([573e0fd](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/573e0fdff0aa64a340281ba1e51f45df2dbf985b)), closes [#8235](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/8235) [#8237](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/8237) [#8237](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/8237)
+* **deps-dev:** bump @typescript-eslint/parser from 6.19.0 to 6.19.1 ([1e1cc8e](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/1e1cc8e7d5017f22d3167164b2348ef8e61482d5))
+* **deps-dev:** bump @typescript-eslint/parser from 6.19.0 to 6.19.1 ([#172](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/172)) ([71e3e2b](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/71e3e2b9ad478079904257e690e6597353038aee)), closes [#8235](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/8235) [#8237](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/8237)
+* **deps-dev:** bump husky from 8.0.3 to 9.0.1 ([c3ec6c4](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/c3ec6c4c5fb59c6be85dfe434d2918b3d8583abd))
+* **deps-dev:** bump husky from 8.0.3 to 9.0.1 ([#182](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/182)) ([f79710f](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/f79710f30b8f38523effd3b4c59461ad9d35d585)), closes [#1333](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/1333) [#1290](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/1290) [#1320](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/1320) [#1282](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/1282)
+* **deps:** update ([#188](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/188)) ([729596f](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/729596f50cef8d1399311f1e71c5e9b7dbc70773))
+
+
+### Continuous Integration
+
+* add auto-approve bot ([#176](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/176)) ([8c3ea59](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8c3ea59368559d88bbcf63334ccc51aadc922b16))
+* rename steps ([#175](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/175)) ([8699ab2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/8699ab269612e2224d25fa578c5ff806f4d04655))
+* rewrite workflows ([#183](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/183)) ([d0a210c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/d0a210c72fa0f424ecafdb4a8236271af256f2f0))
+* sort properties ([#169](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/169)) ([7aa251a](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/7aa251a462657e158676262156db22dd9f2f0c83))
+
 ## [1.7.0](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.6.0...v1.7.0) (2024-01-22)
 
 
