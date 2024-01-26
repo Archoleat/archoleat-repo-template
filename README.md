@@ -11,24 +11,52 @@
 
 ## Table of Contents
 
--   [Getting Started](#getting-started)
--   [Features](#features)
--   [Package.json scripts](#packagejson-scripts)
--   [Workflows](#workflows)
--   [Template for NPM Package](#template-for-npm-package)
--   [Markdown](#markdown)
--   [JavaScript & TypeScript](#javascript--typescript)
--   [Prettier](#prettier)
--   [Using Bots](#using-bots)
--   [If You're Building a Website](#if-youre-building-a-website)
--   [Helpers](#helpers)
--   [Change of Maintainer](#change-of-maintainer)
--   [Authors](#authors)
--   [Contributors](#contributors)
--   [Contributing](#contributing)
--   [Versioning](#versioning)
--   [License](#license)
--   [Acknowledgments](#acknowledgments)
+-   [Conqueror Repo Template](#conqueror-repo-template)
+    -   [Table of Contents](#table-of-contents)
+
+    -   [**Stop Wasting Time on Repository Build-up!**](#stop-wasting-time-on-repository-build-up)
+
+    -   [Getting Started](#getting-started)
+
+    -   [Features](#features)
+
+    -   [Package.json scripts](#packagejson-scripts)
+
+    -   [Workflows](#workflows)
+
+    -   [Template for NPM Package](#template-for-npm-package)
+
+    -   [Markdown](#markdown)
+
+    -   [JavaScript \& TypeScript](#javascript--typescript)
+
+    -   [Prettier](#prettier)
+
+    -   [Using Bots](#using-bots)
+
+    -   [If You're Building a Website](#if-youre-building-a-website)
+        -   [Conqueror](#conqueror)
+        -   [Browtest](#browtest)
+
+    -   [Change of Maintainer](#change-of-maintainer)
+
+    -   [Helpers](#helpers)
+
+    -   [Visual Studio Code](#visual-studio-code)
+
+    -   [Husky](#husky)
+
+    -   [Authors](#authors)
+
+    -   [Contributors](#contributors)
+
+    -   [Contributing](#contributing)
+
+    -   [Versioning](#versioning)
+
+    -   [License](#license)
+
+    -   [Acknowledgments](#acknowledgments)
 
 ## **Stop Wasting Time on Repository Build-up!**
 
@@ -56,7 +84,7 @@ This template includes ready-made solutions for integration with:
 -   **Auto Merge Bot**.
 -   **Issue & Pull Request Templates**.
 
-> [!TIP]
+> \[!TIP]
 > **A good solution for your business!**
 >
 > Now you don't have to worry about unnecessary costs.
@@ -155,9 +183,9 @@ This template includes ready-made solutions for integration with:
 
 ## Package.json scripts
 
--   **`init`**: Installs **node_modules** and **husky**.
+-   **`init`**: Installs **`node_modules`** and **`Husky`**.
 
--   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
+-   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
     checks all files in the project.
 
     > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml)
@@ -166,23 +194,23 @@ This template includes ready-made solutions for integration with:
 -   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
 
     > In the [**`prettier.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
-    > workflow, **`prettier`** is run with the **`--check`** flag.
+    > workflow, **`Prettier`** is run with the **`--check`** flag.
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`lint:remark`**: Runs **`remark`** with the **`--quiet`** flag and
+-   **`lint:markdown`**: Runs **`Remark`** with the **`--quiet`** flag and
     checks all markdown files.
 
     > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml)
     > workflow.
 
--   **`lint:eslint`**: Runs **`eslint`** with the flags **`--fix`** and
-    **`--no-error-on-unmatched-pattern`** flags for all **TypeScript** files.
+-   **`lint:ts`**: Runs **`ESLint`** with the flag **`--fix`**
+    for all **TypeScript** files.
 
     > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml)
     > workflow.
 
--   **`test`**: Runs **`Mocha`** and the tests in the **\_\_tests\_\_/** folder.
+-   **`test`**: Runs **`Mocha`** and the tests in the **specs/** folder.
 
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.
@@ -199,6 +227,9 @@ This template includes ready-made solutions for integration with:
 
 -   **`create-pull-request.yml`**: Automatically creates a Pull Request
     when pushing a branch to the repository.
+
+-   **`dependabot-auto-merge-pull-request.yml`**: Automatically merges
+    dependabot Pull Requests to the **main** branch.
 
 -   **`editorconfig.yml`**: Checks all files with **editorconfig-checker**.
 
@@ -230,35 +261,35 @@ Everything you need is already configured in it.
 
 ## Markdown
 
-> [!TIP]
+> \[!TIP]
 > All **markdown** files here can also be used as a template!
 
 ## JavaScript & TypeScript
 
-> [!WARNING]
+> \[!WARNING]
 > This template is fully customized with **JavaScript ES6**.
 >
 > Also, only **TypeScript** is used here.
 
 ## Prettier
 
-> [!WARNING]
+> \[!WARNING]
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
 > [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
 
-> [!TIP]
+> \[!TIP]
 > If you want to change the rules in **`.prettierrc.json`** you can do it
 > in **`.editorconfig`**, prettier will automatically pick up the rules
 > from editorconfig.
 
-> [!NOTE]
+> \[!NOTE]
 > All **markdown** and **ignore** files [**ignored**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
-> [!WARNING]
+> \[!WARNING]
 > To use
 > [**Welcome Bot**](https://github.com/apps/welcome) and
 > [**Auto Merge Bot**](https://github.com/apps/probot-auto-merge)
@@ -285,20 +316,6 @@ is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
 the site in all the necessary browsers, also it will be a salvation for
 those who do not have the opportunity to buy **Apple** products.
 
-## Helpers
-
-If you want to further customize your repository or Visual Studio Code,
-you can download [**.helpers**](https://github.com/Conqueror-Site-Builder/.helpers),
-this package holds:
-
--   GitHub branch and tag protection rules.
--   Extended version of the `.npmrc` file.
--   Bash console theme.
--   **`.gitconfig`**.
--   **`.gitignore_global`**.
--   **`.gitmessage.txt`**.
--   **`settings.json`** for Visual Studio Code.
-
 ## Change of Maintainer
 
 The following files use the name **nikkeyl** by default:
@@ -313,8 +330,31 @@ The following files use the name **nikkeyl** by default:
 Before using this template, replace this name with your
 name or the name of your team.
 
-> [!CAUTION]
+> \[!CAUTION]
 > Don't forget to change your license!
+
+## Helpers
+
+If you want to further customize your repository or Visual Studio Code,
+you can download [**.helpers**](https://github.com/Conqueror-Site-Builder/.helpers),
+this package holds:
+
+-   GitHub branch and tag protection rules.
+-   Extended version of the `.npmrc` file.
+-   Bash console theme.
+-   **`.gitconfig`**.
+-   **`.gitignore_global`**.
+-   **`.gitmessage.txt`**.
+-   **`settings.json`** for Visual Studio Code.
+
+## Visual Studio Code
+
+Plugins and snippets for Visual Studio Code.
+
+## Husky
+
+This repository uses **.husky** as a submodule.
+**.husky** runs `pre commit` hook and `lint commit message`.
 
 ## Authors
 
