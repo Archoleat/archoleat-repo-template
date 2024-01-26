@@ -6,47 +6,47 @@
       {
         "releaseRules": [
           {
-            "tag": "build",
+            "type": "build",
             "release": false
           },
           {
-            "tag": "chore",
+            "type": "chore",
             "release": false
           },
           {
-            "tag": "ci",
+            "type": "ci",
             "release": false
           },
           {
-            "tag": "docs",
+            "type": "docs",
             "release": false
           },
           {
-            "tag": "feat",
+            "type": "feat",
             "release": "minor"
           },
           {
-            "tag": "fix",
+            "type": "fix",
             "release": "patch"
           },
           {
-            "tag": "perf",
+            "type": "perf",
             "release": "patch"
           },
           {
-            "tag": "refactor",
+            "type": "refactor",
             "release": "patch"
           },
           {
-            "tag": "revert",
+            "type": "revert",
             "release": "patch"
           },
           {
-            "tag": "style",
+            "type": "style",
             "release": "patch"
           },
           {
-            "tag": "test",
+            "type": "test",
             "release": false
           }
         ],
