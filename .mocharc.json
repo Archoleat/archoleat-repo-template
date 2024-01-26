@@ -8,6 +8,6 @@
   "recursive": true,
   "reporter": "mocha-spec-reporter-with-file-names",
   "slow": 1500,
-  "spec": ["__tests__"],
+  "spec": ["specs"],
   "timeout": 20000
 }
