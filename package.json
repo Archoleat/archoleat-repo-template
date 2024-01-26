@@ -4,8 +4,8 @@
     "init": "npm i && husky install",
     "fix:prettier": "prettier . --write",
     "lint:editorconfig": "editorconfig-checker",
-    "lint:remark": "remark . --quiet",
-    "lint:eslint": "eslint **/*.ts --fix",
+    "lint:markdown": "remark . --quiet",
+    "lint:ts": "eslint **/*.ts --fix",
     "test": "mocha",
     "cm": "cz"
   },
@@ -24,7 +24,6 @@
     "cz-conventional-changelog": "*",
     "editorconfig-checker": "*",
     "eslint": "*",
-    "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
     "eslint-plugin-import": "*",
     "eslint-plugin-unicorn": "*",
