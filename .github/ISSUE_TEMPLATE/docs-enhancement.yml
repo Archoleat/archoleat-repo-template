@@ -1,6 +1,6 @@
 name: Docs Enhancement
 description: Create a report to help us improve this project!
-title: 'documentation: '
+title: 'docs: '
 labels:
   - documentation
 assignees:
@@ -15,7 +15,7 @@ body:
     id: describe
     attributes:
       label: Describe
-      description: Describe your enhancements!
+      description: Describe your enhancement!
       placeholder: Awesome enhancement
     validations:
       required: true
