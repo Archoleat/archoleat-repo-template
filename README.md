@@ -183,39 +183,44 @@ This template includes ready-made solutions for integration with:
 
 ## Package.json scripts
 
--   **`init`**: Installs **`node_modules`** and **`Husky`**.
+-   **`init`**: Installs dependencies, **Husky** and update submodules.
 
--   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
+-   **`format`**: Runs **Prettier** with the **`--write`** flag
+    for all files.
+
+-   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
+    for all files.
 
     > In the [**`prettier.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
-    > workflow, **`Prettier`** is run with the **`--check`** flag.
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
+-   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
 
     > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml)
     > workflow.
 
--   **`lint:markdown`**: Runs **`Remark`** with the **`--quiet`** flag and
-    checks all markdown files.
+-   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
+    checks all **markdown** files.
 
     > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml)
     > workflow.
 
--   **`lint:ts`**: Runs **`ESLint`** with the flag **`--fix`**
+-   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
     for all **TypeScript** files.
 
-    > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml)
+    > Runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml)
     > workflow.
+    >
+    > Also run with a **`pre-commit`** hook.
 
--   **`test`**: Runs **`Mocha`** and the tests in the **specs/** folder.
+-   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
 
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.
 
--   **`commit`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to
+-   **`commit`**: Runs **Commitizen**, **Commitlint**, and **Husky** to
     create commits according to **Conventional Commits** standards.
 
 ## Workflows
