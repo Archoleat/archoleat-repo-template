@@ -11,52 +11,51 @@
 
 ## Table of Contents
 
--   [Conqueror Repo Template](#conqueror-repo-template)
-    -   [Table of Contents](#table-of-contents)
+-   [Table of Contents](#table-of-contents)
 
-    -   [**Stop Wasting Time on Repository Build-up!**](#stop-wasting-time-on-repository-build-up)
+-   [**Stop Wasting Time on Repository Build-up!**](#stop-wasting-time-on-repository-build-up)
 
-    -   [Getting Started](#getting-started)
+-   [Getting Started](#getting-started)
 
-    -   [Features](#features)
+-   [Features](#features)
 
-    -   [Package.json scripts](#packagejson-scripts)
+-   [Package.json scripts](#packagejson-scripts)
 
-    -   [Workflows](#workflows)
+-   [Workflows](#workflows)
 
-    -   [Template for NPM Package](#template-for-npm-package)
+-   [Template for NPM Package](#template-for-npm-package)
 
-    -   [Markdown](#markdown)
+-   [Markdown](#markdown)
 
-    -   [JavaScript \& TypeScript](#javascript--typescript)
+-   [JavaScript \& TypeScript](#javascript--typescript)
 
-    -   [Prettier](#prettier)
+-   [Prettier](#prettier)
 
-    -   [Using Bots](#using-bots)
+-   [Using Bots](#using-bots)
 
-    -   [If You're Building a Website](#if-youre-building-a-website)
-        -   [Conqueror](#conqueror)
-        -   [Browtest](#browtest)
+-   [If You're Building a Website](#if-youre-building-a-website)
+    -   [Conqueror](#conqueror)
+    -   [Browtest](#browtest)
 
-    -   [Change of Maintainer](#change-of-maintainer)
+-   [Change of Maintainer](#change-of-maintainer)
 
-    -   [Helpers](#helpers)
+-   [Helpers](#helpers)
 
-    -   [Visual Studio Code](#visual-studio-code)
+-   [Visual Studio Code](#visual-studio-code)
 
-    -   [Husky](#husky)
+-   [Husky](#husky)
 
-    -   [Authors](#authors)
+-   [Authors](#authors)
 
-    -   [Contributors](#contributors)
+-   [Contributors](#contributors)
 
-    -   [Contributing](#contributing)
+-   [Contributing](#contributing)
 
-    -   [Versioning](#versioning)
+-   [Versioning](#versioning)
 
-    -   [License](#license)
+-   [License](#license)
 
-    -   [Acknowledgments](#acknowledgments)
+-   [Acknowledgments](#acknowledgments)
 
 ## **Stop Wasting Time on Repository Build-up!**
 
@@ -354,7 +353,7 @@ Plugins and snippets for Visual Studio Code.
 ## Husky
 
 This repository uses **.husky** as a submodule.
-**.husky** runs `pre commit` hook and `lint commit message`.
+**.husky** runs `pre-commit` hook and `commit-msg`.
 
 ## Authors
 
