@@ -153,7 +153,7 @@ This template includes ready-made solutions for integration with:
         > By default **eslint**, **prettier**, **editorconfig-checker** and
         > **remark** check all files in the project, if you want to change this
         > behavior then go to [**`package.json`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/package.json)
-        > and [**`lintstagedrc.json`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.lintstagedrc.json)
+        > and [**`lint-staged.config.js`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/lint-staged.config.js)
         > files.
 
     -   **Tests**: Automated testing will help you focus on
@@ -185,18 +185,18 @@ This template includes ready-made solutions for integration with:
 
 -   **`init`**: Installs **`node_modules`** and **`Husky`**.
 
--   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
-    checks all files in the project.
-
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml)
-    > workflow.
-
 -   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
 
     > In the [**`prettier.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
     > workflow, **`Prettier`** is run with the **`--check`** flag.
     >
     > Also run with a **`pre-commit`** hook.
+
+-   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
+    checks all files in the project.
+
+    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml)
+    > workflow.
 
 -   **`lint:markdown`**: Runs **`Remark`** with the **`--quiet`** flag and
     checks all markdown files.
@@ -215,8 +215,8 @@ This template includes ready-made solutions for integration with:
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.
 
--   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create
-    commits according to **Conventional Commits** standards.
+-   **`commit`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to
+    create commits according to **Conventional Commits** standards.
 
 ## Workflows
 
@@ -280,7 +280,7 @@ Everything you need is already configured in it.
 > [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
 
 > \[!TIP]
-> If you want to change the rules in **`.prettierrc.json`** you can do it
+> If you want to change the rules in **`prettier.config.js`** you can do it
 > in **`.editorconfig`**, prettier will automatically pick up the rules
 > from editorconfig.
 
