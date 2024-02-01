@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.3](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.2...v1.7.3) (2024-02-01)
+
+
+### Code Refactoring
+
+* ***rc:** rename to `*.config.js` ([#195](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/195)) ([90bba40](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/90bba40353bfd5b217c4de76ec2f83993a55300c))
+* **package.json:** rename `cm` script ([#196](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/196)) ([33430b9](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/33430b951c9d46012b31e24c39fd1e82f13d913f))
+
+
+### Documentation
+
+* **readme:** update ([#198](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/198)) ([f253f37](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/f253f37948801bb24964085c2228e2b66c8b5b74))
+
 ## [1.7.2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.1...v1.7.2) (2024-01-26)
 
 
