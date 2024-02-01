@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.4](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.3...v1.7.4) (2024-02-01)
+
+
+### Documentation
+
+* **readme:** update `husky` section ([#199](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/199)) ([504cd2c](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/504cd2c4a7ba7f15ff2149c1a54406de18a038de))
+
+
+### Styles
+
+* add format and standards ([#200](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/200)) ([99af3ac](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/99af3ac29a7bf18183dc4a3845aa603e90a3f0a8))
+
 ## [1.7.3](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.2...v1.7.3) (2024-02-01)
 
 
