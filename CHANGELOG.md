@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.7](https://github.com/Archoleat/archoleat-repo-template/compare/v1.7.6...v1.7.7) (2024-02-02)
+
+
+### Code Refactoring
+
+* **prettierignore:** remove `license` ([#203](https://github.com/Archoleat/archoleat-repo-template/issues/203)) ([32ec3ec](https://github.com/Archoleat/archoleat-repo-template/commit/32ec3ecf15b337895401b4044c2b3cff60f8d208))
+
 ## [1.7.6](https://github.com/Archoleat/archoleat-repo-template/compare/v1.7.5...v1.7.6) (2024-02-02)
 
 
