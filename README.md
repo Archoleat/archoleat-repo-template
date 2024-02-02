@@ -2,6 +2,7 @@
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/core/commitlint.yml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
 ![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Test)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=Editorconfig)
@@ -11,15 +12,11 @@
 
 ## Table of Contents
 
--   [Table of Contents](#table-of-contents)
-
--   [**Stop Wasting Time on Repository Build-up!**](#stop-wasting-time-on-repository-build-up)
-
 -   [Getting Started](#getting-started)
 
 -   [Features](#features)
 
--   [Package.json scripts](#packagejson-scripts)
+-   [Scripts](#scripts)
 
 -   [Workflows](#workflows)
 
@@ -27,23 +24,21 @@
 
 -   [Markdown](#markdown)
 
--   [JavaScript \& TypeScript](#javascript--typescript)
-
 -   [Prettier](#prettier)
 
 -   [Using Bots](#using-bots)
 
+-   [Change of Maintainer](#change-of-maintainer)
+
 -   [If You're Building a Website](#if-youre-building-a-website)
     -   [Conqueror](#conqueror)
     -   [Browtest](#browtest)
+    -   [Stylelint Config Conqueror SCSS](#stylelint-config-conqueror-scss)
 
--   [Change of Maintainer](#change-of-maintainer)
-
--   [Helpers](#helpers)
-
--   [Visual Studio Code](#visual-studio-code)
-
--   [Husky](#husky)
+-   [Additions](#additions)
+    -   [Helpers](#helpers)
+    -   [Visual Studio Code](#visual-studio-code)
+    -   [Husky](#husky)
 
 -   [Authors](#authors)
 
@@ -69,8 +64,9 @@ This template includes ready-made solutions for integration with:
 -   **Commitlint**.
 -   **Conventional Commits**.
 -   **Husky & Lint Staged**.
--   **CI/CD**.
+-   **GitHub Actions**.
 -   **Semantic Release**.
+-   **NPM**.
 -   **CodeQL**.
 -   **EditorConfig**.
 -   **ESLint**.
@@ -80,7 +76,6 @@ This template includes ready-made solutions for integration with:
 -   **TypeScript**.
 -   **Dependabot**.
 -   **Welcome Bot**.
--   **Auto Merge Bot**.
 -   **Issue & Pull Request Templates**.
 
 > \[!TIP]
@@ -98,15 +93,15 @@ This template includes ready-made solutions for integration with:
     to create a new repository on GitHub.
 
     > Since this is a **Public Template** you can click the button
-    > **`Use this template`** for a faster and more convenient cloning.
+    > **Use this template** for a faster and more convenient cloning.
 
 1.  **Clone the Repository**: Clone your new repository to your local machine.
 
 1.  **Start Development**: Develop your project,
     making changes according to your project's needs.
 
-1.  **Configure CI/CD**: Modify GitHub Actions
-    settings to fit your **CI/CD** requirements.
+1.  **Configure GitHub Actions**: Modify GitHub Actions
+    settings to fit your requirements.
 
     > **For those unfamiliar with GitHub Actions**,
     > our workflows use
@@ -114,8 +109,8 @@ This template includes ready-made solutions for integration with:
     > if you want to add more workflows to this chain,
     > workflows, it won't work, because the chain only supports
     > only three levels, example: **`workflow A`** > **`workflow B`** >
-    > **`workflow C`** > `workflow D`, if you add `workflow E` to the chain.
-    > it won't work!
+    > **`workflow C`** > **`workflow D`**, if you add **`workflow E`**
+    > to the chain. it won't work!
 
 ## Features
 
@@ -137,11 +132,12 @@ This template includes ready-made solutions for integration with:
         bad code to the repository!
 
 -   **Continuous Integration (CI)**: Built-in CI support using GitHub Actions
-    for automatic building and testing of your code with each change.
+    for automatic linting, testing and building of your code with each change.
 
     > Also suitable for private repositories! GitHub Actions use
-    > **cache**, **timeout-minutes**, and **path filters** to reduce the
-    > execution time, which means it will significantly reduce your costs!
+    > **cache**, **timeout-minutes**, **path filters** and **workflow run**
+    > to reduce the execution time, which means it will significantly
+    > reduce your costs!
 
     -   **Security**: Included **CodeQL** workflow for detecting
         and preventing potential vulnerabilities in your code.
@@ -149,8 +145,8 @@ This template includes ready-made solutions for integration with:
     -   **Linters**: Help you maintain a consistent code writing style
         and find errors.
 
-        > By default **eslint**, **prettier**, **editorconfig-checker** and
-        > **remark** check all files in the project, if you want to change this
+        > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
+        > **Remark** check all files in the project, if you want to change this
         > behavior then go to [**`package.json`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/package.json)
         > and [**`lint-staged.config.js`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/lint-staged.config.js)
         > files.
@@ -172,15 +168,13 @@ This template includes ready-made solutions for integration with:
 
     -   **Dependabot**: No more wasting time updating dependencies!
 
-    -   **Auto Merge Bot**: Merges **Pull Request** created with **Dependabot**.
-
     -   **Welcome Bot**: For those who have created an issue or made
         a **Pull Request** for the first time, a thank you message will be sent.
 
 -   **Issue & Pull Request Templates**: Your contributors will be more willing
     to send issue and **Pull Request** knowing you have a convenient form!
 
-## Package.json scripts
+## Scripts
 
 -   **`init`**: Installs dependencies, **Husky** and update submodules.
 
@@ -201,7 +195,7 @@ This template includes ready-made solutions for integration with:
     > workflow.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
-    checks all **markdown** files.
+    checks all **Markdown** files.
 
     > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml)
     > workflow.
@@ -219,8 +213,8 @@ This template includes ready-made solutions for integration with:
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.
 
--   **`commit`**: Runs **Commitizen**, **Commitlint**, and **Husky** to
-    create commits according to **Conventional Commits** standards.
+-   **`commit`**: Runs **Commitlint** to create commits according to
+    **Conventional Commits** standards.
 
 ## Workflows
 
@@ -258,7 +252,7 @@ This template includes ready-made solutions for integration with:
 
 ## Template for NPM Package
 
-If you are creating a plugin for **npm** then you can use the [**`npm`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tree/npm)
+If you are creating a plugin for **npm** then you can use the [**npm**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tree/npm)
 branch.
 
 Everything you need is already configured in it.
@@ -266,14 +260,7 @@ Everything you need is already configured in it.
 ## Markdown
 
 > \[!TIP]
-> All **markdown** files here can also be used as a template!
-
-## JavaScript & TypeScript
-
-> \[!WARNING]
-> This template is fully customized with **JavaScript ES6**.
->
-> Also, only **TypeScript** is used here.
+> All **Markdown** files here can also be used as a template!
 
 ## Prettier
 
@@ -281,7 +268,7 @@ Everything you need is already configured in it.
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
-> [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
+> [**.vscode**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
 
 > \[!TIP]
 > If you want to change the rules in **`prettier.config.js`** you can do it
@@ -289,36 +276,14 @@ Everything you need is already configured in it.
 > from editorconfig.
 
 > \[!NOTE]
-> All **markdown** and **ignore** files [**ignored**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
+> All **Markdown** and **.\*ignore** files [**ignored**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
 > \[!WARNING]
 > To use
-> [**Welcome Bot**](https://github.com/apps/welcome) and
-> [**Auto Merge Bot**](https://github.com/apps/probot-auto-merge)
-> you need to install them.
-
-## If You're Building a Website
-
-### Conqueror
-
-If you want to create a website then [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
-is more suitable for you.
-
-<!-- ### ArchUI -->
-
-<!-- If you want to create a website but Conqueror is not suitable for you,
-you can use our [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui)
-library to style your website. -->
-
-### Browtest
-
-[**Browtest**](https://github.com/Conqueror-Site-Builder/browtest)
-is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
-(**Chromium**) Edge and Chrome, will allow you to quickly and easily view
-the site in all the necessary browsers, also it will be a salvation for
-those who do not have the opportunity to buy **Apple** products.
+> [**Welcome Bot**](https://github.com/apps/welcome)
+> you need to install it.
 
 ## Change of Maintainer
 
@@ -332,33 +297,62 @@ The following files use the name **nikkeyl** by default:
 -   [**`docs-enhancement.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/docs-enhancement.yml).
 
 Before using this template, replace this name with your
-name or the name of your team.
+name, name of your team or the name of your organization.
 
 > \[!CAUTION]
 > Don't forget to change your license!
 
-## Helpers
+## If You're Building a Website
+
+### Conqueror
+
+If you want to create a website then [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
+is more suitable for you.
+
+### Browtest
+
+[**Browtest**](https://github.com/Conqueror-Site-Builder/browtest)
+is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
+(**Chromium**) Edge and Chrome, will allow you to quickly and easily view
+the site in all the necessary browsers, also it will be a salvation for
+those who do not have the opportunity to buy **Apple** products.
+
+<!-- ### ArchUI -->
+
+<!-- If you want to create a website but Conqueror is not suitable for you,
+you can use our [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui)
+library to style your website. -->
+
+### Stylelint Config Conqueror SCSS
+
+Extended [**shareable config**](https://github.com/Conqueror-Site-Builder/stylelint-config-conqueror-scss)
+for **Stylelint** by **Conqueror Site Builder**.
+
+## Additions
+
+### Helpers
 
 If you want to further customize your repository or Visual Studio Code,
 you can download [**.helpers**](https://github.com/Conqueror-Site-Builder/.helpers),
 this package holds:
 
--   GitHub branch and tag protection rules.
--   Extended version of the `.npmrc` file.
+-   **GitHub branch** and **tag protection** rules.
+-   Extended version of the **`.npmrc`** file.
 -   Bash console theme.
 -   **`.gitconfig`**.
 -   **`.gitignore_global`**.
 -   **`.gitmessage.txt`**.
 -   **`settings.json`** for Visual Studio Code.
 
-## Visual Studio Code
+### Visual Studio Code
 
-Plugins and snippets for Visual Studio Code.
+Plugins and snippets for Visual Studio Code in
+[**.vscode**](https://github.com/Conqueror-Site-Builder/.vscode).
 
-## Husky
+### Husky
 
 This repository uses **.husky** as a submodule.
-**.husky** runs `pre-commit` hook and `commit-msg`.
+**.husky** runs **`pre-commit`** hook and **`commit-msg`**.
 
 ## Authors
 
