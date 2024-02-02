@@ -1,14 +1,14 @@
-# Conqueror Repo Template
+# Archoleat Repo Template
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/core/commitlint.yml?label=Commitlint)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/codeql.yml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/mocha.yml?label=Test)
-![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/editorconfig.yml?label=Editorconfig)
-![Prettier](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/prettier.yml?label=Prettier)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/markdown.yml?label=Markdown)
-![ESLint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/conqueror-repo-template/eslint.yml?label=ESLint)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yml?label=Commitlint)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yml?label=Test)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yml?label=Editorconfig)
+![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yml?label=Prettier)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yml?label=ESLint)
 
 ## Table of Contents
 
@@ -31,9 +31,9 @@
 -   [Change of Maintainer](#change-of-maintainer)
 
 -   [If You're Building a Website](#if-youre-building-a-website)
-    -   [Conqueror](#conqueror)
+    -   [Archoleat](#Archoleat)
     -   [Browtest](#browtest)
-    -   [Stylelint Config Conqueror SCSS](#stylelint-config-conqueror-scss)
+    -   [Stylelint Config Archoleat SCSS](#stylelint-config-Archoleat-scss)
 
 -   [Additions](#additions)
     -   [Helpers](#helpers)
@@ -54,7 +54,7 @@
 
 ## **Stop Wasting Time on Repository Build-up!**
 
-**Conqueror Repo Template** is a template repository designed for quickly
+**Archoleat Repo Template** is a template repository designed for quickly
 starting new projects with pre-configured tools and best development practices.
 This template includes ready-made solutions for integration with:
 
@@ -147,8 +147,8 @@ This template includes ready-made solutions for integration with:
 
         > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
         > **Remark** check all files in the project, if you want to change this
-        > behavior then go to [**`package.json`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/package.json)
-        > and [**`lint-staged.config.js`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/lint-staged.config.js)
+        > behavior then go to [**`package.json`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/package.json)
+        > and [**`lint-staged.config.js`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/lint-staged.config.js)
         > files.
 
     -   **Tests**: Automated testing will help you focus on
@@ -184,33 +184,33 @@ This template includes ready-made solutions for integration with:
 -   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
     for all files.
 
-    > In the [**`prettier.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/prettier.yml)
+    > In the [**`prettier.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/prettier.yml)
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
 
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/editorconfig.yml)
+    > Also runs with the [**`editorconfig.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/editorconfig.yml)
     > workflow.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
 
-    > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/markdown.yml)
+    > Also runs with the [**`markdown.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/markdown.yml)
     > workflow.
 
 -   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
     for all **TypeScript** files.
 
-    > Runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/eslint.yml)
+    > Runs with the [**`eslint.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/eslint.yml)
     > workflow.
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
 
-    > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/workflows/mocha.yml)
+    > Also runs using the [**`mocha.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/mocha.yml)
     > workflow.
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
@@ -252,7 +252,7 @@ This template includes ready-made solutions for integration with:
 
 ## Template for NPM Package
 
-If you are creating a plugin for **npm** then you can use the [**npm**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tree/npm)
+If you are creating a plugin for **npm** then you can use the [**npm**](https://github.com/Archoleat/archoleat-repo-template/tree/npm)
 branch.
 
 Everything you need is already configured in it.
@@ -268,7 +268,7 @@ Everything you need is already configured in it.
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
-> [**.vscode**](https://github.com/Conqueror-Site-Builder/.vscode/settings.json).
+> [**.vscode**](https://github.com/Archoleat/.vscode/settings.json).
 
 > \[!TIP]
 > If you want to change the rules in **`prettier.config.js`** you can do it
@@ -276,7 +276,7 @@ Everything you need is already configured in it.
 > from editorconfig.
 
 > \[!NOTE]
-> All **Markdown** and **.\*ignore** files [**ignored**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.prettierignore).
+> All **Markdown** and **.\*ignore** files [**ignored**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.prettierignore).
 
 ## Using Bots
 
@@ -289,12 +289,12 @@ Everything you need is already configured in it.
 
 The following files use the name **nikkeyl** by default:
 
--   [**`AUTHORS.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/AUTHORS.md).
--   [**`CODE_OF_CONDUCT.md`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CODE_OF_CONDUCT.md).
--   [**`CODEOWNERS`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/CODEOWNERS).
--   [**`bug-report.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
--   [**`enhancement-request.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/enhancement-request.yml).
--   [**`docs-enhancement.yml`**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/.github/ISSUE_TEMPLATE/docs-enhancement.yml).
+-   [**`AUTHORS.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/AUTHORS.md).
+-   [**`CODE_OF_CONDUCT.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CODE_OF_CONDUCT.md).
+-   [**`CODEOWNERS`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/CODEOWNERS).
+-   [**`bug-report.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
+-   [**`enhancement-request.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/enhancement-request.yml).
+-   [**`docs-enhancement.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/docs-enhancement.yml).
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
@@ -304,14 +304,14 @@ name, name of your team or the name of your organization.
 
 ## If You're Building a Website
 
-### Conqueror
+### Archoleat
 
-If you want to create a website then [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
+If you want to create a website then [**Archoleat**](https://github.com/Archoleat/archoleat)
 is more suitable for you.
 
 ### Browtest
 
-[**Browtest**](https://github.com/Conqueror-Site-Builder/browtest)
+[**Browtest**](https://github.com/Archoleat/browtest)
 is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
 (**Chromium**) Edge and Chrome, will allow you to quickly and easily view
 the site in all the necessary browsers, also it will be a salvation for
@@ -319,21 +319,21 @@ those who do not have the opportunity to buy **Apple** products.
 
 <!-- ### ArchUI -->
 
-<!-- If you want to create a website but Conqueror is not suitable for you,
-you can use our [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui)
+<!-- If you want to create a website but Archoleat is not suitable for you,
+you can use our [**ArchUI**](https://github.com/Archoleat/arch-ui)
 library to style your website. -->
 
-### Stylelint Config Conqueror SCSS
+### Stylelint Config Archoleat SCSS
 
-Extended [**shareable config**](https://github.com/Conqueror-Site-Builder/stylelint-config-conqueror-scss)
-for **Stylelint** by **Conqueror Site Builder**.
+Extended [**shareable config**](https://github.com/Archoleat/stylelint-config-archoleat-scss)
+for **Stylelint** by **Archoleat Site Builder**.
 
 ## Additions
 
 ### Helpers
 
 If you want to further customize your repository or Visual Studio Code,
-you can download [**.helpers**](https://github.com/Conqueror-Site-Builder/.helpers),
+you can download [**.helpers**](https://github.com/Archoleat/.helpers),
 this package holds:
 
 -   **GitHub branch** and **tag protection** rules.
@@ -347,7 +347,7 @@ this package holds:
 ### Visual Studio Code
 
 Plugins and snippets for Visual Studio Code in
-[**.vscode**](https://github.com/Conqueror-Site-Builder/.vscode).
+[**.vscode**](https://github.com/Archoleat/.vscode).
 
 ### Husky
 
@@ -361,7 +361,7 @@ See also the list of [**Authors**](AUTHORS.md).
 ## Contributors
 
 If you want to improve something, you can write about it
-[**here**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+[**here**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
 
 You can also view a list of [**Contributors**](CONTRIBUTORS.md).
 
@@ -375,7 +375,7 @@ and the process for submitting **Pull Request** to us.
 
 We use [**SemVer**](https://semver.org) for versioning.
 You can see the available versions
-[**here**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/tags).
+[**here**](https://github.com/Archoleat/archoleat-repo-template/tags).
 
 ## License
 

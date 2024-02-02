@@ -29,7 +29,7 @@ Please, go through these steps before you submit a **Pull Request**.
         the Issue that your **Pull Request** fixes (if such).
 
 IMPORTANT: Please see our
-[**Contribution Guidelines**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CONTRIBUTING.md)
+[**Contribution Guidelines**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CONTRIBUTING.md)
 for details.
 
 **PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
