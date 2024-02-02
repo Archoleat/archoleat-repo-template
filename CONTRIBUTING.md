@@ -30,16 +30,16 @@ for all involved. The community looks forward to your contributions.
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[**Conqueror Repo Template Code of Conduct**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/CODE_OF_CONDUCT.md).
+[**Archoleat Repo Template Code of Conduct**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code.
 
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read
-> the available [**Documentation**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/README.md).
+> the available [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md).
 
 Before you ask a question, it is best to search for existing
-[**Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues)
+[**Issues**](https://github.com/Archoleat/archoleat-repo-template/issues)
 that might help you. In case you have found a suitable **Issue** and still need
 clarification, you can write your question in this **Issue**.
 It is also advisable to search the internet for answers first.
@@ -48,7 +48,7 @@ If you then still feel the need to ask a question and need clarification,
 we recommend the following:
 
 -   Open an
-    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+    [**Issue**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
 
 -   Provide as much context as you can about what you're running into.
 
@@ -79,14 +79,14 @@ potential bug as fast as possible.
 
 -   Determine if your bug is really a bug and not an error on your side e.g.
     using incompatible environment components/versions
-    (Make sure that you have read the [**Documentation**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/README.md).
+    (Make sure that you have read the [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md).
     If you are looking for support, you might want to check
     [**this section**](#i-have-a-question)).
 
 -   To see if other users have experienced (and potentially already solved)
     the same **Issue** you are having, check if there is not already
     a bug report existing for your bug or error in the
-    [**bug tracker**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues?q=label%3Abug).
+    [**bug tracker**](https://github.com/Archoleat/archoleat-repo-template/issues?q=label%3Abug).
 
 -   Also make sure to search the internet (including **Stack Overflow**)
     to see if users outside of the **GitHub community** have discussed
@@ -118,7 +118,7 @@ We use GitHub **Issues** to track bugs and errors.
 If you run into an **Issue** with the project:
 
 -   Open an
-    [**Issue**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+    [**Issue**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
     (Since we can't be sure at this point whether it is a bug or not,
     we ask you not to talk about a bug yet and not to label the **Issue**.)
 
@@ -150,7 +150,7 @@ Once it's filed:
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion for
-**Conqueror Repo Template**, **including completely new features and minor
+**Archoleat Repo Template**, **including completely new features and minor
 improvements to existing functionality**. Following these guidelines
 will help maintainers and the community to understand your suggestion
 and find related suggestions.
@@ -159,12 +159,12 @@ and find related suggestions.
 
 -   Make sure that you are using the latest version.
 
--   Read the [**Documentation**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/blob/main/README.md)
+-   Read the [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md)
     carefully and find out if the functionality is already covered,
     maybe by an individual configuration.
 
 -   Perform a
-    [**search**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues)
+    [**search**](https://github.com/Archoleat/archoleat-repo-template/issues)
     to see if the enhancement has already been suggested.
     If it has, add a comment to the existing **Issue** instead
     of opening a new one.
@@ -178,7 +178,7 @@ and find related suggestions.
 
 #### How Do I Submit a Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
 
 -   Use a **clear and descriptive title** for the **Issue** to identify
     the suggestion.
@@ -187,13 +187,13 @@ Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Co
     in as many details as possible.
 
 -   **Explain why this enhancement would be useful** to most
-    **Conqueror Repo Template** users. You may also want to point
+    **Archoleat Repo Template** users. You may also want to point
     out the other projects that solved it better and which
     could serve as inspiration.
 
 ### Improving The Documentation
 
-Enhancing the documentation of **Conqueror Repo Template** is
+Enhancing the documentation of **Archoleat Repo Template** is
 crucial for ensuring its usability and accessibility to a wider
 audience. Comprehensive and well-structured documentation empowers
 users to effectively leverage the template's features and effectively
@@ -216,10 +216,10 @@ build their projects.
 
 #### How to Submit Documentation Enhancements
 
-Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/new/choose).
+Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
 
 -   Use a **clear and descriptive title** for the **Issue** to identify
     the suggestion.
 
 -   **Explain why this enhancement would be useful** to most
-    **Conqueror Repo Template** users.
+    **Archoleat Repo Template** users.

@@ -1,4 +1,6 @@
 .ecrc
 .gitignore
+.gitmodules
 .prettierignore
 *.md
+LICENSE
