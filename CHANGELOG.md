@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.5](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.4...v1.7.5) (2024-02-02)
+
+
+### Code Refactoring
+
+* small changes ([#201](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/issues/201)) ([f60f0a2](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/commit/f60f0a24d0c6e34f2d5148c980e3380e699cca7b))
+
 ## [1.7.4](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.3...v1.7.4) (2024-02-01)
 
 
