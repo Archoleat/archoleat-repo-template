@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.6](https://github.com/Archoleat/archoleat-repo-template/compare/v1.7.5...v1.7.6) (2024-02-02)
+
+
+### Code Refactoring
+
+* **name:** change org name ([#202](https://github.com/Archoleat/archoleat-repo-template/issues/202)) ([15c73b3](https://github.com/Archoleat/archoleat-repo-template/commit/15c73b3a99b8e8a0ba3d2dc1e709a9283e421210))
+
 ## [1.7.5](https://github.com/Conqueror-Site-Builder/conqueror-repo-template/compare/v1.7.4...v1.7.5) (2024-02-02)
 
 
