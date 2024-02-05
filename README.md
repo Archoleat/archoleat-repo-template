@@ -31,9 +31,9 @@
 -   [Change of Maintainer](#change-of-maintainer)
 
 -   [If You're Building a Website](#if-youre-building-a-website)
-    -   [Archoleat](#Archoleat)
+    -   [Archoleat Builder](#Archoleat-builder)
     -   [Browtest](#browtest)
-    -   [Stylelint Config Archoleat SCSS](#stylelint-config-Archoleat-scss)
+    -   [Archoleat Stylelint Config Extended SCSS](#archoleat-stylelint-config-extended-scss)
 
 -   [Additions](#additions)
     -   [Helpers](#helpers)
@@ -49,8 +49,6 @@
 -   [Versioning](#versioning)
 
 -   [License](#license)
-
--   [Acknowledgments](#acknowledgments)
 
 ## **Stop Wasting Time on Repository Build-up!**
 
@@ -304,9 +302,9 @@ name, name of your team or the name of your organization.
 
 ## If You're Building a Website
 
-### Archoleat
+### Archoleat Builder
 
-If you want to create a website then [**Archoleat**](https://github.com/Archoleat/archoleat)
+If you want to create a website then [**Archoleat Builder**](https://github.com/Archoleat/archoleat)
 is more suitable for you.
 
 ### Browtest
@@ -323,30 +321,30 @@ those who do not have the opportunity to buy **Apple** products.
 you can use our [**ArchUI**](https://github.com/Archoleat/arch-ui)
 library to style your website. -->
 
-### Stylelint Config Archoleat SCSS
+### Archoleat Stylelint Config Extended SCSS
 
-Extended [**shareable config**](https://github.com/Archoleat/stylelint-config-archoleat-scss)
-for **Stylelint** by **Archoleat Site Builder**.
+Extended [**shareable config**](https://github.com/Archoleat/stylelint-config-extended-scss)
+for **Stylelint** by **Archoleat**.
 
 ## Additions
 
 ### Helpers
 
-If you want to further customize your repository or Visual Studio Code,
+If you want to further customize your repository or **Visual Studio Code**,
 you can download [**.helpers**](https://github.com/Archoleat/.helpers),
 this package holds:
 
--   **GitHub branch** and **tag protection** rules.
+-   **GitHub Branch** and **Tag Protection** rules.
 -   Extended version of the **`.npmrc`** file.
 -   Bash console theme.
 -   **`.gitconfig`**.
 -   **`.gitignore_global`**.
 -   **`.gitmessage.txt`**.
--   **`settings.json`** for Visual Studio Code.
+-   **`settings.json`** for **Visual Studio Code**.
 
 ### Visual Studio Code
 
-Plugins and snippets for Visual Studio Code in
+Plugins and snippets for **Visual Studio Code** in
 [**.vscode**](https://github.com/Archoleat/.vscode).
 
 ### Husky
@@ -381,7 +379,3 @@ You can see the available versions
 
 This project is licensed under the MIT license - see the
 [**LICENSE**](LICENSE) for details.
-
-## Acknowledgments
-
-Thanks to everyone who takes part in the development of the project.
