@@ -67,10 +67,6 @@ export default {
             { type: 'revert', section: 'Reverts' },
             { type: 'docs', section: 'Documentation' },
             { type: 'style', section: 'Styles' },
-            { type: 'test', section: 'Tests' },
-            { type: 'build', section: 'Build System', hidden: true },
-            { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
-            { type: 'ci', section: 'Continuous Integration', hidden: true },
           ],
         },
         writerOpts: {
