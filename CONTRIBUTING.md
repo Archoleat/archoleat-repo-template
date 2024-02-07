@@ -194,7 +194,7 @@ Enhancement suggestions are tracked as [**GitHub Issues**](https://github.com/Ar
 ### Improving The Documentation
 
 Enhancing the documentation of **Archoleat Repo Template** is
-crucial for ensuring its usability and accessibility to a wider
+crucial for ensuring it's usability and accessibility to a wider
 audience. Comprehensive and well-structured documentation empowers
 users to effectively leverage the template's features and effectively
 build their projects.

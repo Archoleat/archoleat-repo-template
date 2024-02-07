@@ -2,55 +2,27 @@
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
+![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yml?label=Test)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yml?label=Test)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yml?label=Prettier)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yml?label=ESLint)
 
+> Stop Wasting Time on Repository Build-up!
+
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
-
 -   [Features](#features)
-
 -   [Scripts](#scripts)
-
 -   [Workflows](#workflows)
-
--   [Template for NPM Package](#template-for-npm-package)
-
 -   [Markdown](#markdown)
-
 -   [Prettier](#prettier)
-
 -   [Using Bots](#using-bots)
-
 -   [Change of Maintainer](#change-of-maintainer)
-
--   [If You're Building a Website](#if-youre-building-a-website)
-    -   [Archoleat Builder](#Archoleat-builder)
-    -   [Browtest](#browtest)
-    -   [Archoleat Stylelint Config Extended SCSS](#archoleat-stylelint-config-extended-scss)
-
--   [Additions](#additions)
-    -   [Helpers](#helpers)
-    -   [Visual Studio Code](#visual-studio-code)
-    -   [Husky](#husky)
-
--   [Authors](#authors)
-
--   [Contributors](#contributors)
-
--   [Contributing](#contributing)
-
--   [Versioning](#versioning)
-
 -   [License](#license)
-
-## **Stop Wasting Time on Repository Build-up!**
 
 **Archoleat Repo Template** is a template repository designed for quickly
 starting new projects with pre-configured tools and best development practices.
@@ -248,13 +220,6 @@ This template includes ready-made solutions for integration with:
 -   **`stale.yml`**: Removes issues that have not been active for more than
     60 days.
 
-## Template for NPM Package
-
-If you are creating a plugin for **npm** then you can use the [**npm**](https://github.com/Archoleat/archoleat-repo-template/tree/npm)
-branch.
-
-Everything you need is already configured in it.
-
 ## Markdown
 
 > \[!TIP]
@@ -287,7 +252,7 @@ Everything you need is already configured in it.
 
 The following files use the name **nikkeyl** by default:
 
--   [**`AUTHORS.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/AUTHORS.md).
+-   [**`CONTRIBUTORS.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CONTRIBUTORS.md).
 -   [**`CODE_OF_CONDUCT.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CODE_OF_CONDUCT.md).
 -   [**`CODEOWNERS`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/CODEOWNERS).
 -   [**`bug-report.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
@@ -299,81 +264,6 @@ name, name of your team or the name of your organization.
 
 > \[!CAUTION]
 > Don't forget to change your license!
-
-## If You're Building a Website
-
-### Archoleat Builder
-
-If you want to create a website then [**Archoleat Builder**](https://github.com/Archoleat/archoleat)
-is more suitable for you.
-
-### Browtest
-
-[**Browtest**](https://github.com/Archoleat/browtest)
-is an application for testing in (**WebKit**) Safari, (**Gecko**) Firefox and
-(**Chromium**) Edge and Chrome, will allow you to quickly and easily view
-the site in all the necessary browsers, also it will be a salvation for
-those who do not have the opportunity to buy **Apple** products.
-
-<!-- ### ArchUI -->
-
-<!-- If you want to create a website but Archoleat is not suitable for you,
-you can use our [**ArchUI**](https://github.com/Archoleat/arch-ui)
-library to style your website. -->
-
-### Archoleat Stylelint Config Extended SCSS
-
-Extended [**shareable config**](https://github.com/Archoleat/stylelint-config-extended-scss)
-for **Stylelint** by **Archoleat**.
-
-## Additions
-
-### Helpers
-
-If you want to further customize your repository or **Visual Studio Code**,
-you can download [**.helpers**](https://github.com/Archoleat/.helpers),
-this package holds:
-
--   **GitHub Branch** and **Tag Protection** rules.
--   Extended version of the **`.npmrc`** file.
--   Bash console theme.
--   **`.gitconfig`**.
--   **`.gitignore_global`**.
--   **`.gitmessage.txt`**.
--   **`settings.json`** for **Visual Studio Code**.
-
-### Visual Studio Code
-
-Plugins and snippets for **Visual Studio Code** in
-[**.vscode**](https://github.com/Archoleat/.vscode).
-
-### Husky
-
-This repository uses **.husky** as a submodule.
-**.husky** runs **`pre-commit`** hook and **`commit-msg`**.
-
-## Authors
-
-See also the list of [**Authors**](AUTHORS.md).
-
-## Contributors
-
-If you want to improve something, you can write about it
-[**here**](https://github.com/Archoleat/archoleat-repo-template/issues/new/choose).
-
-You can also view a list of [**Contributors**](CONTRIBUTORS.md).
-
-## Contributing
-
-Please read [**Contributing**](CONTRIBUTING.md)
-and [**Code of Conduct**](CODE_OF_CONDUCT.md) for details,
-and the process for submitting **Pull Request** to us.
-
-## Versioning
-
-We use [**SemVer**](https://semver.org) for versioning.
-You can see the available versions
-[**here**](https://github.com/Archoleat/archoleat-repo-template/tags).
 
 ## License
 
