@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.7.8](https://github.com/Archoleat/archoleat-repo-template/compare/v1.7.7...v1.7.8) (2024-02-07)
+
+
+### Code Refactoring
+
+* small changes ([#209](https://github.com/Archoleat/archoleat-repo-template/issues/209)) ([d6e6240](https://github.com/Archoleat/archoleat-repo-template/commit/d6e6240c65210b605a5b6f3809ddad32f981e771))
+
+
+### Documentation
+
+* change link to discussions ([#208](https://github.com/Archoleat/archoleat-repo-template/issues/208)) ([8312c6a](https://github.com/Archoleat/archoleat-repo-template/commit/8312c6ae0b8f58548980123bdff579a220a8d619))
+* **changelog:** remove old links ([#206](https://github.com/Archoleat/archoleat-repo-template/issues/206)) ([f77a51c](https://github.com/Archoleat/archoleat-repo-template/commit/f77a51ca3721da9921ead03d425367be0858b84d))
+* **readme:** rewrite text ([#207](https://github.com/Archoleat/archoleat-repo-template/issues/207)) ([133a144](https://github.com/Archoleat/archoleat-repo-template/commit/133a144300940720c31fca95b309f55457bcc15c))
+
 ## [1.7.7](https://github.com/Archoleat/archoleat-repo-template/compare/v1.7.6...v1.7.7) (2024-02-02)
 
 
