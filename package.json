@@ -2,7 +2,7 @@
   "type": "module",
   "exports": {
     "./index.ts": "./index.ts",
-    "./commitlint.config.ts": "./commitlint.config.ts"
+    "./github/workspace/commitlint.config.ts": "./github/workspace/commitlint.config.ts"
   },
   "author": "",
   "name": "",

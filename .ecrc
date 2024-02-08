@@ -3,6 +3,7 @@
     "CHANGELOG.md",
     "config.yml",
     "CONTRIBUTING.md",
+    "package.json",
     "PULL_REQUEST_TEMPLATE.md",
     "README.md"
   ]
