@@ -8,7 +8,7 @@
     "disableReferencedProjectLoad": true,
     "exactOptionalPropertyTypes": true,
     "lib": ["ES6", "DOM"],
-    "module": "CommonJS",
+    "module": "ES6",
     "noEmit": true,
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,

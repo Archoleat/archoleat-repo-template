@@ -1,5 +1,20 @@
 {
   "type": "module",
+  "exports": "./index.ts",
+  "author": "",
+  "name": "",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://github.com/owner/repo#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owner/repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/owner/repo/issues"
+  },
   "scripts": {
     "init": "npm i && husky && git submodule init && git submodule update",
     "format": "prettier . --write",
@@ -10,6 +25,17 @@
     "test": "mocha",
     "commit": "cz"
   },
+  "files": [
+    "dist",
+    "index.ts",
+    "lib",
+    "src",
+    "utilities"
+  ],
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "*",
     "@commitlint/config-conventional": "*",
@@ -41,5 +67,6 @@
     "semantic-release": "*",
     "ts-node": "*",
     "typescript": "*"
-  }
+  },
+  "peerDependencies": {}
 }
