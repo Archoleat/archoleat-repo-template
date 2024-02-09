@@ -30,13 +30,13 @@ for all involved. The community looks forward to your contributions.
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[**Archoleat Repo Template Code of Conduct**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CODE_OF_CONDUCT.md).
+[**Archoleat Repo Template Code of Conduct**](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code.
 
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read
-> the available [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md).
+> the available [**Documentation**](README.md).
 
 Before you ask a question, it is best to search for existing
 [**Issues**](https://github.com/Archoleat/archoleat-repo-template/issues)
@@ -79,7 +79,7 @@ potential bug as fast as possible.
 
 -   Determine if your bug is really a bug and not an error on your side e.g.
     using incompatible environment components/versions
-    (Make sure that you have read the [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md).
+    (Make sure that you have read the [**Documentation**](README.md).
     If you are looking for support, you might want to check
     [**this section**](#i-have-a-question)).
 
@@ -159,7 +159,7 @@ and find related suggestions.
 
 -   Make sure that you are using the latest version.
 
--   Read the [**Documentation**](https://github.com/Archoleat/archoleat-repo-template/blob/main/README.md)
+-   Read the [**Documentation**](README.md)
     carefully and find out if the functionality is already covered,
     maybe by an individual configuration.
 

@@ -1,7 +1,6 @@
 # Archoleat Repo Template
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
-![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yml?label=Test)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yml?label=CodeQL)
@@ -18,7 +17,6 @@
 -   [Features](#features)
 -   [Scripts](#scripts)
 -   [Workflows](#workflows)
--   [Markdown](#markdown)
 -   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
 -   [Change of Maintainer](#change-of-maintainer)
@@ -117,8 +115,8 @@ This template includes ready-made solutions for integration with:
 
         > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
         > **Remark** check all files in the project, if you want to change this
-        > behavior then go to [**`package.json`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/package.json)
-        > and [**`lint-staged.config.js`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/lint-staged.config.js)
+        > behavior then go to [**`package.json`**](package.json)
+        > and [**`lint-staged.config.js`**](lint-staged.config.js)
         > files.
 
     -   **Tests**: Automated testing will help you focus on
@@ -129,8 +127,6 @@ This template includes ready-made solutions for integration with:
 
 -   **TypeScript**: Pre-configured **TypeScript** setup
     for improved reliability and development convenience.
-
-    > More about [**TypeScript**](#javascript--typescript) in this project.
 
 -   **Bots**:
 
@@ -154,33 +150,33 @@ This template includes ready-made solutions for integration with:
 -   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
     for all files.
 
-    > In the [**`prettier.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/prettier.yml)
+    > In the [**`prettier.yml`**](.github/workflows/prettier.yml)
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
 
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/editorconfig.yml)
+    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
     > workflow.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
 
-    > Also runs with the [**`markdown.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/markdown.yml)
+    > Also runs with the [**`markdown.yml`**](.github/workflows/markdown.yml)
     > workflow.
 
 -   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
     for all **TypeScript** files.
 
-    > Runs with the [**`eslint.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/eslint.yml)
+    > Runs with the [**`eslint.yml`**](.github/workflows/eslint.yml)
     > workflow.
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
 
-    > Also runs using the [**`mocha.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/workflows/mocha.yml)
+    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
     > workflow.
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
@@ -215,15 +211,10 @@ This template includes ready-made solutions for integration with:
 -   **`release.yml`**: Creates release.
 
 -   **`semantic-pull-request.yml`**: Validates the Pull Request title
-    against the **conventionalcommits** standard.
+    against the **conventional commits** standard.
 
 -   **`stale.yml`**: Removes issues that have not been active for more than
     60 days.
-
-## Markdown
-
-> \[!TIP]
-> All **Markdown** files here can also be used as a template!
 
 ## Prettier
 
@@ -231,7 +222,7 @@ This template includes ready-made solutions for integration with:
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
-> [**.vscode**](https://github.com/Archoleat/.vscode/settings.json).
+> [**.vscode**](https://github.com/Archoleat/.helpers/.vscode/settings.json).
 
 > \[!TIP]
 > If you want to change the rules in **`prettier.config.js`** you can do it
@@ -239,7 +230,7 @@ This template includes ready-made solutions for integration with:
 > from editorconfig.
 
 > \[!NOTE]
-> All **Markdown** and **.\*ignore** files [**ignored**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.prettierignore).
+> All **Markdown** and **.\*ignore** files [**ignored**](.prettierignore).
 
 ## Using Bots
 
