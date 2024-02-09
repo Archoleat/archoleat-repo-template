@@ -8,7 +8,7 @@ Please, go through these steps before you submit a **Pull Request**.
 
     -   You have done your changes in a separate branch.
         Branches MUST have descriptive names that start with either:
-        **`fix/`**, **`feature/`** or **`refactor`** prefixes.
+        **`fix/`**, **`feature/`** or **`refactor/`** prefixes.
 
         > Example:
         >
@@ -28,8 +28,6 @@ Please, go through these steps before you submit a **Pull Request**.
     -   Put **`closes #XXXX`** in your comment to auto-close
         the Issue that your **Pull Request** fixes (if such).
 
-IMPORTANT: Please see our
-[**Contribution Guidelines**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CONTRIBUTING.md)
-for details.
+IMPORTANT: Please see our **Contribution Guidelines** for details.
 
 **PLEASE REMOVE THIS TEMPLATE BEFORE SUBMITTING**
