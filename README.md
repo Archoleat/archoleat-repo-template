@@ -243,12 +243,11 @@ This template includes ready-made solutions for integration with:
 
 The following files use the name **nikkeyl** by default:
 
--   [**`CONTRIBUTORS.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CONTRIBUTORS.md).
--   [**`CODE_OF_CONDUCT.md`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/CODE_OF_CONDUCT.md).
--   [**`CODEOWNERS`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/CODEOWNERS).
--   [**`bug-report.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/bug-report.yml).
--   [**`enhancement-request.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/enhancement-request.yml).
--   [**`docs-enhancement.yml`**](https://github.com/Archoleat/archoleat-repo-template/blob/main/.github/ISSUE_TEMPLATE/docs-enhancement.yml).
+-   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md).
+-   [**`CODEOWNERS`**](.github/CODEOWNERS).
+-   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
+-   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml).
+-   [**`docs-enhancement.yml`**](.github/ISSUE_TEMPLATE/docs-enhancement.yml).
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
