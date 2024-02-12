@@ -3,7 +3,7 @@ name: Prettier
 on:
   workflow_run:
     workflows:
-      - Commit Lint
+      - CodeQL
     types:
       - completed
   pull_request:

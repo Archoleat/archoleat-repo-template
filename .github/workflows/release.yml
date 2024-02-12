@@ -12,7 +12,7 @@ on:
 
 jobs:
   release:
-    name: Bump Version
+    name: Version Increase
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
