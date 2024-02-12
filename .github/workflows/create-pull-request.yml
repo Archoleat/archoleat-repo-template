@@ -2,8 +2,6 @@ name: Create Pull Request
 
 on:
   push:
-    branches-ignore:
-      - 'npm'
 
 jobs:
   create-pull-request:
