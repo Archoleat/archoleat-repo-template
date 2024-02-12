@@ -144,8 +144,11 @@ This template includes ready-made solutions for integration with:
 
 -   **`init`**: Installs dependencies, **Husky** and update submodules.
 
--   **`format`**: Runs **Prettier** with the **`--write`** flag
-    for all files.
+-   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
+    checks all files in the project.
+
+    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
+    > workflow.
 
 -   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
     for all files.
@@ -154,11 +157,8 @@ This template includes ready-made solutions for integration with:
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
-    checks all files in the project.
-
-    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
-    > workflow.
+-   **`format`**: Runs **Prettier** with the **`--write`** flag
+    for all files.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
