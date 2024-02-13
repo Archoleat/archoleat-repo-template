@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    if: ${{ !github.event.pull_request.head.ref }}
+    if: ${{ github.ref_name == 'main' }}
 
     steps:
       - name: Create Pull Request
