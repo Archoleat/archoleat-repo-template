@@ -1,7 +1,7 @@
 {
   "type": "module",
   "exports": {
-    "./index.ts": "./index.ts",
+    "./src/index.ts": "./src/index.ts",
     "./commitlint.config.ts": "./commitlint.config.ts"
   },
   "name": "",
@@ -25,20 +25,16 @@
     "lint:formatting": "prettier . --check",
     "format": "prettier . --write",
     "lint:md": "remark . --quiet",
-    "lint:ts": "eslint **/*.ts --fix",
+    "lint:ts": "eslint src/**/*.ts --fix",
     "test": "mocha",
     "commit": "cz"
   },
   "engines": {
-    "node": ">=20.12.0",
+    "node": ">=20.11.0",
     "npm": ">=10.4.0"
   },
   "files": [
-    "dist",
-    "index.ts",
-    "lib",
-    "src",
-    "utilities"
+    "src"
   ],
   "dependencies": {},
   "devDependencies": {
