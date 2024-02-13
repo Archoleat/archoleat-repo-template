@@ -2,8 +2,6 @@ name: Create Pull Request
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   create-pull-request:
@@ -11,6 +9,8 @@ jobs:
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    if: ${{ !github.event.pull_request.head.ref }}
 
     steps:
       - name: Create Pull Request
