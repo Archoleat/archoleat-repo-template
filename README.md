@@ -272,7 +272,6 @@ with the **CI/CD** pipeline, the following code has been added:
 
 The following files use the name **nikkeyl** by default:
 
-<!-- -   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md). -->
 -   [**`package.json`**](package.json).
 -   [**`CODEOWNERS`**](.github/CODEOWNERS).
 <!-- -   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
