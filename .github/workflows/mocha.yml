@@ -10,12 +10,14 @@ on:
     branches:
       - main
     paths:
-      - 'src/**/*.ts'
+      - specs/**/*.spec.ts
+      - src/**/*.ts
   push:
     branches:
       - main
     paths:
-      - 'src/**/*.ts'
+      - specs/**/*.spec.ts
+      - src/**/*.ts
 
 jobs:
   mocha:

@@ -45,7 +45,7 @@ This template includes ready-made solutions for integration with:
 -   **TypeScript**.
 -   **Dependabot**.
 -   **Welcome Bot**.
--   **Issue & Pull Request Templates**.
+<!-- -   **Issue & Pull Request Templates**. -->
 
 > \[!TIP]
 > **A good solution for your business!**
@@ -138,8 +138,8 @@ This template includes ready-made solutions for integration with:
     -   **Welcome Bot**: For those who have created an issue or made
         a **Pull Request** for the first time, a thank you message will be sent.
 
--   **Issue & Pull Request Templates**: Your contributors will be more willing
-    to send issue and **Pull Request** knowing you have a convenient form!
+<!-- -   **Issue & Pull Request Templates**: Your contributors will be more willing
+    to send issue and **Pull Request** knowing you have a convenient form! -->
 
 ## Scripts
 
@@ -272,12 +272,12 @@ with the **CI/CD** pipeline, the following code has been added:
 
 The following files use the name **nikkeyl** by default:
 
--   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md).
+<!-- -   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md). -->
 -   [**`package.json`**](package.json).
 -   [**`CODEOWNERS`**](.github/CODEOWNERS).
--   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
+<!-- -   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
 -   [**`docs-enhancement.yml`**](.github/ISSUE_TEMPLATE/docs-enhancement.yml).
--   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml).
+-   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml). -->
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
