@@ -14,10 +14,10 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: main
           branch: ${{ github.ref_name }}
           title: ${{ github.event.head_commit.message }}
           commit-message: ${{ github.event.head_commit.message }}
           labels: automated-pull-request
-          # token: ${{ secrets.GITHUB_TOKEN }}
           # body: Auto-created Pull Request
