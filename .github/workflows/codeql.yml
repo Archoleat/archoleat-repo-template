@@ -10,7 +10,7 @@ on:
     branches:
       - main
     paths:
-      - 'src/**/*.ts'
+      - src/**/*.ts
 
 permissions:
   actions: read

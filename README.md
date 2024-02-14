@@ -43,7 +43,7 @@ This template includes ready-made solutions for integration with:
 -   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
--   **Dependabot**.
+<!-- -   **Dependabot**. -->
 -   **Welcome Bot**.
 <!-- -   **Issue & Pull Request Templates**. -->
 
@@ -133,7 +133,7 @@ This template includes ready-made solutions for integration with:
 
     > How to use [**bots**](#using-bots).
 
-    -   **Dependabot**: No more wasting time updating dependencies!
+    <!-- -   **Dependabot**: No more wasting time updating dependencies! -->
 
     -   **Welcome Bot**: For those who have created an issue or made
         a **Pull Request** for the first time, a thank you message will be sent.
@@ -188,8 +188,8 @@ This template includes ready-made solutions for integration with:
 -   [**`codeql.yml`**](.github/workflows/codeql.yml):
     Checks **TypeScript** for vulnerabilities.
 
--   [**`commitlint.yml`**](.github/workflows/commitlint.yml):
-    Checks the commit message according to the **conventionalcommits** standard.
+<!-- -   [**`commitlint.yml`**](.github/workflows/commitlint.yml):
+    Checks the commit message according to the **conventionalcommits** standard. -->
 
 -   [**`create-pull-request.yml`**](.github/workflows/create-pull-request.yml):
     Automatically creates a **Pull Request**
@@ -218,12 +218,12 @@ This template includes ready-made solutions for integration with:
 
 -   [**`release.yml`**](.github/workflows/release.yml): Creates release.
 
--   [**`semantic-pull-request.yml`**](.github/workflows/semantic-pull-request-title.yml):
+<!-- -   [**`semantic-pull-request.yml`**](.github/workflows/semantic-pull-request-title.yml):
     Validates the **Pull Request** title
-    against the **conventional commits** standard.
+    against the **conventional commits** standard. -->
 
--   [**`stale.yml`**](.github/workflows/stale.yml):
-    Removes issues that have not been active for more than 60 days.
+<!-- -   [**`stale.yml`**](.github/workflows/stale.yml):
+    Removes issues that have not been active for more than 60 days. -->
 
 ## Prettier
 
@@ -272,12 +272,7 @@ with the **CI/CD** pipeline, the following code has been added:
 
 The following files use the name **nikkeyl** by default:
 
-<!-- -   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md). -->
 -   [**`package.json`**](package.json).
--   [**`CODEOWNERS`**](.github/CODEOWNERS).
-<!-- -   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
--   [**`docs-enhancement.yml`**](.github/ISSUE_TEMPLATE/docs-enhancement.yml).
--   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml). -->
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
