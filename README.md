@@ -19,6 +19,7 @@
 -   [Workflows](#workflows)
 -   [Prettier](#prettier)
 -   [Using Bots](#using-bots)
+-   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript)
 -   [Change of Maintainer](#change-of-maintainer)
 -   [License](#license)
 
@@ -247,15 +248,36 @@ This template includes ready-made solutions for integration with:
 > [**Welcome Bot**](https://github.com/apps/welcome)
 > you need to install it.
 
+## Commitlint, ESM and TypeScript
+
+In order for **`commitlint.config.ts`** to work correctly together
+with the **CI/CD** pipeline, the following code has been added:
+
+```json
+// package.json
+"exports": {
+  "./*": "./commitlint.config.ts"
+},
+```
+
+```json
+// tsconfig.json
+{
+  "module": "NodeNext",
+  "moduleResolution": "NodeNext"
+}
+```
+
 ## Change of Maintainer
 
 The following files use the name **nikkeyl** by default:
 
 -   [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md).
+-   [**`package.json`**](package.json).
 -   [**`CODEOWNERS`**](.github/CODEOWNERS).
 -   [**`bug-report.yml`**](.github/ISSUE_TEMPLATE/bug-report.yml).
--   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml).
 -   [**`docs-enhancement.yml`**](.github/ISSUE_TEMPLATE/docs-enhancement.yml).
+-   [**`enhancement-request.yml`**](.github/ISSUE_TEMPLATE/enhancement-request.yml).
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
