@@ -5,10 +5,10 @@ updates:
     directory: /
     schedule:
       interval: weekly
-      day: sunday
+      day: monday
 
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
-      day: sunday
+      day: monday

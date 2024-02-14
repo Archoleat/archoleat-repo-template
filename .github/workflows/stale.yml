@@ -21,8 +21,8 @@ jobs:
         with:
           days-before-stale: 90
 
-          exempt-issue-labels: bug,fix,security
-          exempt-pr-labels: bug,fix,security
+          exempt-issue-labels: bug, fix, security
+          exempt-pr-labels: bug, fix, security
 
           stale-issue-label: stale
           stale-issue-message: This issue is stale. You can reopen it again.

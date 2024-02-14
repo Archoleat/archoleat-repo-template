@@ -10,12 +10,14 @@ on:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'specs/**/*.ts'
+      - 'src/**/*.ts'
   push:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'specs/**/*.ts'
+      - 'src/**/*.ts'
 
 jobs:
   eslint:
