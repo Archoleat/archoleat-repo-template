@@ -9,6 +9,7 @@
     "exactOptionalPropertyTypes": true,
     "lib": ["ES6", "DOM"],
     "module": "ES6",
+    "moduleResolution": "Bundler",
     "noEmit": true,
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
