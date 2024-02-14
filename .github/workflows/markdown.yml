@@ -10,12 +10,12 @@ on:
     branches:
       - main
     paths:
-      - '**/*.md'
+      - docs/**/*.md
   push:
     branches:
       - main
     paths:
-      - '**/*.md'
+      - docs/**/*.md
 
 jobs:
   markdown:
