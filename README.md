@@ -43,9 +43,7 @@ This template includes ready-made solutions for integration with:
 -   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
-<!-- -   **Dependabot**. -->
 -   **Welcome Bot**.
-<!-- -   **Issue & Pull Request Templates**. -->
 
 > \[!TIP]
 > **A good solution for your business!**
@@ -133,13 +131,8 @@ This template includes ready-made solutions for integration with:
 
     > How to use [**bots**](#using-bots).
 
-    <!-- -   **Dependabot**: No more wasting time updating dependencies! -->
-
     -   **Welcome Bot**: For those who have created an issue or made
         a **Pull Request** for the first time, a thank you message will be sent.
-
-<!-- -   **Issue & Pull Request Templates**: Your contributors will be more willing
-    to send issue and **Pull Request** knowing you have a convenient form! -->
 
 ## Scripts
 
@@ -188,9 +181,6 @@ This template includes ready-made solutions for integration with:
 -   [**`codeql.yml`**](.github/workflows/codeql.yml):
     Checks **TypeScript** for vulnerabilities.
 
-<!-- -   [**`commitlint.yml`**](.github/workflows/commitlint.yml):
-    Checks the commit message according to the **conventionalcommits** standard. -->
-
 -   [**`create-pull-request.yml`**](.github/workflows/create-pull-request.yml):
     Automatically creates a **Pull Request**
     when pushing a branch to the repository.
@@ -217,13 +207,6 @@ This template includes ready-made solutions for integration with:
     Checks all files with **Prettier**.
 
 -   [**`release.yml`**](.github/workflows/release.yml): Creates release.
-
-<!-- -   [**`semantic-pull-request.yml`**](.github/workflows/semantic-pull-request-title.yml):
-    Validates the **Pull Request** title
-    against the **conventional commits** standard. -->
-
-<!-- -   [**`stale.yml`**](.github/workflows/stale.yml):
-    Removes issues that have not been active for more than 60 days. -->
 
 ## Prettier
 
