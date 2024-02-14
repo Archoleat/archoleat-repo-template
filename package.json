@@ -1,10 +1,7 @@
 {
   "type": "module",
   "exports": {
-    "./src/index.ts": "./src/index.ts",
-    ".": {
-      "types": "./commitlint.config.ts"
-    }
+    "./src/index.ts": "./src/index.ts"
   },
   "name": "",
   "description": "",

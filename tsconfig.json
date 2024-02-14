@@ -9,7 +9,6 @@
     "exactOptionalPropertyTypes": true,
     "lib": ["ES6", "DOM"],
     "module": "ES6",
-    // "moduleResolution": "NodeNext",
     "noEmit": true,
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
