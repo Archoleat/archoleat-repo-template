@@ -2,11 +2,7 @@ name: Commit Lint
 
 on:
   pull_request:
-    branches:
-      - main
   push:
-    branches:
-      - main
 
 jobs:
   commit-lint:

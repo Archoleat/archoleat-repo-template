@@ -1,8 +1,8 @@
 {
   "type": "module",
   "exports": {
-    "./src/index.ts": "./src/index.ts",
-    "./commitlint.config.ts": "./commitlint.config.ts"
+    "./*": "./commitlint.config.ts",
+    "./src/index.ts": "./src/index.ts"
   },
   "name": "",
   "description": "",
@@ -36,6 +36,7 @@
   "files": [
     "src"
   ],
+  "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "*",
@@ -68,6 +69,5 @@
     "semantic-release": "*",
     "ts-node": "*",
     "typescript": "*"
-  },
-  "peerDependencies": {}
+  }
 }
