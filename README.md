@@ -43,6 +43,7 @@ This template includes ready-made solutions for integration with:
 -   **Prettier**.
 -   **Mocha**.
 -   **TypeScript**.
+-   **Dependabot**.
 -   **Welcome Bot**.
 
 > \[!TIP]
@@ -131,12 +132,21 @@ This template includes ready-made solutions for integration with:
 
     > How to use [**bots**](#using-bots).
 
+    -   **Dependabot**: No more wasting time updating dependencies!
+
     -   **Welcome Bot**: For those who have created an issue or made
         a **Pull Request** for the first time, a thank you message will be sent.
 
 ## Scripts
 
 -   **`init`**: Installs dependencies, **Husky** and update submodules.
+
+-   **`release`**: Runs **Semantic Release**.
+
+-   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
+
+    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
+    > workflow.
 
 -   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
@@ -150,9 +160,6 @@ This template includes ready-made solutions for integration with:
     > In the [**`prettier.yml`**](.github/workflows/prettier.yml)
     >
     > Also run with a **`pre-commit`** hook.
-
--   **`format`**: Runs **Prettier** with the **`--write`** flag
-    for all files.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
@@ -168,10 +175,8 @@ This template includes ready-made solutions for integration with:
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
-
-    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
-    > workflow.
+-   **`format`**: Runs **Prettier** with the **`--write`** flag
+    for all files.
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
     **Conventional Commits** standards.
@@ -180,6 +185,9 @@ This template includes ready-made solutions for integration with:
 
 -   [**`codeql.yml`**](.github/workflows/codeql.yml):
     Checks **TypeScript** for vulnerabilities.
+
+-   [**`commitlint.yml`**](.github/workflows/commitlint.yml):
+    Checks the commit message according to the **conventionalcommits** standard.
 
 -   [**`create-pull-request.yml`**](.github/workflows/create-pull-request.yml):
     Automatically creates a **Pull Request**
@@ -207,6 +215,13 @@ This template includes ready-made solutions for integration with:
     Checks all files with **Prettier**.
 
 -   [**`release.yml`**](.github/workflows/release.yml): Creates release.
+
+-   [**`semantic-pull-request.yml`**](.github/workflows/semantic-pull-request-title.yml):
+    Validates the **Pull Request** title
+    against the **conventional commits** standard.
+
+-   [**`stale.yml`**](.github/workflows/stale.yml):
+    Removes issues that have not been active for more than 60 days.
 
 ## Prettier
 
@@ -255,6 +270,7 @@ with the **CI/CD** pipeline, the following code has been added:
 
 The following files use the name **nikkeyl** by default:
 
+-   [**`CODEOWNERS`**](.github/CODEOWNERS).
 -   [**`package.json`**](package.json).
 
 Before using this template, replace this name with your

@@ -3,6 +3,7 @@
     "CHANGELOG.md",
     "config.yml",
     "CONTRIBUTING.md",
+    "pnpm-lock.yaml",
     "README.md"
   ]
 }

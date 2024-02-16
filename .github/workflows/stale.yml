@@ -1,0 +1,35 @@
+name: Stale
+
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    name: Stale
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Stale
+        uses: actions/stale@v9
+        with:
+          days-before-stale: 90
+
+          exempt-issue-labels: 'type: bug, type: fix, type: vulnerability'
+          exempt-pr-labels: 'type: bug, type: fix, type: vulnerability'
+
+          stale-issue-label: 'status: stale'
+          stale-issue-message: This issue is stale. You can reopen it again.
+          close-issue-label: 'status: close'
+          close-issue-message: This issue is closed.
+
+          stale-pr-label: 'status: stale'
+          stale-pr-message: This Pull Request is stale. You can reopen it again.
+          close-pr-label: 'status: close'
+          close-pr-message: This Pull Request is closed.
