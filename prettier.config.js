@@ -1,15 +1,15 @@
 export default {
   overrides: [
     {
-      files: ["*.ts", "*.yml"],
+      files: ['*.ts', '*.js', '*.yaml', '*.yml'],
       options: {
         singleQuote: true,
       },
     },
     {
-      files: ["*.json"],
+      files: ['*.json'],
       options: {
-        trailingComma: "none",
+        trailingComma: 'none',
       },
     },
   ],

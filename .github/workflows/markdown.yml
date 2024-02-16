@@ -42,7 +42,7 @@ jobs:
           node-version: lts/*
 
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm i
 
       - name: Lint
         run: pnpm run lint:md
