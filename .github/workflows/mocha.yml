@@ -44,7 +44,7 @@ jobs:
           node-version: lts/*
 
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm i
 
       - name: Tests
         run: pnpm run test
