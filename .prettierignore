@@ -3,3 +3,4 @@
 .gitmodules
 .prettierignore
 *.md
+pnpm-lock.yaml
