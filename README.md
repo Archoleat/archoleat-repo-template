@@ -175,7 +175,7 @@ This template includes ready-made solutions for integration with:
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`format`**: Runs **Prettier** with the **`--write`** flag
+-   **`prettify`**: Runs **Prettier** with the **`--write`** flag
     for all files.
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
