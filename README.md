@@ -76,8 +76,8 @@ This template includes ready-made solutions for integration with:
     > [**chain**](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
     > if you want to add more workflows to this chain,
     > workflows, it won't work, because the chain only supports
-    > only three levels, example: **`workflow A`** > **`workflow B`** >
-    > **`workflow C`** > **`workflow D`**, if you add **`workflow E`**
+    > only three levels, example: `workflow A` > `workflow B` >
+    > `workflow C` > `workflow D`, if you add `workflow E`
     > to the chain. it won't work!
 
 ## Features
@@ -85,8 +85,8 @@ This template includes ready-made solutions for integration with:
 -   **Flexibility**: Easily customizable template to adapt
     to different project types.
 
--   **Git and GitHub Integration**: Pre-configured **`.gitignore`**,
-    **`.gitattributes`**, and other files for efficient work with
+-   **Git and GitHub Integration**: Pre-configured `.gitignore`,
+    `.gitattributes`, and other files for efficient work with
     Git and GitHub.
 
     -   **Conventional Commits, Commitlint & Commitizen**: If you don't want
@@ -115,8 +115,8 @@ This template includes ready-made solutions for integration with:
 
         > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
         > **Remark** check all files in the project, if you want to change this
-        > behavior then go to [**`package.json`**](package.json)
-        > and [**`lint-staged.config.js`**](lint-staged.config.js)
+        > behavior then go to [`package.json`](package.json)
+        > and [`lint-staged.config.js`](lint-staged.config.js)
         > files.
 
     -   **Tests**: Automated testing will help you focus on
@@ -139,88 +139,88 @@ This template includes ready-made solutions for integration with:
 
 ## Scripts
 
--   **`init`**: Installs dependencies, **Husky** and update submodules.
+-   `init`: Installs dependencies, **Husky** and update submodules.
 
--   **`release`**: Runs **Semantic Release**.
+-   `release`: Runs **Semantic Release**.
 
--   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
+-   `test`: Runs **Mocha** and the tests in the **specs/** folder.
 
-    > Also runs using the [**`mocha.yaml`**](.github/workflows/mocha.yaml)
+    > Also runs using the [`mocha.yaml`](.github/workflows/mocha.yaml)
     > workflow.
 
--   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
+-   `lint:editorconfig`: Runs **Editorconfig Checker** and
     checks all files in the project.
 
-    > Also runs with the [**`editorconfig.yaml`**](.github/workflows/editorconfig.yaml)
+    > Also runs with the [`editorconfig.yaml`](.github/workflows/editorconfig.yaml)
     > workflow.
 
--   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
+-   `lint:formatting`: Runs **Prettier** with the `--check` flag
     for all files.
 
-    > In the [**`prettier.yaml`**](.github/workflows/prettier.yaml)
+    > In the [`prettier.yaml`](.github/workflows/prettier.yaml)
     >
-    > Also run with a **`pre-commit`** hook.
+    > Also run with a `pre-commit` hook.
 
--   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
+-   `lint:md`: Runs **Remark** with the `--quiet` flag and
     checks all **Markdown** files.
 
-    > Also runs with the [**`markdown.yaml`**](.github/workflows/markdown.yaml)
+    > Also runs with the [`markdown.yaml`](.github/workflows/markdown.yaml)
     > workflow.
 
--   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
+-   `lint:ts`: Runs **ESLint** with the flag `--fix`
     for all **TypeScript** files.
 
-    > Runs with the [**`eslint.yaml`**](.github/workflows/eslint.yaml)
+    > Runs with the [`eslint.yaml`](.github/workflows/eslint.yaml)
     > workflow.
     >
-    > Also run with a **`pre-commit`** hook.
+    > Also run with a `pre-commit` hook.
 
--   **`prettify`**: Runs **Prettier** with the **`--write`** flag
+-   `prettify`: Runs **Prettier** with the `--write` flag
     for all files.
 
--   **`commit`**: Runs **Commitlint** to create commits according to
+-   `commit`: Runs **Commitlint** to create commits according to
     **Conventional Commits** standards.
 
 ## Workflows
 
--   [**`codeql.yaml`**](.github/workflows/codeql.yaml):
+-   [`codeql.yaml`](.github/workflows/codeql.yaml):
     Checks **TypeScript** for vulnerabilities.
 
--   [**`commitlint.yaml`**](.github/workflows/commitlint.yaml):
+-   [`commitlint.yaml`](.github/workflows/commitlint.yaml):
     Checks the commit message according to the **conventionalcommits** standard.
 
--   [**`create-pull-request.yaml`**](.github/workflows/create-pull-request.yaml):
+-   [`create-pull-request.yaml`](.github/workflows/create-pull-request.yaml):
     Automatically creates a **Pull Request**
     when pushing a branch to the repository.
 
--   [**`dependabot-auto-merge-pull-request.yaml`**](.github/workflows/dependabot-auto-merge-pull-request.yaml):
+-   [`dependabot-auto-merge-pull-request.yaml`](.github/workflows/dependabot-auto-merge-pull-request.yaml):
     Automatically merges dependabot **Pull Requests** to the **main** branch.
 
--   [**`editorconfig.yaml`**](.github/workflows/editorconfig.yaml):
+-   [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
     Checks all files with **editorconfig-checker**.
 
--   [**`eslint.yaml`**](.github/workflows/eslint.yaml):
+-   [`eslint.yaml`](.github/workflows/eslint.yaml):
     Checks all **TypeScript** files with **ESLint**.
 
--   [**`markdown.yaml`**](.github/workflows/markdown.yaml):
+-   [`markdown.yaml`](.github/workflows/markdown.yaml):
     Checks all Markdown files with **remark**.
 
--   [**`mocha.yaml`**](.github/workflows/mocha.yaml):
+-   [`mocha.yaml`](.github/workflows/mocha.yaml):
     Tests all TypeScript files with **Mocha**.
 
--   [**`pre-commit.yaml`**](.github/workflows/pre-commit.yaml):
+-   [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
     Runs a check on the contents of the **Pull Request** before merging.
 
--   [**`prettier.yaml`**](.github/workflows/prettier.yaml):
+-   [`prettier.yaml`](.github/workflows/prettier.yaml):
     Checks all files with **Prettier**.
 
--   [**`release.yaml`**](.github/workflows/release.yaml): Creates release.
+-   [`release.yaml`](.github/workflows/release.yaml): Creates release.
 
--   [**`semantic-pull-request.yaml`**](.github/workflows/semantic-pull-request-title.yaml):
+-   [`semantic-pull-request.yaml`](.github/workflows/semantic-pull-request-title.yaml):
     Validates the **Pull Request** title
     against the **conventional commits** standard.
 
--   [**`stale.yaml`**](.github/workflows/stale.yaml):
+-   [`stale.yaml`](.github/workflows/stale.yaml):
     Removes issues that have not been active for more than 60 days.
 
 ## Prettier
@@ -232,8 +232,8 @@ This template includes ready-made solutions for integration with:
 > [**.vscode**](https://github.com/Archoleat/.helpers/.vscode/settings.json).
 
 > \[!TIP]
-> If you want to change the rules in **`prettier.config.js`** you can do it
-> in **`.editorconfig`**, prettier will automatically pick up the rules
+> If you want to change the rules in `prettier.config.js` you can do it
+> in `.editorconfig`, prettier will automatically pick up the rules
 > from editorconfig.
 
 > \[!NOTE]
@@ -248,7 +248,7 @@ This template includes ready-made solutions for integration with:
 
 ## Commitlint, ESM and TypeScript
 
-In order for **`commitlint.config.ts`** to work correctly together
+In order for `commitlint.config.ts` to work correctly together
 with the **CI/CD** pipeline, the following code has been added:
 
 ```json
@@ -270,8 +270,8 @@ with the **CI/CD** pipeline, the following code has been added:
 
 The following files use the name **nikkeyl** by default:
 
--   [**`CODEOWNERS`**](.github/CODEOWNERS).
--   [**`package.json`**](package.json).
+-   [`CODEOWNERS`](.github/CODEOWNERS).
+-   [`package.json`](package.json).
 
 Before using this template, replace this name with your
 name, name of your team or the name of your organization.
