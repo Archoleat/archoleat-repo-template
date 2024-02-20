@@ -70,7 +70,7 @@ export default {
           ],
         },
         writerOpts: {
-          commitsSort: ['scope', 'subject'],
+          commitsSort: ['subject', 'scope'],
         },
       },
     ],
