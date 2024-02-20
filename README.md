@@ -1,13 +1,13 @@
 # Archoleat Repo Template
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
-![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yml?label=Test)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yml?label=Commitlint)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yml?label=CodeQL)
-![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yml?label=Editorconfig)
-![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yml?label=Prettier)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yml?label=Markdown)
-![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yml?label=ESLint)
+![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yaml?label=Test)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yaml?label=Commitlint)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yaml?label=CodeQL)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yaml?label=Editorconfig)
+![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yaml?label=Prettier)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yaml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yaml?label=ESLint)
 
 > Stop Wasting Time on Repository Build-up!
 
@@ -145,32 +145,32 @@ This template includes ready-made solutions for integration with:
 
 -   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
 
-    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
+    > Also runs using the [**`mocha.yaml`**](.github/workflows/mocha.yaml)
     > workflow.
 
 -   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
 
-    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
+    > Also runs with the [**`editorconfig.yaml`**](.github/workflows/editorconfig.yaml)
     > workflow.
 
 -   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
     for all files.
 
-    > In the [**`prettier.yml`**](.github/workflows/prettier.yml)
+    > In the [**`prettier.yaml`**](.github/workflows/prettier.yaml)
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
 
-    > Also runs with the [**`markdown.yml`**](.github/workflows/markdown.yml)
+    > Also runs with the [**`markdown.yaml`**](.github/workflows/markdown.yaml)
     > workflow.
 
 -   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
     for all **TypeScript** files.
 
-    > Runs with the [**`eslint.yml`**](.github/workflows/eslint.yml)
+    > Runs with the [**`eslint.yaml`**](.github/workflows/eslint.yaml)
     > workflow.
     >
     > Also run with a **`pre-commit`** hook.
@@ -183,44 +183,44 @@ This template includes ready-made solutions for integration with:
 
 ## Workflows
 
--   [**`codeql.yml`**](.github/workflows/codeql.yml):
+-   [**`codeql.yaml`**](.github/workflows/codeql.yaml):
     Checks **TypeScript** for vulnerabilities.
 
--   [**`commitlint.yml`**](.github/workflows/commitlint.yml):
+-   [**`commitlint.yaml`**](.github/workflows/commitlint.yaml):
     Checks the commit message according to the **conventionalcommits** standard.
 
--   [**`create-pull-request.yml`**](.github/workflows/create-pull-request.yml):
+-   [**`create-pull-request.yaml`**](.github/workflows/create-pull-request.yaml):
     Automatically creates a **Pull Request**
     when pushing a branch to the repository.
 
--   [**`dependabot-auto-merge-pull-request.yml`**](.github/workflows/dependabot-auto-merge-pull-request.yml):
+-   [**`dependabot-auto-merge-pull-request.yaml`**](.github/workflows/dependabot-auto-merge-pull-request.yaml):
     Automatically merges dependabot **Pull Requests** to the **main** branch.
 
--   [**`editorconfig.yml`**](.github/workflows/editorconfig.yml):
+-   [**`editorconfig.yaml`**](.github/workflows/editorconfig.yaml):
     Checks all files with **editorconfig-checker**.
 
--   [**`eslint.yml`**](.github/workflows/eslint.yml):
+-   [**`eslint.yaml`**](.github/workflows/eslint.yaml):
     Checks all **TypeScript** files with **ESLint**.
 
--   [**`markdown.yml`**](.github/workflows/markdown.yml):
+-   [**`markdown.yaml`**](.github/workflows/markdown.yaml):
     Checks all Markdown files with **remark**.
 
--   [**`mocha.yml`**](.github/workflows/mocha.yml):
+-   [**`mocha.yaml`**](.github/workflows/mocha.yaml):
     Tests all TypeScript files with **Mocha**.
 
--   [**`pre-commit.yml`**](.github/workflows/pre-commit.yml):
+-   [**`pre-commit.yaml`**](.github/workflows/pre-commit.yaml):
     Runs a check on the contents of the **Pull Request** before merging.
 
--   [**`prettier.yml`**](.github/workflows/prettier.yml):
+-   [**`prettier.yaml`**](.github/workflows/prettier.yaml):
     Checks all files with **Prettier**.
 
--   [**`release.yml`**](.github/workflows/release.yml): Creates release.
+-   [**`release.yaml`**](.github/workflows/release.yaml): Creates release.
 
--   [**`semantic-pull-request.yml`**](.github/workflows/semantic-pull-request-title.yml):
+-   [**`semantic-pull-request.yaml`**](.github/workflows/semantic-pull-request-title.yaml):
     Validates the **Pull Request** title
     against the **conventional commits** standard.
 
--   [**`stale.yml`**](.github/workflows/stale.yml):
+-   [**`stale.yaml`**](.github/workflows/stale.yaml):
     Removes issues that have not been active for more than 60 days.
 
 ## Prettier
