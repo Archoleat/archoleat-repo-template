@@ -87,7 +87,7 @@
 * **ecrc:** remove `releaserc` from ignore ([#178](https://github.com/Archoleat/archoleat-repo-template/issues/178)) ([5825c30](https://github.com/Archoleat/archoleat-repo-template/commit/5825c30eb5bac0c65ac656ee08e46c104f2cdf0c))
 * **eslint:** add parser ([#186](https://github.com/Archoleat/archoleat-repo-template/issues/186)) ([dc66475](https://github.com/Archoleat/archoleat-repo-template/commit/dc664753bb781709c48375410cfc440ed7e629ea))
 * **releaserc:** remove default options ([#177](https://github.com/Archoleat/archoleat-repo-template/issues/177)) ([b9fdde9](https://github.com/Archoleat/archoleat-repo-template/commit/b9fdde98577f652ccf7c6d378e1320e925b133cf))
-* remove `auto-merge.yml` ([#174](https://github.com/Archoleat/archoleat-repo-template/issues/174)) ([8587ca2](https://github.com/Archoleat/archoleat-repo-template/commit/8587ca238eea6cfeb52f4ea06744b469c6db1c5a))
+* remove `auto-merge.yaml` ([#174](https://github.com/Archoleat/archoleat-repo-template/issues/174)) ([8587ca2](https://github.com/Archoleat/archoleat-repo-template/commit/8587ca238eea6cfeb52f4ea06744b469c6db1c5a))
 * remove auto-approve bot ([#180](https://github.com/Archoleat/archoleat-repo-template/issues/180)) ([c3e888a](https://github.com/Archoleat/archoleat-repo-template/commit/c3e888aa1b111063a33ffcac419594ccbf94cd1c))
 * **specs:** rename `__tests__` to `specs` ([#184](https://github.com/Archoleat/archoleat-repo-template/issues/184)) ([f0e77cb](https://github.com/Archoleat/archoleat-repo-template/commit/f0e77cbea248b8b9897b9e34c6f160c0459b0292))
 
@@ -147,7 +147,7 @@
 
 ### Bug Fixes
 
-* `release.yml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
+* `release.yaml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
 
 
 ### Reverts
@@ -159,7 +159,7 @@
 
 ### Bug Fixes
 
-* `release.yml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
+* `release.yaml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
 
 
 ### Reverts
@@ -171,7 +171,7 @@
 
 ### Bug Fixes
 
-* `release.yml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
+* `release.yaml` ([#147](https://github.com/Archoleat/archoleat-repo-template/issues/147)) ([0842ed6](https://github.com/Archoleat/archoleat-repo-template/commit/0842ed6217d863efa9d948f5ab58b8a75da49a5e))
 
 
 ### Reverts

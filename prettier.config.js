@@ -1,7 +1,7 @@
 export default {
   overrides: [
     {
-      files: ['*.js', '*.ts', '*.yaml', '*.yml'],
+      files: ['*.js', '*.ts', '*.yaml'],
       options: {
         singleQuote: true,
       },
