@@ -1,13 +1,13 @@
 # Archoleat Repo Template
 
-![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
-![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yaml?label=Test)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yaml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yaml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yaml?label=Test)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yaml?label=Prettier)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yaml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yaml?label=ESLint)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yaml?label=Markdown)
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 
 > Stop Wasting Time on Repository Build-up!
 
@@ -18,7 +18,6 @@
 -   [Scripts](#scripts)
 -   [Workflows](#workflows)
 -   [Prettier](#prettier)
--   [Using Bots](#using-bots)
 -   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript)
 -   [Change of Maintainer](#change-of-maintainer)
 -   [License](#license)
@@ -35,7 +34,7 @@ This template includes ready-made solutions for integration with:
 -   **Husky & Lint Staged**.
 -   **GitHub Actions**.
 -   **Semantic Release**.
--   **NPM**.
+-   **PNPM**.
 -   **CodeQL**.
 -   **EditorConfig**.
 -   **ESLint**.
@@ -44,7 +43,6 @@ This template includes ready-made solutions for integration with:
 -   **Mocha**.
 -   **TypeScript**.
 -   **Dependabot**.
--   **Welcome Bot**.
 
 > \[!TIP]
 > **A good solution for your business!**
@@ -85,9 +83,8 @@ This template includes ready-made solutions for integration with:
 -   **Flexibility**: Easily customizable template to adapt
     to different project types.
 
--   **Git and GitHub Integration**: Pre-configured `.gitignore`,
-    `.gitattributes`, and other files for efficient work with
-    Git and GitHub.
+-   **Git and GitHub Integration**: Pre-configured `.gitignore`, `.gitmodules`
+    and `.gitattributes` for efficient work with Git and GitHub.
 
     -   **Conventional Commits, Commitlint & Commitizen**: If you don't want
         to think about how to write a commit every time,
@@ -130,12 +127,7 @@ This template includes ready-made solutions for integration with:
 
 -   **Bots**:
 
-    > How to use [**bots**](#using-bots).
-
     -   **Dependabot**: No more wasting time updating dependencies!
-
-    -   **Welcome Bot**: For those who have created an issue or made
-        a **Pull Request** for the first time, a thank you message will be sent.
 
 ## Scripts
 
@@ -229,7 +221,7 @@ This template includes ready-made solutions for integration with:
 > You need to install the **Prettier** extension for it to work.
 >
 > You can see all necessary extensions for **Visual Studio Code** in
-> [**.vscode**](https://github.com/Archoleat/.helpers/.vscode/settings.json).
+> [**.vscode**](https://github.com/Archoleat/.vscode/extensions.json).
 
 > \[!TIP]
 > If you want to change the rules in `prettier.config.js` you can do it
@@ -238,13 +230,6 @@ This template includes ready-made solutions for integration with:
 
 > \[!NOTE]
 > All **Markdown** and **.\*ignore** files [**ignored**](.prettierignore).
-
-## Using Bots
-
-> \[!WARNING]
-> To use
-> [**Welcome Bot**](https://github.com/apps/welcome)
-> you need to install it.
 
 ## Commitlint, ESM and TypeScript
 
