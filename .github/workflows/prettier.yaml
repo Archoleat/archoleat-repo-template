@@ -41,4 +41,4 @@ jobs:
         run: pnpm i
 
       - name: Lint
-        run: pnpm run lint:formatting
+        run: pnpm lint:formatting
