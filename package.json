@@ -4,10 +4,10 @@
     "./*": "./commitlint.config.ts",
     "./src/index.ts": "./src/index.ts"
   },
-  "types": "",
-  "author": "",
+  "types": "index.d.ts",
+  "author": "Archoleat",
   "email": "archoleat@gmail.com",
-  "name": "",
+  "name": "@archoleat/repo",
   "description": "",
   "version": "1.0.0",
   "license": "MIT",
