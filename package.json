@@ -4,13 +4,14 @@
     "./*": "./commitlint.config.ts",
     "./src/index.ts": "./src/index.ts"
   },
+  "types": "",
+  "author": "",
+  "email": "archoleat@gmail.com",
   "name": "",
   "description": "",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [],
-  "author": "",
-  "email": "nikkeyl.dev@gmail.com",
   "homepage": "https://github.com/owner/repo#readme",
   "repository": {
     "type": "git",
