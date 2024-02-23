@@ -4,7 +4,6 @@
   "extension": ["ts"],
   "inline-diffs": true,
   "loader": "ts-node/esm",
-  "parallel": true,
   "recursive": true,
   "reporter": "mocha-spec-reporter-with-file-names",
   "slow": 1500,
