@@ -9,15 +9,9 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - specs/**/*.spec.ts
-      - src/**/*.ts
   push:
     branches:
       - main
-    paths:
-      - specs/**/*.spec.ts
-      - src/**/*.ts
 
 jobs:
   eslint:
