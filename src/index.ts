@@ -1,5 +1,3 @@
-const hello = (): string => {
+export default (): string => {
   return 'hello!';
 };
-
-export default hello;
