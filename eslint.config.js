@@ -3,7 +3,6 @@ import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
 import unicorn from 'eslint-plugin-unicorn';
 
-//! migrate to flat config
 import { resolve } from 'node:path';
 import { FlatCompat } from '@eslint/eslintrc';
 
@@ -11,7 +10,6 @@ const compat = new FlatCompat({
   baseDirectory: resolve(),
   resolvePluginsRelativeTo: resolve(),
 });
-//!--------------------------
 
 export default [
   ...compat.extends(
