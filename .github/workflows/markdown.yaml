@@ -9,13 +9,9 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      - docs/**/*.md
   push:
     branches:
       - main
-    paths:
-      - docs/**/*.md
 
 jobs:
   markdown:
