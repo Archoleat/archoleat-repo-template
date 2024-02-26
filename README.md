@@ -1,12 +1,12 @@
 # Archoleat Repo Template
 
-![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/codeql.yaml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/mocha.yaml?label=Test)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/commitlint.yaml?label=Commitlint)
-![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/editorconfig.yaml?label=Editorconfig)
-![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/prettier.yaml?label=Prettier)
-![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/eslint.yaml?label=ESLint)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/archoleat-repo-template/markdown.yaml?label=Markdown)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/codeql.yaml?label=CodeQL)
+![Test](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/mocha.yaml?label=Test)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/commitlint.yaml?label=Commitlint)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/editorconfig.yaml?label=Editorconfig)
+![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/prettier.yaml?label=Prettier)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/eslint.yaml?label=ESLint)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/repo-template/markdown.yaml?label=Markdown)
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 
 > Stop Wasting Time on Repository Build-up!
