@@ -46,7 +46,7 @@ export default {
             release: 'patch',
           },
           {
-            type: 'test',
+            type: 'spec',
             release: false,
           },
         ],
@@ -66,7 +66,6 @@ export default {
             { type: 'perf', section: 'Performance Improvements' },
             { type: 'revert', section: 'Reverts' },
             { type: 'docs', section: 'Documentation' },
-            { type: 'style', section: 'Styles' },
           ],
         },
         writerOpts: {
