@@ -12,13 +12,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [],
-  "homepage": "https://github.com/Archoleat/repo-template#readme",
+  "homepage": "https://github.com/archoleat/repo-template#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Archoleat/repo-template.git"
+    "url": "https://github.com/archoleat/repo-template.git"
   },
   "bugs": {
-    "url": "https://github.com/Archoleat/repo-template/issues"
+    "url": "https://github.com/archoleat/repo-template/issues"
   },
   "scripts": {
     "init": "pnpm i && husky && git submodule update",
