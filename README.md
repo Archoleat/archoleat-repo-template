@@ -20,6 +20,7 @@
 -   [Prettier](#prettier)
 -   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript)
 -   [Change of Maintainer](#change-of-maintainer)
+-   [Contributing](#contributing)
 -   [License](#license)
 
 **Archoleat Repo Template** is a template repository designed for quickly
@@ -263,6 +264,11 @@ name, name of your team or the name of your organization.
 
 > \[!CAUTION]
 > Don't forget to change your license!
+
+## Contributing
+
+Please read [**CONTRIBUTING**](https://github.com/archoleat/.github/blob/main/CONTRIBUTING.md)
+to start contributing.
 
 ## License
 
