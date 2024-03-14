@@ -1,10 +1,10 @@
-import { describe, it } from 'mocha';
 import { assert } from 'chai';
+import { describe, it } from 'mocha';
 
-import hello from '../src/index.ts';
+import hello from '../index.ts';
 
 describe('Message', () => {
   it('Hello!', () => {
-    assert.equal(hello(), 'hello!');
+    assert.equal(hello('Hello!'), 'Hello!');
   });
 });

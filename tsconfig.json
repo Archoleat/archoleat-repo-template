@@ -7,7 +7,7 @@
     "composite": true,
     "disableReferencedProjectLoad": true,
     "exactOptionalPropertyTypes": true,
-    "lib": ["ES6", "DOM"],
+    "lib": ["ESNext", "DOM"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noEmit": true,

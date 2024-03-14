@@ -42,11 +42,11 @@ export default {
             release: 'patch',
           },
           {
-            type: 'style',
-            release: 'patch',
+            type: 'spec',
+            release: false,
           },
           {
-            type: 'spec',
+            type: 'style',
             release: false,
           },
         ],

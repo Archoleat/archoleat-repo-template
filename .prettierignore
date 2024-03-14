@@ -1,4 +1,7 @@
+.czrc
 .ecrc
+.editorconfig
+.gitattributes
 .gitignore
 .gitmodules
 .prettierignore
