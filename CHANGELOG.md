@@ -1,5 +1,50 @@
 # Changelog
 
+## [1.7.9](https://github.com/archoleat/repo-template/compare/v1.7.8...v1.7.9) (2024-03-14)
+
+
+### Bug Fixes
+
+* `eslint.config.js` ([#243](https://github.com/archoleat/repo-template/issues/243)) ([4e8865c](https://github.com/archoleat/repo-template/commit/4e8865c742a9aaf41155c3109bf348ea281230c4))
+* `package.json` exports ([#212](https://github.com/archoleat/repo-template/issues/212)) ([c331b4c](https://github.com/archoleat/repo-template/commit/c331b4cd0667da26324fe70757aedf011b3d590b))
+* `tsconfig.json` ([#211](https://github.com/archoleat/repo-template/issues/211)) ([18d478d](https://github.com/archoleat/repo-template/commit/18d478d6401cb4b04b7a2654933e815c3ded654b))
+* **package:** add correct links ([#254](https://github.com/archoleat/repo-template/issues/254)) ([a4c7b72](https://github.com/archoleat/repo-template/commit/a4c7b722ee3ed4402a18a80bccdff710e6631827))
+* everything ([#224](https://github.com/archoleat/repo-template/issues/224)) ([3520521](https://github.com/archoleat/repo-template/commit/352052187c27dd770bb07a71023512ef2bea51c0))
+
+
+### Code Refactoring
+
+* `pnpm` scripts ([#244](https://github.com/archoleat/repo-template/issues/244)) ([f2ef34e](https://github.com/archoleat/repo-template/commit/f2ef34ed2e9ebea75235ea9b11891f87d67f8d73))
+* **eslint:** add `resolve()` ([#249](https://github.com/archoleat/repo-template/issues/249)) ([78f5d32](https://github.com/archoleat/repo-template/commit/78f5d32a60c74db2ede18c60f464dee4215b240d))
+* **eslint:** add `resolve()` ([#251](https://github.com/archoleat/repo-template/issues/251)) ([ce8004b](https://github.com/archoleat/repo-template/commit/ce8004b506fa1084a006a80589ca3744fc21b339))
+* **release.config:** add `spec` instead `test` ([#252](https://github.com/archoleat/repo-template/issues/252)) ([881d22c](https://github.com/archoleat/repo-template/commit/881d22c5482ec25a5bc6f0da39e81cf03c6a7522))
+* **structure:** add `src` folder ([#222](https://github.com/archoleat/repo-template/issues/222)) ([fa698d9](https://github.com/archoleat/repo-template/commit/fa698d9269d5ee6eff1244483bf54b45e1822451))
+* **package:** add info ([#247](https://github.com/archoleat/repo-template/issues/247)) ([077fa5c](https://github.com/archoleat/repo-template/commit/077fa5cf130ca9155770b0dd4b07ff91cf9e39ba))
+* add info for `package.json` ([#210](https://github.com/archoleat/repo-template/issues/210)) ([00c97a8](https://github.com/archoleat/repo-template/commit/00c97a8e219bef9a0b6683ecfb6427771a4fb919))
+* **links:** add links to `.yaml` ([#240](https://github.com/archoleat/repo-template/issues/240)) ([d4eab62](https://github.com/archoleat/repo-template/commit/d4eab62430a5f027561d7e03b0766732edba0602))
+* **index:** add only `export default` ([#253](https://github.com/archoleat/repo-template/issues/253)) ([436be8b](https://github.com/archoleat/repo-template/commit/436be8b2919b17184e10b95488246310ae6a86e1))
+* migrate to `pnpm` ([#234](https://github.com/archoleat/repo-template/issues/234)) ([ae66711](https://github.com/archoleat/repo-template/commit/ae667114b8ac9f4e492bf4d0e53d4ab48b4dcbe6))
+* move common files to `.github` ([#230](https://github.com/archoleat/repo-template/issues/230)) ([9586ff3](https://github.com/archoleat/repo-template/commit/9586ff3cb498794dbbbd244f4b4b4bae67c2054a))
+* small changes ([#235](https://github.com/archoleat/repo-template/issues/235)) ([5cfcbad](https://github.com/archoleat/repo-template/commit/5cfcbad03fbcd0b49f0a070fcbb4a08377f48cd2))
+* small changes ([#236](https://github.com/archoleat/repo-template/issues/236)) ([20ee88e](https://github.com/archoleat/repo-template/commit/20ee88e064c7f1c0c4cb9d0842369e2b4564e22e))
+* small changes ([#238](https://github.com/archoleat/repo-template/issues/238)) ([02c87f0](https://github.com/archoleat/repo-template/commit/02c87f0b42e3519ceef0c12113439c64ead04e42))
+* small changes ([#242](https://github.com/archoleat/repo-template/issues/242)) ([390c6b0](https://github.com/archoleat/repo-template/commit/390c6b07a7f4c74a76e1112a1e8e06c0e4cd6383))
+* small changes ([#246](https://github.com/archoleat/repo-template/issues/246)) ([422fe0e](https://github.com/archoleat/repo-template/commit/422fe0e9d3ffccbb0800d0957532d1c7d74468cf))
+* small changes ([#259](https://github.com/archoleat/repo-template/issues/259)) ([114c24b](https://github.com/archoleat/repo-template/commit/114c24b713c41291de53ac98d148f84363385988))
+
+
+### Documentation
+
+* add format ([#241](https://github.com/archoleat/repo-template/issues/241)) ([44e2075](https://github.com/archoleat/repo-template/commit/44e2075d0c532b1d2c960b2f5c16a4ec4dc516fd))
+* **readme:** add link for workflow ([#216](https://github.com/archoleat/repo-template/issues/216)) ([f063c16](https://github.com/archoleat/repo-template/commit/f063c163ec755b81161a3da6cee53088b5e48e45))
+* **readme:** add link to `contributing` ([#257](https://github.com/archoleat/repo-template/issues/257)) ([62c6b1f](https://github.com/archoleat/repo-template/commit/62c6b1f681ca57e689a8bc4a1c5a8f90b3feb73e))
+* change name ([#255](https://github.com/archoleat/repo-template/issues/255)) ([6ed076c](https://github.com/archoleat/repo-template/commit/6ed076c8226a1647803599c2601994a296466f1d))
+* **contributing:** rewrite ([#248](https://github.com/archoleat/repo-template/issues/248)) ([832d2d5](https://github.com/archoleat/repo-template/commit/832d2d519e76ca200b0241e7adfb4bbf0740efec))
+* **readme:** rewrite text ([#221](https://github.com/archoleat/repo-template/issues/221)) ([7491c02](https://github.com/archoleat/repo-template/commit/7491c02f9224141b27da240e68c7ffd8cc690283))
+* **readme:** rewrite text ([#233](https://github.com/archoleat/repo-template/issues/233)) ([0a4bc68](https://github.com/archoleat/repo-template/commit/0a4bc68873093edf0c8bd0689da5459d550812a1))
+* **readme:** rewrite text ([#245](https://github.com/archoleat/repo-template/issues/245)) ([d8effc7](https://github.com/archoleat/repo-template/commit/d8effc7e30b1be6cbe0d41e3d2834544084a45cb))
+* small changes ([#215](https://github.com/archoleat/repo-template/issues/215)) ([d5a95b2](https://github.com/archoleat/repo-template/commit/d5a95b25b34b16fc5c47c5ad8658a6898b6d9d22))
+
 ## [1.7.8](https://github.com/archoleat/repo-template/compare/v1.7.7...v1.7.8) (2024-02-07)
 
 
