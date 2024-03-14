@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - src/**/*.ts
+      - index.ts
   push:
     branches:
       - main
     paths:
-      - src/**/*.ts
+      - index.ts
 
 permissions:
   actions: read

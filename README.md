@@ -9,8 +9,6 @@
 ![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/markdown.yaml?label=Markdown)
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 
-> Stop Wasting Time on Repository Build-up!
-
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
@@ -20,6 +18,7 @@
 -   [Prettier](#prettier)
 -   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript)
 -   [Change of Maintainer](#change-of-maintainer)
+-   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
 -   [License](#license)
 
@@ -264,6 +263,15 @@ name, name of your team or the name of your organization.
 
 > \[!CAUTION]
 > Don't forget to change your license!
+
+## Troubleshooting
+
+If you are using **npm** you may get an error related to these plugins:
+
+-   `typescript-eslint/eslint-plugin`.
+-   `typescript-eslint/parser`.
+
+To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`.
 
 ## Contributing
 

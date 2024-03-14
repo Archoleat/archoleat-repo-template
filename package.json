@@ -1,8 +1,8 @@
 {
   "type": "module",
   "exports": {
-    "./*": "./commitlint.config.ts",
-    "./src/index.ts": "./src/index.ts"
+    "./index.ts": "./index.ts",
+    "./*": "./commitlint.config.ts"
   },
   "types": "index.d.ts",
   "author": "Archoleat",
@@ -15,7 +15,7 @@
   "homepage": "https://github.com/archoleat/repo-template#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/archoleat/repo-template.git"
+    "url": "git+https://github.com/archoleat/repo-template.git"
   },
   "bugs": {
     "url": "https://github.com/archoleat/repo-template/issues"
@@ -27,7 +27,7 @@
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet",
-    "lint:ts": "eslint src/**/*.ts --fix",
+    "lint:ts": "eslint index.ts --fix",
     "prettify": "prettier . --write",
     "commit": "cz"
   },
@@ -40,19 +40,20 @@
     "pnpm": "8.15.3"
   },
   "files": [
-    "src"
+    "index.d.ts",
+    "index.js"
   ],
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
-    "@commitlint/config-conventional": "^18.6.2",
+    "@commitlint/config-conventional": "^18.6.3",
     "@commitlint/types": "^18.6.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/chai": "^4.3.12",
     "@types/mocha": "^10.0.6",
-    "@types/node": "^20.11.25",
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
+    "@types/node": "^20.11.27",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
     "chai": "^5.1.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "cz-conventional-changelog": "^3.3.0",
