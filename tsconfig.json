@@ -13,6 +13,7 @@
     "noEmit": true,
     "noErrorTruncation": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -22,7 +23,8 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES6",
+    "target": "ESNext",
     "types": ["chai", "mocha", "node"]
-  }
+  },
+  "include": ["index.ts"]
 }
