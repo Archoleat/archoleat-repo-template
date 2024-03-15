@@ -1,17 +1,13 @@
 {
-  "type": "module",
-  "exports": {
-    "./index.ts": "./index.ts",
-    "./*": "./commitlint.config.ts"
-  },
-  "types": "index.d.ts",
-  "author": "Archoleat",
-  "email": "archoleat@gmail.com",
   "name": "@archoleat/repo",
   "description": "",
   "version": "1.0.0",
   "license": "MIT",
-  "keywords": [],
+  "author": {
+    "email": "archoleat@gmail.com",
+    "name": "Archoleat",
+    "url": "https://github.com/archoleat"
+  },
   "homepage": "https://github.com/archoleat/repo-template#readme",
   "repository": {
     "type": "git",
@@ -19,6 +15,13 @@
   },
   "bugs": {
     "url": "https://github.com/archoleat/repo-template/issues"
+  },
+  "keywords": [],
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./commitlint.config.ts"
   },
   "scripts": {
     "init": "pnpm i && husky && git submodule update",
@@ -31,9 +34,11 @@
     "prettify": "prettier . --write",
     "commit": "cz"
   },
+  "packageManager": "pnpm@8.15.3",
   "engines": {
-    "node": ">=20.11.0",
-    "pnpm": ">=8.15.3"
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0",
+    "pnpm": ">=8.0.0"
   },
   "volta": {
     "node": "20.11.0",
@@ -60,6 +65,7 @@
     "editorconfig-checker": "^5.1.5",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-define-config": "^2.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-unicorn": "^51.0.1",
