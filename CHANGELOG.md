@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.7.10](https://github.com/archoleat/repo-template/compare/v1.7.9...v1.7.10) (2024-03-15)
+
+
+### Code Refactoring
+
+* **index:** add `async` ([#266](https://github.com/archoleat/repo-template/issues/266)) ([52b761e](https://github.com/archoleat/repo-template/commit/52b761ebe3ccb42b67f9d008c05efdaeb0436296))
+* **eslint:** add `defineConfig` ([#263](https://github.com/archoleat/repo-template/issues/263)) ([52584a1](https://github.com/archoleat/repo-template/commit/52584a1b4f0584e9288a390baaa160f6e490fef1))
+* **lint-staged:** add correct path ([#262](https://github.com/archoleat/repo-template/issues/262)) ([6ec3e58](https://github.com/archoleat/repo-template/commit/6ec3e5894041b2572705dc6b4f808ab554b9a7a6))
+* **tsconfig:** add new option ([#260](https://github.com/archoleat/repo-template/issues/260)) ([6b62cf3](https://github.com/archoleat/repo-template/commit/6b62cf3c3c6307dbdbfd225ea6eee1b87580e43d))
+
+
+### Documentation
+
+* **readme:** rewrite text ([#261](https://github.com/archoleat/repo-template/issues/261)) ([41f4736](https://github.com/archoleat/repo-template/commit/41f47364b45d8ed333ad6bc0554bfe22f280c9ea))
+
 ## [1.7.9](https://github.com/archoleat/repo-template/compare/v1.7.8...v1.7.9) (2024-03-14)
 
 
