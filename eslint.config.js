@@ -1,17 +1,18 @@
 import globals from 'globals';
 
+import { defineFlatConfig } from 'eslint-define-config';
+import { FlatCompat } from '@eslint/eslintrc';
+import { resolve } from 'node:path';
+
 import typescriptParser from '@typescript-eslint/parser';
 import unicorn from 'eslint-plugin-unicorn';
-
-import { resolve } from 'node:path';
-import { FlatCompat } from '@eslint/eslintrc';
 
 const compat = new FlatCompat({
   baseDirectory: resolve(),
   resolvePluginsRelativeTo: resolve(),
 });
 
-export default [
+export default defineFlatConfig([
   ...compat.extends(
     'airbnb-typescript/base',
     'plugin:import/recommended',
@@ -46,4 +47,4 @@ export default [
       'unicorn/string-content': 'error',
     },
   },
-];
+]);
