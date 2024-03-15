@@ -179,7 +179,8 @@ This template includes ready-made solutions for integration with:
     Checks **TypeScript** for vulnerabilities.
 
 -   [`commitlint.yaml`](.github/workflows/commitlint.yaml):
-    Checks the commit message according to the **conventionalcommits** standard.
+    Checks the commit message according
+    to the **Conventional Commits** standard.
 
 -   [`create-pull-request.yaml`](.github/workflows/create-pull-request.yaml):
     Automatically creates a **Pull Request**
@@ -253,7 +254,7 @@ with the **CI/CD** pipeline, the following code has been added:
 
 ## Change of Maintainer
 
-The following files use the name **nikkeyl** by default:
+The following files use the names **Archoleat** and **nikkeyl** by default:
 
 -   [`CODEOWNERS`](.github/CODEOWNERS).
 -   [`package.json`](package.json).
@@ -266,12 +267,21 @@ name, name of your team or the name of your organization.
 
 ## Troubleshooting
 
-If you are using **npm** you may get an error related to these plugins:
+If you are using **npm**, you may get a `peerDependency` error
+that is related to these plugins:
 
 -   `typescript-eslint/eslint-plugin`.
 -   `typescript-eslint/parser`.
 
-To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`.
+To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`:
+
+```shell
+typescript-eslint/eslint-plugin@6.0.0
+```
+
+```shell
+typescript-eslint/parser@6.0.0
+```
 
 ## Contributing
 
