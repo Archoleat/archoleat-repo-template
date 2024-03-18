@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@archoleat/semantic-release-define-config':
+    specifier: ^1.0.0
+    version: 1.0.0
   '@commitlint/cli':
     specifier: ^19.2.0
     version: 19.2.0(@types/node@20.11.28)(typescript@5.4.2)
@@ -113,6 +116,11 @@ packages:
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /@archoleat/semantic-release-define-config@1.0.0:
+    resolution: {integrity: sha512-hFyQZsql1gtQete1ToFKZ4Aa6+cL+TGdbjWymGwAPeGp1t0bBd1IFQcKFobeKlO66KihHfBtxksYQR8rWRgqEA==}
+    engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
     dev: true
 
   /@babel/code-frame@7.23.5:
