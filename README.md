@@ -133,9 +133,9 @@ This template includes ready-made solutions for integration with:
 
 -   `init`: Installs dependencies, **Husky** and update submodules.
 
--   `release`: Runs **Semantic Release**.
-
 -   `test`: Runs **Mocha** and the tests in the **specs/** folder.
+
+-   `release`: Runs **Semantic Release**.
 
     > Also runs using the [`mocha.yaml`](.github/workflows/mocha.yaml)
     > workflow.
@@ -266,6 +266,9 @@ name, name of your team or the name of your organization.
 > Don't forget to change your license!
 
 ## Troubleshooting
+
+> \[!WARNING]
+> Developers Only.
 
 If you are using **npm**, you may get a `peerDependency` error
 that is related to these plugins:
