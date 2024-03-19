@@ -37,15 +37,15 @@
     "prettify": "prettier . --write",
     "commit": "cz"
   },
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@8.15.5",
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=10.0.0",
     "pnpm": ">=8.0.0"
   },
   "volta": {
-    "node": "20.11.0",
-    "pnpm": "8.15.3"
+    "node": "20.11.1",
+    "pnpm": "8.15.5"
   },
   "files": [
     "index.d.ts",
