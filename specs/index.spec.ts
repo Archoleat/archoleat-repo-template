@@ -1,10 +1,9 @@
-import { expect } from 'chai';
-import { describe, it } from 'mocha';
+import { describe, test, expect } from 'vitest';
 
 import hello from '../index.ts';
 
 describe('Message', () => {
-  it('Hello!', async () => {
+  test('Hello!', async () => {
     return hello('Hello!').then((argument) => {
       expect(argument).equal('Hello!');
     });
