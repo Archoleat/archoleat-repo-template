@@ -24,7 +24,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "types": ["chai", "mocha", "node"]
+    "types": ["vitest", "node"]
   },
   "include": ["index.ts"]
 }
