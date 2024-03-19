@@ -1,7 +1,7 @@
 # Archoleat Repo Template
 
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/codeql.yaml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/mocha.yaml?label=Test)
+![Test](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/test.yaml?label=Test)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/prettier.yaml?label=Prettier)
@@ -40,7 +40,7 @@ This template includes ready-made solutions for integration with:
 -   **ESLint**.
 -   **Remark**.
 -   **Prettier**.
--   **Mocha**.
+-   **Vitest**.
 -   **TypeScript**.
 -   **Dependabot**.
 
@@ -133,11 +133,13 @@ This template includes ready-made solutions for integration with:
 
 -   `init`: Installs dependencies, **Husky** and update submodules.
 
+-   `test`: Runs **Vitest** and the tests in the **specs/** folder.
+
+-   `test:coverage`: Runs **Vitest** with **Coverage-V8**.
+
 -   `release`: Runs **Semantic Release**.
 
--   `test`: Runs **Mocha** and the tests in the **specs/** folder.
-
-    > Also runs using the [`mocha.yaml`](.github/workflows/mocha.yaml)
+    > Also runs using the [`test.yaml`](.github/workflows/test.yaml)
     > workflow.
 
 -   `lint:editorconfig`: Runs **Editorconfig Checker** and
@@ -198,8 +200,8 @@ This template includes ready-made solutions for integration with:
 -   [`markdown.yaml`](.github/workflows/markdown.yaml):
     Checks all Markdown files with **remark**.
 
--   [`mocha.yaml`](.github/workflows/mocha.yaml):
-    Tests all TypeScript files with **Mocha**.
+-   [`test.yaml`](.github/workflows/test.yaml):
+    Tests all TypeScript files with **Vitest**.
 
 -   [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
     Runs a check on the contents of the **Pull Request** before merging.
@@ -266,6 +268,9 @@ name, name of your team or the name of your organization.
 > Don't forget to change your license!
 
 ## Troubleshooting
+
+> \[!WARNING]
+> Developers Only.
 
 If you are using **npm**, you may get a `peerDependency` error
 that is related to these plugins:
