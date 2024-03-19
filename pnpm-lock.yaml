@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@archoleat/semantic-release-define-config':
-    specifier: ^1.0.0
-    version: 1.0.0
+    specifier: ^1.1.0
+    version: 1.1.0
   '@commitlint/cli':
     specifier: ^19.2.1
     version: 19.2.1(@types/node@20.11.29)(typescript@5.4.2)
@@ -111,8 +111,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@archoleat/semantic-release-define-config@1.0.0:
-    resolution: {integrity: sha512-hFyQZsql1gtQete1ToFKZ4Aa6+cL+TGdbjWymGwAPeGp1t0bBd1IFQcKFobeKlO66KihHfBtxksYQR8rWRgqEA==}
+  /@archoleat/semantic-release-define-config@1.1.0:
+    resolution: {integrity: sha512-AUEfpcgHylMBalcZYBwe7ihmrbvb4h3MtoqvaEKGks0PnEDQrldp1C1b8u+4QPnBfT+KpZXiuY/jhVEg384u1g==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
     dev: true
 
@@ -3043,7 +3043,7 @@ packages:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.22.5
+      es-abstract: 1.23.2
       functions-have-names: 1.2.3
     dev: true
 
