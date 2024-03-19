@@ -1,9 +1,9 @@
-import globals from 'globals';
+import { resolve } from 'node:path';
 
 import { defineFlatConfig } from 'eslint-define-config';
 import { FlatCompat } from '@eslint/eslintrc';
-import { resolve } from 'node:path';
 
+import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
 import unicorn from 'eslint-plugin-unicorn';
 
@@ -21,12 +21,12 @@ export default defineFlatConfig([
   unicorn.configs['flat/recommended'],
   {
     languageOptions: {
+      globals: {
+        ...globals.node,
+      },
       parser: typescriptParser,
       parserOptions: {
         project: 'tsconfig.json',
-      },
-      globals: {
-        ...globals.node,
       },
     },
     settings: {
