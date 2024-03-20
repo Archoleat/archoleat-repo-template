@@ -1,6 +1,6 @@
 import { defineConfig } from '@archoleat/commitlint-define-config';
 
-export default /* defineConfig( */{
+export default defineConfig({
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
@@ -21,4 +21,4 @@ export default /* defineConfig( */{
       ],
     ],
   },
-}/* ) */;
+});
