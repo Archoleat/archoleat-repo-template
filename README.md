@@ -239,12 +239,12 @@ This template includes ready-made solutions for integration with:
 In order for `commitlint.config.ts` to work correctly together
 with the **CI/CD** pipeline, the following code has been added:
 
-```json
+<!-- ```json
 // package.json
 "exports": {
   "./*": "./commitlint.config.ts"
 },
-```
+``` -->
 
 ```json
 // tsconfig.json
