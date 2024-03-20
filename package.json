@@ -32,7 +32,8 @@
   "type": "module",
   "types": "index.d.ts",
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",
+    "./*": "./commitlint.config.ts"
   },
   "files": [
     "index.d.ts",
