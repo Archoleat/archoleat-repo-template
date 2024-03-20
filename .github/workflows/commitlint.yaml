@@ -29,7 +29,10 @@ jobs:
           node-version: lts/*
 
       - name: Install Dependencies
-        run: pnpm i -D @archoleat/commitlint-define-config @commitlint/types@18.6.1
+        # run: pnpm i -D @archoleat/commitlint-define-config @commitlint/types@18.6.1
+        run: pnpm i
 
       - name: Lint
         uses: wagoid/commitlint-github-action@v5
+        with:
+          configFile: commitlint.config.ts
