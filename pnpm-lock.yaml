@@ -17,6 +17,9 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: ^19.1.0
     version: 19.1.0
+  '@commitlint/types':
+    specifier: ^19.0.3
+    version: 19.0.3
   '@semantic-release/changelog':
     specifier: ^6.0.3
     version: 6.0.3(semantic-release@23.0.5)

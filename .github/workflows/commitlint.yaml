@@ -33,5 +33,3 @@ jobs:
 
       - name: Lint
         uses: wagoid/commitlint-github-action@v5
-        # with:
-        #   configFile: commitlint.config.ts

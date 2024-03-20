@@ -55,6 +55,7 @@
     "@archoleat/semantic-release-define-config": "^1.1.0",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/types": "^19.0.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^7.3.1",

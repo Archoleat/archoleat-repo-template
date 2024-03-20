@@ -16,7 +16,6 @@
 -   [Scripts](#scripts)
 -   [Workflows](#workflows)
 -   [Prettier](#prettier)
-<!-- -   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript) -->
 -   [Change of Maintainer](#change-of-maintainer)
 -   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
@@ -24,6 +23,7 @@
 
 **Archoleat Repo Template** is a template repository designed for quickly
 starting new projects with pre-configured tools and best development practices.
+
 This template includes ready-made solutions for integration with:
 
 -   **Git**.
@@ -110,11 +110,11 @@ This template includes ready-made solutions for integration with:
     -   **Linters**: Help you maintain a consistent code writing style
         and find errors.
 
-        > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
+        <!-- > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
         > **Remark** check all files in the project, if you want to change this
         > behavior then go to [`package.json`](package.json)
         > and [`lint-staged.config.js`](lint-staged.config.js)
-        > files.
+        > files. -->
 
     -   **Tests**: Automated testing will help you focus on
         writing better code!
@@ -135,12 +135,12 @@ This template includes ready-made solutions for integration with:
 
 -   `test`: Runs **Vitest** and the tests in the **specs/** folder.
 
+    > Also runs using the [`test.yaml`](.github/workflows/test.yaml)
+    > workflow.
+
 -   `test:coverage`: Runs **Vitest** with **Coverage-V8**.
 
 -   `release`: Runs **Semantic Release**.
-
-    > Also runs using the [`test.yaml`](.github/workflows/test.yaml)
-    > workflow.
 
 -   `lint:editorconfig`: Runs **Editorconfig Checker** and
     checks all files in the project.
@@ -151,7 +151,7 @@ This template includes ready-made solutions for integration with:
 -   `lint:formatting`: Runs **Prettier** with the `--check` flag
     for all files.
 
-    > In the [`prettier.yaml`](.github/workflows/prettier.yaml)
+    > Runs with the [`prettier.yaml`](.github/workflows/prettier.yaml)
     >
     > Also run with a `pre-commit` hook.
 
@@ -178,7 +178,7 @@ This template includes ready-made solutions for integration with:
 ## Workflows
 
 -   [`codeql.yaml`](.github/workflows/codeql.yaml):
-    Checks **TypeScript** for vulnerabilities.
+    Checks **JavaScript** and **TypeScript** for vulnerabilities.
 
 -   [`commitlint.yaml`](.github/workflows/commitlint.yaml):
     Checks the commit message according
@@ -192,16 +192,13 @@ This template includes ready-made solutions for integration with:
     Automatically merges dependabot **Pull Requests** to the **main** branch.
 
 -   [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
-    Checks all files with **editorconfig-checker**.
+    Checks all files with **Editorconfig Checker**.
 
 -   [`eslint.yaml`](.github/workflows/eslint.yaml):
     Checks all **TypeScript** files with **ESLint**.
 
 -   [`markdown.yaml`](.github/workflows/markdown.yaml):
-    Checks all Markdown files with **remark**.
-
--   [`test.yaml`](.github/workflows/test.yaml):
-    Tests all TypeScript files with **Vitest**.
+    Checks all **Markdown** files with **Remark**.
 
 -   [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
     Runs a check on the contents of the **Pull Request** before merging.
@@ -216,7 +213,11 @@ This template includes ready-made solutions for integration with:
     against the **conventional commits** standard.
 
 -   [`stale.yaml`](.github/workflows/stale.yaml):
-    Removes issues that have not been active for more than 60 days.
+    Removes **Issues** and **Pull Requests** that have not been active
+    for more than **60 days**.
+
+-   [`test.yaml`](.github/workflows/test.yaml):
+    Tests all **TypeScript** files with **Vitest**.
 
 ## Prettier
 
@@ -229,30 +230,10 @@ This template includes ready-made solutions for integration with:
 > \[!TIP]
 > If you want to change the rules in `prettier.config.js` you can do it
 > in `.editorconfig`, prettier will automatically pick up the rules
-> from editorconfig.
+> from **Editorconfig**.
 
 > \[!NOTE]
 > All **Markdown** and **.\*ignore** files [**ignored**](.prettierignore).
-
-<!-- ## Commitlint, ESM and TypeScript
-
-In order for `commitlint.config.ts` to work correctly together
-with the **CI/CD** pipeline, the following code has been added:
-
-```json
-// package.json
-"exports": {
-  "./*": "./commitlint.config.ts"
-},
-```
-
-```json
-// tsconfig.json
-{
-  "module": "NodeNext",
-  "moduleResolution": "NodeNext"
-}
-``` -->
 
 ## Change of Maintainer
 
