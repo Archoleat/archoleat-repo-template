@@ -16,7 +16,7 @@
 -   [Scripts](#scripts)
 -   [Workflows](#workflows)
 -   [Prettier](#prettier)
--   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript)
+<!-- -   [Commitlint, ESM and TypeScript](#commitlint-esm-and-typescript) -->
 -   [Change of Maintainer](#change-of-maintainer)
 -   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
@@ -234,17 +234,17 @@ This template includes ready-made solutions for integration with:
 > \[!NOTE]
 > All **Markdown** and **.\*ignore** files [**ignored**](.prettierignore).
 
-## Commitlint, ESM and TypeScript
+<!-- ## Commitlint, ESM and TypeScript
 
 In order for `commitlint.config.ts` to work correctly together
 with the **CI/CD** pipeline, the following code has been added:
 
-<!-- ```json
+```json
 // package.json
 "exports": {
   "./*": "./commitlint.config.ts"
 },
-``` -->
+```
 
 ```json
 // tsconfig.json
@@ -252,7 +252,7 @@ with the **CI/CD** pipeline, the following code has been added:
   "module": "NodeNext",
   "moduleResolution": "NodeNext"
 }
-```
+``` -->
 
 ## Change of Maintainer
 
