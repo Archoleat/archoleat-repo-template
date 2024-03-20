@@ -1,9 +1,8 @@
 import { defineConfig } from '@archoleat/commitlint-define-config';
 
-export default defineConfig({
+export default /* defineConfig( */{
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'header-trim': [2, 'always'],
     'type-enum': [
       2,
       'always',
@@ -22,4 +21,4 @@ export default defineConfig({
       ],
     ],
   },
-});
+}/* ) */;
