@@ -110,17 +110,14 @@ This template includes ready-made solutions for integration with:
     -   **Linters**: Help you maintain a consistent code writing style
         and find errors.
 
-        <!-- > By default **ESLint**, **Prettier**, **Editorconfig Checker** and
-        > **Remark** check all files in the project, if you want to change this
-        > behavior then go to [`package.json`](package.json)
-        > and [`lint-staged.config.js`](lint-staged.config.js)
-        > files. -->
-
     -   **Tests**: Automated testing will help you focus on
         writing better code!
 
     -   **Semantic Release**: For those who are tired of writing changelogs
         and thinking about what the next version number will be.
+
+        > If you have **Branch and Tag Protection** rules configured,
+        > please read this [article](https://gonzalohirsch.com/blog/semantic-release-and-branch-protection-rules).
 
 -   **TypeScript**: Pre-configured **TypeScript** setup
     for improved reliability and development convenience.
