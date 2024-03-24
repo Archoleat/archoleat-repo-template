@@ -185,7 +185,7 @@ This template includes ready-made solutions for integration with:
     Automatically creates a **Pull Request**
     when pushing a branch to the repository.
 
--   [`dependabot-auto-merge-pull-request.yaml`](.github/workflows/dependabot-auto-merge-pull-request.yaml):
+-   [`auto-merge-dependabot-pull-request.yaml`](.github/workflows/auto-merge-dependabot-pull-request.yaml):
     Automatically merges dependabot **Pull Requests** to the **main** branch.
 
 -   [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
