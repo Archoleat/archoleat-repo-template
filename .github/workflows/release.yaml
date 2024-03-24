@@ -14,10 +14,10 @@ jobs:
   release:
     name: Version Increase
 
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Generate Token

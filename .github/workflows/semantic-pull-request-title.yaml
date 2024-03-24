@@ -13,10 +13,10 @@ jobs:
   semantic-pull-request-title:
     name: Lint
 
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
-    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Lint
