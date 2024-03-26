@@ -5,7 +5,7 @@ on:
 
 jobs:
   create-pull-request:
-    name: On Branch Push
+    name: Create Pull Request
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
