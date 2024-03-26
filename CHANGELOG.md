@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.7.11](https://github.com/archoleat/repo-template/compare/v1.7.10...v1.7.11) (2024-03-26)
+
+
+### Bug Fixes
+
+* small changes ([#287](https://github.com/archoleat/repo-template/issues/287)) ([bf5f601](https://github.com/archoleat/repo-template/commit/bf5f60110e8e6e417d37f959a37402f944b39105))
+
+
+### Code Refactoring
+
+* **commitlint:** add `defineConfig` ([#272](https://github.com/archoleat/repo-template/issues/272)) ([44b992a](https://github.com/archoleat/repo-template/commit/44b992ad8d2d38ae4481b88b3ff508f903150e2d))
+* **release.config:** add `defineConfig` ([#277](https://github.com/archoleat/repo-template/issues/277)) ([f60bfdf](https://github.com/archoleat/repo-template/commit/f60bfdfa1dd565d30a1ff2576dcd41cdd62b7e7a))
+* **tsconfig:** remove unused options ([#285](https://github.com/archoleat/repo-template/issues/285)) ([2aba03a](https://github.com/archoleat/repo-template/commit/2aba03a958487433e9993e8c5261d4822976af61))
+* **eslint:** sort imports alphabetically ([#284](https://github.com/archoleat/repo-template/issues/284)) ([a0233db](https://github.com/archoleat/repo-template/commit/a0233db88d17c7632bce59fec686bfe0006adf41))
+
+
+### Documentation
+
+* **readme:** add warning for `semantic-release` ([#288](https://github.com/archoleat/repo-template/issues/288)) ([19808f2](https://github.com/archoleat/repo-template/commit/19808f29479b5eaf477521fa3af1a429bf462ba0))
+* **readme:** change `workflow` name ([#291](https://github.com/archoleat/repo-template/issues/291)) ([c78bfd8](https://github.com/archoleat/repo-template/commit/c78bfd8226c11e6fec95f89994e46a6136d1fc8f))
+* **readme:** remove `troubleshooting` ([#296](https://github.com/archoleat/repo-template/issues/296)) ([0b7c83a](https://github.com/archoleat/repo-template/commit/0b7c83ac2d89185106ca05d8cb5568fb5f3a1ae8))
+* **readme:** rewrite text ([#278](https://github.com/archoleat/repo-template/issues/278)) ([47f2401](https://github.com/archoleat/repo-template/commit/47f240181ce0297426f62e21775d6cfff21a02ce))
+
 ## [1.7.10](https://github.com/archoleat/repo-template/compare/v1.7.9...v1.7.10) (2024-03-15)
 
 
