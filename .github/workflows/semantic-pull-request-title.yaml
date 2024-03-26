@@ -11,7 +11,7 @@ on:
 
 jobs:
   semantic-pull-request-title:
-    name: Lint
+    name: Semantic Pull Request Title
 
     if: ${{ github.actor != 'dependabot[bot]' }}
 

@@ -10,7 +10,7 @@ on:
 
 jobs:
   commit-lint:
-    name: Lint
+    name: Commit Lint
 
     runs-on: ubuntu-latest
     timeout-minutes: 10

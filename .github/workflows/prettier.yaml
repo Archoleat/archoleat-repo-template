@@ -15,7 +15,7 @@ on:
 
 jobs:
   prettier:
-    name: Lint
+    name: Prettier
 
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
