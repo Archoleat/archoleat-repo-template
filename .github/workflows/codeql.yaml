@@ -1,16 +1,18 @@
 name: CodeQL
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - main
     paths:
       - index.ts
+      - package.json
   push:
     branches:
       - main
     paths:
       - index.ts
+      - package.json
 
 permissions:
   actions: read
@@ -19,13 +21,14 @@ permissions:
 
 jobs:
   codeql:
-    name: Analyze
+    name: CodeQL
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     strategy:
       fail-fast: false
+
       matrix:
         language:
           - javascript-typescript

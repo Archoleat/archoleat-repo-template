@@ -15,7 +15,7 @@ on:
 
 jobs:
   markdown:
-    name: Lint
+    name: Markdown
 
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
