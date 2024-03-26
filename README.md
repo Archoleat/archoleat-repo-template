@@ -17,7 +17,6 @@
 -   [Workflows](#workflows)
 -   [Prettier](#prettier)
 -   [Change of Maintainer](#change-of-maintainer)
--   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
 -   [License](#license)
 
@@ -244,27 +243,6 @@ name, name of your team or the name of your organization.
 
 > \[!CAUTION]
 > Don't forget to change your license!
-
-## Troubleshooting
-
-> \[!WARNING]
-> Developers Only.
-
-If you are using **npm**, you may get a `peerDependency` error
-that is related to these plugins:
-
--   `typescript-eslint/eslint-plugin`.
--   `typescript-eslint/parser`.
-
-To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`:
-
-```shell
-typescript-eslint/eslint-plugin@6.0.0
-```
-
-```shell
-typescript-eslint/parser@6.0.0
-```
 
 ## Contributing
 
