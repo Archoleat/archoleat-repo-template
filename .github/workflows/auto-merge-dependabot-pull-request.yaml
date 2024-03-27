@@ -22,8 +22,8 @@ jobs:
       PR_URL: ${{ github.event.pull_request.html_url }}
 
     steps:
-      - name: Approve
-        run: gh pr review --approve $PR_URL
+      # - name: Approve
+      #   run: gh pr review --approve $PR_URL
 
       - name: Merge
         run: gh pr merge $PR_URL
