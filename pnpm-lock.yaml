@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^1.0.0
     version: 1.0.0
   '@archoleat/semantic-release-define-config':
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.1.1
+    version: 1.1.1
   '@commitlint/cli':
     specifier: ^19.2.1
     version: 19.2.1(@types/node@20.11.30)(typescript@5.4.3)
@@ -121,8 +121,8 @@ packages:
       '@commitlint/types': 19.0.3
     dev: true
 
-  /@archoleat/semantic-release-define-config@1.1.0:
-    resolution: {integrity: sha512-AUEfpcgHylMBalcZYBwe7ihmrbvb4h3MtoqvaEKGks0PnEDQrldp1C1b8u+4QPnBfT+KpZXiuY/jhVEg384u1g==}
+  /@archoleat/semantic-release-define-config@1.1.1:
+    resolution: {integrity: sha512-GQ7KW0wTROg5Zcz9QxWm0fTKv9P704mr8cUBwVai/H1lOIfWqhrwjXbTkr/Ya19Jm2o1vgalvTBQmKkJjaC7dA==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
     dev: true
 
