@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.13](https://github.com/archoleat/repo-template/compare/v1.7.12...v1.7.13) (2024-03-28)
+
+
+### Code Refactoring
+
+* change export type ([#306](https://github.com/archoleat/repo-template/issues/306)) ([3bbc793](https://github.com/archoleat/repo-template/commit/3bbc793a9a32e76fa50eb3eb3bfe8aff9c0905d6))
+
 ## [1.7.12](https://github.com/archoleat/repo-template/compare/v1.7.11...v1.7.12) (2024-03-28)
 
 
