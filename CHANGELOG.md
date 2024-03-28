@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.12](https://github.com/archoleat/repo-template/compare/v1.7.11...v1.7.12) (2024-03-28)
+
+
+### Bug Fixes
+
+* commitlint action ([#304](https://github.com/archoleat/repo-template/issues/304)) ([51f18ed](https://github.com/archoleat/repo-template/commit/51f18ed04b9898689161af669506b23afc52002d))
+
 ## [1.7.11](https://github.com/archoleat/repo-template/compare/v1.7.10...v1.7.11) (2024-03-26)
 
 
