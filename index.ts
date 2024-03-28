@@ -1,3 +1,5 @@
-export default async (string: string) => {
+const message = async (string: string) => {
   return string;
 };
+
+export { message };
