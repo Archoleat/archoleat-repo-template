@@ -33,4 +33,4 @@ jobs:
         run: gh pr review --approve $PR_URL
 
       - name: Merge
-        run: gh pr merge $PR_URL
+        run: gh pr merge --auto --merge --squash $PR_URL
