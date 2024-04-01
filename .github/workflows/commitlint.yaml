@@ -34,4 +34,4 @@ jobs:
         run: pnpm i
 
       - name: Lint
-        uses: ahmadnassri/action-commit-lint@v2
+        run: echo '${{ github.event.head_commit.message }}' | pnpm commitlint
