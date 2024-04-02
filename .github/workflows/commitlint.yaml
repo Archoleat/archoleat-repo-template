@@ -33,7 +33,7 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Lint
+      - name: Lin
         env:
           COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
         run: echo $COMMIT_MESSAGE | pnpm commitlint
