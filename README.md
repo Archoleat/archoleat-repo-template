@@ -127,7 +127,7 @@ This template includes ready-made solutions for integration with:
 
 ## Scripts
 
--   `init`: Installs dependencies, **Husky** and update submodules.
+-   `init`: Installs dependencies and **Husky**.
 
 -   `test`: Runs **Vitest** and the tests in the **specs/** folder.
 
