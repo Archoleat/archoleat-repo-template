@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.14](https://github.com/archoleat/repo-template/compare/v1.7.13...v1.7.14) (2024-04-02)
+
+
+### Code Refactoring
+
+* **husky:** remove submodule ([#312](https://github.com/archoleat/repo-template/issues/312)) ([3fc4d23](https://github.com/archoleat/repo-template/commit/3fc4d23a168c7cf91a090fc2bc12ec630b9dbe9a))
+
 ## [1.7.13](https://github.com/archoleat/repo-template/compare/v1.7.12...v1.7.13) (2024-03-28)
 
 
