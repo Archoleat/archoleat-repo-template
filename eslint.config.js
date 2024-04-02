@@ -1,19 +1,12 @@
-import { resolve } from 'node:path';
-
+import { compatibility } from '@archoleat/eslint-flat-compatibility';
 import { defineFlatConfig } from 'eslint-define-config';
-import { FlatCompat } from '@eslint/eslintrc';
 
 import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
 import unicorn from 'eslint-plugin-unicorn';
 
-const compat = new FlatCompat({
-  baseDirectory: resolve(),
-  resolvePluginsRelativeTo: resolve(),
-});
-
 export default defineFlatConfig([
-  ...compat.extends(
+  ...compatibility(
     'airbnb-typescript/base',
     'plugin:import/recommended',
     'plugin:import/typescript',

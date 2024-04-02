@@ -4,6 +4,7 @@
 .gitattributes
 .gitignore
 .gitmodules
+.husky
 .prettierignore
 *.md
 pnpm-lock.yaml
