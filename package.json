@@ -39,7 +39,7 @@
     "index.js"
   ],
   "scripts": {
-    "init": "pnpm i && husky && git submodule update",
+    "init": "pnpm i && husky",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
     "release": "semantic-release",
@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.2",
+    "@archoleat/eslint-flat-compatibility": "^1.0.0",
     "@archoleat/semantic-release-define-config": "^1.1.1",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
