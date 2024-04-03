@@ -9,6 +9,8 @@ jobs:
   pre-commit:
     name: Pre-commit
 
+    if: ${{ github.actor != 'dependabot[bot]' }}
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
