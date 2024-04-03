@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.7.15](https://github.com/archoleat/repo-template/compare/v1.7.14...v1.7.15) (2024-04-03)
+
+
+### Code Refactoring
+
+* small changes ([#314](https://github.com/archoleat/repo-template/issues/314)) ([9c84f14](https://github.com/archoleat/repo-template/commit/9c84f14d04d6ab4eb4ef57b225ed2b61100e61b3))
+
+
+### Documentation
+
+* **readme:** rewrite list of scripts ([#313](https://github.com/archoleat/repo-template/issues/313)) ([6d16d3d](https://github.com/archoleat/repo-template/commit/6d16d3d3a4bb75460a8ea1afbcb7ecda72b4d57e))
+
 ## [1.7.14](https://github.com/archoleat/repo-template/compare/v1.7.13...v1.7.14) (2024-04-02)
 
 
