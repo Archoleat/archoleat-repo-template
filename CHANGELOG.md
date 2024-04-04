@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.16](https://github.com/archoleat/repo-template/compare/v1.7.15...v1.7.16) (2024-04-04)
+
+
+### Code Refactoring
+
+* **eslint:** sort imports ([#315](https://github.com/archoleat/repo-template/issues/315)) ([4487ada](https://github.com/archoleat/repo-template/commit/4487ada90d40bb08962516286e609e42e0f6fead))
+
 ## [1.7.15](https://github.com/archoleat/repo-template/compare/v1.7.14...v1.7.15) (2024-04-03)
 
 
