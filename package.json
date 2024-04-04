@@ -51,7 +51,7 @@
     "commit": "cz"
   },
   "devDependencies": {
-    "@archoleat/commitlint-define-config": "^1.0.2",
+    "@archoleat/commitlint-define-config": "^1.0.3",
     "@archoleat/eslint-flat-compatibility": "^1.1.1",
     "@archoleat/semantic-release-define-config": "^1.1.1",
     "@commitlint/cli": "^19.2.1",

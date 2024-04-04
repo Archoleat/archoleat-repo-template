@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@archoleat/commitlint-define-config':
-    specifier: ^1.0.2
-    version: 1.0.2
+    specifier: ^1.0.3
+    version: 1.0.3
   '@archoleat/eslint-flat-compatibility':
     specifier: ^1.1.1
     version: 1.1.1
@@ -114,8 +114,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@archoleat/commitlint-define-config@1.0.2:
-    resolution: {integrity: sha512-FC+8nTz/WLegD04VIf97B0ZeNgkG0Pail6WNHnZucrZ1rRYNlQ2P9ykugCbbQf8Wd1zYJnrxQ6ue21zY9Fduog==}
+  /@archoleat/commitlint-define-config@1.0.3:
+    resolution: {integrity: sha512-8DW0Ct+Cb7/rE4uagzTL/nY6ckbhpaVA1v+Z/tkNiGJm/N83QEdfagvUGFMVyaiIZIC34Fu7gCS7F4CMsH0+ug==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
     dependencies:
       '@commitlint/types': 19.0.3
