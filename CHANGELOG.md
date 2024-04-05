@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.18](https://github.com/archoleat/repo-template/compare/v1.7.17...v1.7.18) (2024-04-05)
+
+
+### Code Refactoring
+
+* **eslint:** add `ecmaVersion` and `sourceType` ([#327](https://github.com/archoleat/repo-template/issues/327)) ([342a1c2](https://github.com/archoleat/repo-template/commit/342a1c292b0335dcbc7c8a4c1f5c26802afd73a3))
+
 ## [1.7.17](https://github.com/archoleat/repo-template/compare/v1.7.16...v1.7.17) (2024-04-05)
 
 
