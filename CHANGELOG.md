@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.17](https://github.com/archoleat/repo-template/compare/v1.7.16...v1.7.17) (2024-04-05)
+
+
+### Code Refactoring
+
+* **eslint:** add `prettier` ([#326](https://github.com/archoleat/repo-template/issues/326)) ([82d34f6](https://github.com/archoleat/repo-template/commit/82d34f6783a0bbc67088aab1f9f9c6247e09a203))
+
 ## [1.7.16](https://github.com/archoleat/repo-template/compare/v1.7.15...v1.7.16) (2024-04-04)
 
 
