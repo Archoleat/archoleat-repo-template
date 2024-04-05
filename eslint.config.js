@@ -15,6 +15,7 @@ export default defineFlatConfig([
   unicorn.configs['flat/recommended'],
   {
     languageOptions: {
+      ecmaVersion: 'latest',
       globals: {
         ...globals.node,
       },
@@ -22,6 +23,7 @@ export default defineFlatConfig([
       parserOptions: {
         project: 'tsconfig.json',
       },
+      sourceType: 'module',
     },
     settings: {
       'import/resolver': {
