@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^1.1.3
     version: 1.1.3
   '@archoleat/semantic-release-define-config':
-    specifier: ^1.1.2
-    version: 1.1.2
+    specifier: ^1.1.3
+    version: 1.1.3
   '@commitlint/cli':
     specifier: ^19.2.1
     version: 19.2.1(@types/node@20.12.4)(typescript@5.4.4)
@@ -136,8 +136,8 @@ packages:
       - supports-color
     dev: true
 
-  /@archoleat/semantic-release-define-config@1.1.2:
-    resolution: {integrity: sha512-MwAZ+Mzh8dnfXKXv9TXCg7Hwu0GFQwEb3a4l2sDsItRyVg3HF2KSZY2V/jrzKdnOjCQY11FFh/Iz7ZUz1mWE3w==}
+  /@archoleat/semantic-release-define-config@1.1.3:
+    resolution: {integrity: sha512-+S8Dwu4k1N5QzevIINux8Fuo/PZ6CFf/XxlIwlwdsc7LqaZxskyPvvWwRiJ8DKWcVzbhRJsIs11HE+Lk0xTDAw==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
     dev: true
 
