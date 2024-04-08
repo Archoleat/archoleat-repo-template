@@ -40,8 +40,8 @@
   ],
   "scripts": {
     "init": "pnpm i && husky",
-    "test": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "spec": "vitest",
+    "spec:coverage": "vitest run --coverage",
     "release": "semantic-release",
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
