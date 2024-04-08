@@ -1,7 +1,7 @@
 # Archoleat Repo Template
 
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/codeql.yaml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/test.yaml?label=Test)
+![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/spec.yaml?label=Specs)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/prettier.yaml?label=Prettier)
@@ -109,7 +109,7 @@ This template includes ready-made solutions for integration with:
     -   **Linters**: Help you maintain a consistent code writing style
         and find errors.
 
-    -   **Tests**: Automated testing will help you focus on
+    -   **Specs**: Automated testing will help you focus on
         writing better code!
 
     -   **Semantic Release**: For those who are tired of writing changelogs
@@ -129,12 +129,12 @@ This template includes ready-made solutions for integration with:
 
 -   `init`: Installs dependencies and **Husky**.
 
--   `test`: Runs **Vitest** and the tests in the **specs/** folder.
+-   `spec`: Runs **Vitest** and the tests in the **specs/** folder.
 
-    > Also runs using the [`test.yaml`](.github/workflows/test.yaml)
+    > Also runs using the [`spec.yaml`](.github/workflows/spec.yaml)
     > workflow.
 
--   `test:coverage`: Runs **Vitest** with **Coverage-V8**.
+-   `spec:coverage`: Runs **Vitest** with **Coverage-V8**.
 
 -   `release`: Runs **Semantic Release**.
 
@@ -212,7 +212,7 @@ This template includes ready-made solutions for integration with:
     Removes **Issues** and **Pull Requests** that have not been active
     for more than **60 days**.
 
--   [`test.yaml`](.github/workflows/test.yaml):
+-   [`spec.yaml`](.github/workflows/spec.yaml):
     Tests all **TypeScript** files with **Vitest**.
 
 ## Prettier

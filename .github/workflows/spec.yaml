@@ -1,4 +1,4 @@
-name: Test
+name: Spec
 
 on:
   workflow_run:
@@ -14,8 +14,8 @@ on:
       - main
 
 jobs:
-  test:
-    name: Test
+  spec:
+    name: Spec
 
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
@@ -40,5 +40,5 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Tests
-        run: pnpm test
+      - name: Specs
+        run: pnpm spec
