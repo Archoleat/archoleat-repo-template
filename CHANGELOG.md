@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.19](https://github.com/archoleat/repo-template/compare/v1.7.18...v1.7.19) (2024-04-08)
+
+
+### Code Refactoring
+
+* **eslint:** add new rules ([#331](https://github.com/archoleat/repo-template/issues/331)) ([d90ba4b](https://github.com/archoleat/repo-template/commit/d90ba4ba95a92046bac93b77a2018d736cd59a26))
+* **index:** remove extra braces ([#332](https://github.com/archoleat/repo-template/issues/332)) ([97792e2](https://github.com/archoleat/repo-template/commit/97792e2aafab6b5219482459f4ed201de1c1963e))
+
 ## [1.7.18](https://github.com/archoleat/repo-template/compare/v1.7.17...v1.7.18) (2024-04-05)
 
 
