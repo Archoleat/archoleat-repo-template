@@ -1,5 +1,3 @@
-const message = async (string: string) => {
-  return string;
-};
+const message = async (string: string) => string;
 
 export { message };
