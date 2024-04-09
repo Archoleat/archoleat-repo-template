@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.20](https://github.com/archoleat/repo-template/compare/v1.7.19...v1.7.20) (2024-04-09)
+
+
+### Code Refactoring
+
+* **eslint:** rename unicorn import ([#337](https://github.com/archoleat/repo-template/issues/337)) ([a3cabb3](https://github.com/archoleat/repo-template/commit/a3cabb3d9ce66abe3113aab1ed08b774b45dd946))
+
 ## [1.7.19](https://github.com/archoleat/repo-template/compare/v1.7.18...v1.7.19) (2024-04-08)
 
 
