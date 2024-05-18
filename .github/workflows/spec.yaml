@@ -3,7 +3,7 @@ name: Spec
 on:
   workflow_run:
     workflows:
-      - CodeQL
+      - ESLint
     types:
       - completed
   pull_request:
