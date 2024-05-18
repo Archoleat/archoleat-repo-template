@@ -1,5 +1,5 @@
 export default {
-  '**/*.md': 'remark --quiet',
+  '**/*.md': 'remark --quiet --frail',
   '**/*': 'prettier --write',
   'src/**/*.ts': 'eslint --fix',
 };

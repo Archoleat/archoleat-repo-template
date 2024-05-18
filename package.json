@@ -44,7 +44,7 @@
     "release": "semantic-release",
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
-    "lint:md": "remark . --quiet",
+    "lint:md": "remark . --quiet --frail",
     "lint:ts": "eslint src/**/*.ts --fix",
     "prettify": "prettier . --write",
     "commit": "cz"
