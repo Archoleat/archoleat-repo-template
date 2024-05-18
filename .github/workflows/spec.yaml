@@ -3,7 +3,7 @@ name: Spec
 on:
   workflow_run:
     workflows:
-      - ESLint
+      - CodeQL
     types:
       - completed
   pull_request:
@@ -28,8 +28,6 @@ jobs:
 
       - name: Set Up PNPM
         uses: pnpm/action-setup@v4
-        with:
-          version: 8
 
       - name: Set Up NodeJS
         uses: actions/setup-node@v4
