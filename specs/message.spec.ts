@@ -1,6 +1,6 @@
 import { describe, expect, test as spec } from 'vitest';
 
-import { message } from '#src/index.ts';
+import { message } from '#index';
 
 describe('Message', () => {
   spec('Hello!', async () => {
