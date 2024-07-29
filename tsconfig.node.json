@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
     "composite": true,
     "emitDeclarationOnly": true,
