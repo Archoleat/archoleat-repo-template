@@ -19,17 +19,20 @@
   "keywords": [
     "repo-template"
   ],
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@9.4.0",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=9.0.0"
   },
   "volta": {
-    "node": "20.12.0",
-    "pnpm": "9.1.1"
+    "node": "20.16.0",
+    "pnpm": "9.4.0"
   },
   "type": "module",
   "types": "index.d.ts",
+  "imports": {
+    "#src/*": "./src/*"
+  },
   "exports": {
     ".": "./index.js"
   },
@@ -57,31 +60,31 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^7.11.0",
-    "@typescript-eslint/parser": "^7.13.1",
-    "@vitest/coverage-v8": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@vitest/coverage-v8": "^2.0.4",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "editorconfig-checker": "^5.1.8",
-    "eslint": "^9.4.0",
+    "eslint": "^9.8.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-define-config": "^2.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-unicorn": "^53.0.0",
+    "eslint-plugin-unicorn": "^55.0.0",
     "git-pull-run": "^1.4.0",
-    "globals": "^15.3.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.5",
-    "prettier": "^3.3.2",
+    "globals": "^15.8.0",
+    "husky": "^9.1.3",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
     "remark": "15.0.1",
     "remark-cli": "^12.0.1",
     "remark-preset-lint-consistent": "^6.0.0",
     "remark-preset-lint-markdown-style-guide": "^6.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
     "semantic-release": "^24.0.0",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
   }
 }
