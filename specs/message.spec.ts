@@ -4,8 +4,8 @@ import { message } from '#index';
 
 describe('Message', () => {
   spec('Hello!', async () => {
-    return message('Hello!').then((argument) => {
-      expect(argument).equal('Hello!');
+    return message('Hello!').then((parameter) => {
+      expect(parameter).equal('Hello!');
     });
   });
 });
