@@ -6,8 +6,6 @@ export default defineConfig({
     watch: false,
     coverage: {
       all: false,
-      provider: 'v8',
-      reporter: 'text',
     },
   },
 });
