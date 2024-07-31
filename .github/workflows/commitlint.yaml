@@ -29,7 +29,17 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
+      - name: Extract Commit Message (Push)
+        if: ${{ github.event_name }} == 'push'
+        run: |
+          git log -1 --pretty=%B > commit_message.txt
+
+      - name: Extract Commit Message (Pull Request)
+        if: ${{ github.event_name }} == 'pull_request'
+        run: |
+          git show -s --format=%B > commit_message.txt
+
       - name: Lint
-        env:
-          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-        run: echo $COMMIT_MESSAGE | pnpm commitlint
+        run: |
+          COMMIT_MESSAGE=$(cat commit_message.txt)
+          echo "$COMMIT_MESSAGE" | pnpm commitlint

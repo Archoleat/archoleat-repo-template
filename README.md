@@ -1,5 +1,6 @@
 # Archoleat Repo Template
 
+![ESM](https://img.shields.io/badge/ESM-fe0)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/codeql.yaml?label=CodeQL)
 ![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/spec.yaml?label=Specs)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/commitlint.yaml?label=Commitlint)
@@ -7,7 +8,6 @@
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/prettier.yaml?label=Prettier)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/eslint.yaml?label=ESLint)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/markdown.yaml?label=Markdown)
-![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 
 ## Table of Contents
 
