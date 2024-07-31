@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.22](https://github.com/archoleat/repo-template/compare/v1.7.21...v1.7.22) (2024-07-31)
+
+### Code Refactoring
+
+* small changes ([#387](https://github.com/archoleat/repo-template/issues/387)) ([4bd0813](https://github.com/archoleat/repo-template/commit/4bd0813794559284e23ab4dc1dd6cb3a009c7d8c))
+
 ## [1.7.21](https://github.com/archoleat/repo-template/compare/v1.7.20...v1.7.21) (2024-06-09)
 
 ### Code Refactoring
