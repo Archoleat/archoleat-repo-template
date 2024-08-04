@@ -19,15 +19,6 @@
   "keywords": [
     "repo-template"
   ],
-  "packageManager": "pnpm@9.4.0",
-  "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=9.0.0"
-  },
-  "volta": {
-    "node": "20.16.0",
-    "pnpm": "9.4.0"
-  },
   "type": "module",
   "types": "index.d.ts",
   "imports": {
@@ -41,9 +32,9 @@
     "index.js"
   ],
   "scripts": {
-    "init": "pnpm i && husky",
-    "spec": "vitest",
-    "spec:coverage": "vitest run --coverage",
+    "init": "bun i && husky",
+    "spec": "bun test",
+    "spec:coverage": "bun test --coverage",
     "release": "semantic-release",
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
@@ -63,7 +54,6 @@
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "@vitest/coverage-v8": "^2.0.4",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "editorconfig-checker": "^5.1.8",
@@ -84,8 +74,6 @@
     "remark-preset-lint-consistent": "^6.0.0",
     "remark-preset-lint-markdown-style-guide": "^6.0.0",
     "remark-preset-lint-recommended": "^7.0.0",
-    "semantic-release": "^24.0.0",
-    "typescript": "^5.5.4",
-    "vitest": "^2.0.4"
+    "semantic-release": "^24.0.0"
   }
 }
