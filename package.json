@@ -46,7 +46,7 @@
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.7",
     "@archoleat/eslint-flat-compatibility": "^1.1.6",
-    "@archoleat/semantic-release-define-config": "^1.1.7",
+    "@archoleat/semantic-release-define-config": "^1.1.9",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/types": "^19.0.3",
