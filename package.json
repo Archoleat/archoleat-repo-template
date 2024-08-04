@@ -19,9 +19,6 @@
   "keywords": [
     "repo-template"
   ],
-  "engines": {
-    "node": ">=20.16.0"
-  },
   "type": "module",
   "types": "index.d.ts",
   "imports": {

@@ -1,5 +1,6 @@
 {
   "exclude": [
+    "bun.lockb",
     "CHANGELOG.md",
     "README.md"
   ]
