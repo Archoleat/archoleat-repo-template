@@ -33,13 +33,12 @@ This template includes ready-made solutions for integration with:
 - **Husky & Lint Staged**.
 - **GitHub Actions**.
 - **Semantic Release**.
-- **PNPM**.
+- **Bun**.
 - **CodeQL**.
 - **EditorConfig**.
 - **ESLint**.
 - **Remark**.
 - **Prettier**.
-- **Vitest**.
 - **TypeScript**.
 - **Dependabot**.
 
@@ -82,7 +81,7 @@ This template includes ready-made solutions for integration with:
 - **Flexibility**: Easily customizable template to adapt
   to different project types.
 
-- **Git and GitHub Integration**: Pre-configured `.gitignore`, `.gitmodules`
+- **Git and GitHub Integration**: Pre-configured `.gitignore`
   and `.gitattributes` for efficient work with Git and GitHub.
 
   - **Conventional Commits, Commitlint & Commitizen**: If you don't want
@@ -99,7 +98,7 @@ This template includes ready-made solutions for integration with:
   for automatic linting, testing and building of your code with each change.
 
   > Also suitable for private repositories! GitHub Actions use
-  > **cache**, **timeout-minutes**, **path filters** and **workflow run**
+  > **cache**, **timeout-minutes**, **paths** and **workflow run**
   > to reduce the execution time, which means it will significantly
   > reduce your costs!
 
@@ -129,11 +128,11 @@ This template includes ready-made solutions for integration with:
 
 - `init`: Installs dependencies and **Husky**.
 
-- `spec`: Runs **Vitest** and the tests in the **specs/** folder.
+- `spec`: Runs **Bun** and the tests in the **specs/** folder.
 
   > Also runs using the [`spec.yaml`](.github/workflows/spec.yaml) workflow.
 
-- `spec:coverage`: Runs **Vitest** with **Coverage-V8**.
+- `spec:coverage`: Runs **Bun** with `--coverage` flag.
 
 - `release`: Runs **Semantic Release**.
 
@@ -172,6 +171,9 @@ This template includes ready-made solutions for integration with:
 
 ## Workflows
 
+- [`auto-merge-dependabot-pull-request.yaml`](.github/workflows/auto-merge-dependabot-pull-request.yaml):
+  Automatically merges dependabot **Pull Requests** to the **main** branch.
+
 - [`codeql.yaml`](.github/workflows/codeql.yaml):
   Checks **JavaScript** and **TypeScript** for vulnerabilities.
 
@@ -182,9 +184,6 @@ This template includes ready-made solutions for integration with:
 - [`create-pull-request.yaml`](.github/workflows/create-pull-request.yaml):
   Automatically creates a **Pull Request**
   when pushing a branch to the repository.
-
-- [`auto-merge-dependabot-pull-request.yaml`](.github/workflows/auto-merge-dependabot-pull-request.yaml):
-  Automatically merges dependabot **Pull Requests** to the **main** branch.
 
 - [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
   Checks all files with **Editorconfig Checker**.
@@ -207,12 +206,12 @@ This template includes ready-made solutions for integration with:
   Validates the **Pull Request** title
   against the **conventional commits** standard.
 
+- [`spec.yaml`](.github/workflows/spec.yaml):
+  Tests all **TypeScript** files with **Bun**.
+
 - [`stale.yaml`](.github/workflows/stale.yaml):
   Removes **Issues** and **Pull Requests** that have not been active
   for more than **60 days**.
-
-- [`spec.yaml`](.github/workflows/spec.yaml):
-  Tests all **TypeScript** files with **Vitest**.
 
 ## Prettier
 
