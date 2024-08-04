@@ -1,9 +1,11 @@
+# bun
+bun.lockb
+
 # directories
 .husky
 
 # files
 *.md
-pnpm-lock.yaml
 
 # *rc
 .czrc

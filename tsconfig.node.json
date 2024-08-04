@@ -9,7 +9,6 @@
     "outDir": "",
     "rootDir": "",
     "skipLibCheck": true,
-    "target": "ESNext",
-    "types": ["vitest"]
+    "target": "ESNext"
   }
 }

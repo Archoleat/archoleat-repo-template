@@ -1,11 +1,11 @@
-import { describe, expect, test as spec } from 'vitest';
+import { describe, expect, test as spec } from 'bun:test';
 
 import { message } from '#src';
 
 describe('Message', () => {
   spec('Hello!', async () => {
     return message('Hello!').then((parameter) => {
-      expect(parameter).equal('Hello!');
+      expect(parameter).toEqual('Hello!');
     });
   });
 });
