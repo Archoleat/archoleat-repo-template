@@ -67,7 +67,7 @@
     "git-pull-run": "^1.4.0",
     "globals": "^15.8.0",
     "husky": "^9.1.4",
-    "lint-staged": "^15.2.7",
+    "lint-staged": "^15.2.8",
     "prettier": "^3.3.3",
     "remark": "15.0.1",
     "remark-cli": "^12.0.1",
