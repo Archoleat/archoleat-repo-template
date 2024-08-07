@@ -5,13 +5,11 @@ on:
     branches:
       - main
     paths:
-      - package.json
       - src/index.ts
   push:
     branches:
       - main
     paths:
-      - package.json
       - src/index.ts
 
 permissions:
