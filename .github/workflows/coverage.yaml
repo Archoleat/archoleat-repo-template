@@ -1,0 +1,41 @@
+name: Coverage
+
+on:
+  pull_request:
+    branches:
+      - main
+      - feature/coverage
+  push:
+    branches:
+      - main
+      - feature/coverage
+
+jobs:
+  coverage:
+    name: Coverage
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up BunJS
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install Dependencies
+        run: bun i
+
+      - name: Code Coverage Report
+        uses: irongut/CodeCoverageSummary@v1.3.0
+        with:
+          filename: src/**/*.ts
+          badge: true
+          fail_below_min: true
+          format: markdown
+          hide_branch_rate: false
+          hide_complexity: true
+          indicators: true
+          output: both
+          thresholds: '60 80'
