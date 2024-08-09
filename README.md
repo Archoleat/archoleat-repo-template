@@ -1,6 +1,7 @@
 # Archoleat Repo Template
 
 ![ESM](https://img.shields.io/badge/ESM-fe0)
+![Coverage](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/coverage.yaml?label=Coverage)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/codeql.yaml?label=CodeQL)
 ![Specs](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/spec.yaml?label=Specs)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/commitlint.yaml?label=Commitlint)
