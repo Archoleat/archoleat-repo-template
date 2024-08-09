@@ -9,6 +9,7 @@
     "outDir": "",
     "rootDir": "src",
     "skipLibCheck": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": ["bun"]
   }
 }
