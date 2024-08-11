@@ -47,7 +47,7 @@
     "@archoleat/commitlint-define-config": "^1.0.8",
     "@archoleat/eslint-flat-compatibility": "^1.1.6",
     "@archoleat/prettier-define-config": "^1.0.0",
-    "@archoleat/semantic-release-define-config": "^1.1.13",
+    "@archoleat/semantic-release-define-config": "^1.1.14",
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/types": "^19.0.3",
