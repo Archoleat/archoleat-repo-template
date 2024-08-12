@@ -45,10 +45,10 @@ jobs:
 
       - name: Perform Code Analysis
         uses: github/codeql-action/analyze@v3
-        with:
-          category: /language:${{ matrix.language }}
+        id: analyze
 
       - name: Upload SARIF File
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: ${{ matrix.language }}.sarif
+          category: ${{ matrix.language }}
+          sarif_file: ${{ steps.analyze.outputs.sarif-output }}
