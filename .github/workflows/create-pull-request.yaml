@@ -7,7 +7,7 @@ jobs:
   create-pull-request:
     name: Create Pull Request
 
-    if: ${{ github.actor != 'dependabot[bot]' }}
+    if: ${{ github.actor != 'dependabot[bot]' && github.event.pull_request.merged == false }}
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
