@@ -52,4 +52,4 @@ jobs:
       - name: Upload CodeQL Analysis
         uses: actions/upload-artifact@v4
         with:
-          path: results/${{ steps.code-analyze.outputs.sarif-output }}
+          path: /results/${{ steps.code-analyze.outputs.sarif-output }}
