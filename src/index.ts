@@ -1,3 +1,3 @@
-const sendMessage = async (string: string) => string;
+const sendMessage = (string: string) => string.replace(string, '');
 
 export { sendMessage };
