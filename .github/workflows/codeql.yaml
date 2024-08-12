@@ -46,8 +46,8 @@ jobs:
       - name: Perform Code Analysis
         uses: github/codeql-action/analyze@v3
         id: analyze
-        with:
-          category: /language:${{ matrix.language }}
+        # with:
+        #   category: /language:${{ matrix.language }}
 
       - name: Upload SARIF File
         uses: github/codeql-action/upload-sarif@v3
