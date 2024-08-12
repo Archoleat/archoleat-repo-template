@@ -4,7 +4,7 @@ import { sendMessage } from '#src';
 
 describe('Send Message', () => {
   spec('Hello!', async () => {
-    return sendMessage('Hello!').then((parameter) => {
+    return await sendMessage('Hello!').then((parameter) => {
       expect(parameter).toEqual('Hello!');
     });
   });
