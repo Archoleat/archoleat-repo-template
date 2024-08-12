@@ -1,3 +1,3 @@
-const sendMessage = (string: string) => string;
+const sendMessage = async (string: string) => string;
 
 export { sendMessage };
