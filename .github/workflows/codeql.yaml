@@ -1,7 +1,7 @@
 name: CodeQL
 
 on:
-  pull_request_target:
+  pull_request:
     branches:
       - main
     paths:
@@ -29,7 +29,7 @@ jobs:
 
       matrix:
         language:
-          - 'javascript-typescript'
+          - javascript-typescript
 
     steps:
       - name: Checkout Repository
@@ -48,7 +48,7 @@ jobs:
         with:
           category: /language:${{ matrix.language }}
 
-      - name: Upload SARIF file
+      - name: Upload SARIF File
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: ${{ matrix.language }}.sarif
