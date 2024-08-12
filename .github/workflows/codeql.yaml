@@ -29,8 +29,7 @@ jobs:
 
       matrix:
         language:
-          - 'javascript'
-          - 'typescript'
+          - 'javascript-typescript'
 
     steps:
       - name: Checkout Repository
