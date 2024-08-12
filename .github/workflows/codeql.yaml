@@ -45,11 +45,11 @@ jobs:
 
       - name: Perform Code Analysis
         uses: github/codeql-action/analyze@v3
+        id: code-analyze
         with:
           category: /language:${{ matrix.language }}
 
       - name: Upload CodeQL Analysis
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.language }}.sarif
-          path: ${{ runner.workspace }}/results/${{ matrix.language }}.sarif
+          path: ${{ github.workspace }}/results/${{ steps.code-analyze.outputs.sarif-output }}
