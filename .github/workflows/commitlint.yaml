@@ -1,7 +1,6 @@
 name: Commit Lint
 
 on:
-  pull_request:
   push:
 
 jobs:
