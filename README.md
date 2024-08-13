@@ -27,7 +27,6 @@ This template includes ready-made solutions for integration with:
 
 - **Git**.
 - **GitHub**.
-- **Commitizen**.
 - **Commitlint**.
 - **Conventional Commits**.
 - **Husky & Lint Staged**.
@@ -84,7 +83,7 @@ This template includes ready-made solutions for integration with:
 - **Git and GitHub Integration**: Pre-configured `.gitignore`
   and `.gitattributes` for efficient work with Git and GitHub.
 
-  - **Conventional Commits, Commitlint & Commitizen**: If you don't want
+  - **Conventional Commits & Commitlint**: If you don't want
     to think about how to write a commit every time,
     these plugins will help you.
 
@@ -165,9 +164,6 @@ This template includes ready-made solutions for integration with:
 
 - `prettify`: Runs **Prettier** with the `--write` flag
   for all files.
-
-- `commit`: Runs **Commitlint** to create commits according to
-  **Conventional Commits** standards.
 
 ## Workflows
 
