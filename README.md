@@ -7,7 +7,7 @@
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/prettier.yaml?label=Prettier)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/eslint.yaml?label=ESLint)
-![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/markdown.yaml?label=Markdown)
+![Remark](https://img.shields.io/github/actions/workflow/status/archoleat/repo-template/remark.yaml?label=Remark)
 
 ## Table of Contents
 
@@ -152,7 +152,7 @@ This template includes ready-made solutions for integration with:
 - `lint:md`: Runs **Remark** with the `--quiet` flag and
   checks all **Markdown** files.
 
-  > Also runs with the [`markdown.yaml`](.github/workflows/markdown.yaml)
+  > Also runs with the [`remark.yaml`](.github/workflows/remark.yaml)
   > workflow.
 
 - `lint:ts`: Runs **ESLint** with the flag `--fix`
@@ -191,7 +191,7 @@ This template includes ready-made solutions for integration with:
 - [`eslint.yaml`](.github/workflows/eslint.yaml):
   Checks all **TypeScript** files with **ESLint**.
 
-- [`markdown.yaml`](.github/workflows/markdown.yaml):
+- [`remark.yaml`](.github/workflows/remark.yaml):
   Checks all **Markdown** files with **Remark**.
 
 - [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
