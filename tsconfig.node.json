@@ -1,15 +1,21 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "composite": true,
+    // Completeness
+    "skipLibCheck": true,
+    // Emit
+    "declaration": true,
     "emitDeclarationOnly": true,
+    "outDir": "",
+    // Language and Environment
     "lib": ["DOM", "ESNext"],
+    "target": "ESNext",
+    // Modules
+    "allowImportingTsExtensions": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "outDir": "",
     "rootDir": "src",
-    "skipLibCheck": true,
-    "target": "ESNext",
-    "types": ["bun"]
+    "types": ["bun"],
+    // Projects
+    "disableReferencedProjectLoad": true
   }
 }
