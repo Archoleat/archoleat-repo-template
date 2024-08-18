@@ -29,7 +29,8 @@ This template includes ready-made solutions for integration with:
 - **GitHub**.
 - **Commitlint**.
 - **Conventional Commits**.
-- **Husky & Lint Staged**.
+- **Husky**.
+- **Lint Staged**.
 - **GitHub Actions**.
 - **Semantic Release**.
 - **Bun**.
@@ -126,44 +127,6 @@ This template includes ready-made solutions for integration with:
 ## Scripts
 
 - `init`: Installs dependencies and **Husky**.
-
-- `spec`: Runs **Bun** and the tests in the **specs/** folder.
-
-  > Also runs using the [`spec.yaml`](.github/workflows/spec.yaml) workflow.
-
-- `spec:coverage`: Runs **Bun** with `--coverage` flag.
-
-- `release`: Runs **Semantic Release**.
-
-- `lint:editorconfig`: Runs **Editorconfig Checker** and
-  checks all files in the project.
-
-  > Also runs with the [`editorconfig.yaml`](.github/workflows/editorconfig.yaml)
-  > workflow.
-
-- `lint:formatting`: Runs **Prettier** with the `--check` flag
-  for all files.
-
-  > Runs with the [`prettier.yaml`](.github/workflows/prettier.yaml)
-  >
-  > Also run with a `pre-commit` hook.
-
-- `lint:md`: Runs **Remark** with the `--quiet` flag and
-  checks all **Markdown** files.
-
-  > Also runs with the [`remark.yaml`](.github/workflows/remark.yaml)
-  > workflow.
-
-- `lint:ts`: Runs **ESLint** with the flag `--fix`
-  for all **TypeScript** files.
-
-  > Runs with the [`eslint.yaml`](.github/workflows/eslint.yaml)
-  > workflow.
-  >
-  > Also run with a `pre-commit` hook.
-
-- `prettify`: Runs **Prettier** with the `--write` flag
-  for all files.
 
 ## Workflows
 

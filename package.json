@@ -32,15 +32,7 @@
     "index.js"
   ],
   "scripts": {
-    "init": "bun i && husky",
-    "spec": "bun test",
-    "spec:coverage": "bun test --coverage",
-    "release": "semantic-release",
-    "lint:editorconfig": "editorconfig-checker",
-    "lint:formatting": "prettier . --check",
-    "lint:md": "remark . --quiet --frail",
-    "lint:ts": "eslint src/**/*.ts --fix",
-    "prettify": "prettier . --write"
+    "init": "bun i && husky"
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.9",
