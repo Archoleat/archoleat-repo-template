@@ -1,11 +1,6 @@
 name: ESLint
 
 on:
-  workflow_run:
-    workflows:
-      - CodeQL
-    types:
-      - completed
   pull_request:
     branches:
       - main
@@ -16,8 +11,6 @@ on:
 jobs:
   eslint:
     name: ESLint
-
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -33,4 +26,4 @@ jobs:
         run: bun i
 
       - name: Lint
-        run: bun lint:ts
+        run: bun eslint src/**/*.ts
