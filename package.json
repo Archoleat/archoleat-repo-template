@@ -11,7 +11,7 @@
   "homepage": "https://github.com/archoleat/repo-template#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/archoleat/repo-template.git"
+    "url": "https://github.com/archoleat/repo-template.git"
   },
   "bugs": {
     "url": "https://github.com/archoleat/repo-template/issues"
@@ -19,6 +19,9 @@
   "keywords": [
     "repo-template"
   ],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
   "type": "module",
   "types": "index.d.ts",
   "imports": {
