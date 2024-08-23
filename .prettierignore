@@ -8,7 +8,6 @@ bun.lockb
 *.md
 
 # *rc
-.czrc
 .ecrc
 
 # Configs
