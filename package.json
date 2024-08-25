@@ -61,7 +61,7 @@
     "eslint-plugin-unicorn": "^55.0.0",
     "git-pull-run": "^1.4.0",
     "globals": "^15.9.0",
-    "husky": "^9.1.4",
+    "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "prettier": "^3.3.3",
     "remark": "15.0.1",
