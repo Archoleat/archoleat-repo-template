@@ -17,6 +17,7 @@ export default defineFlatConfig([
   ),
   unicornPlugin.configs['flat/recommended'],
   {
+    files: ['src/**/*.ts'],
     languageOptions: {
       parser,
       ecmaVersion: 'latest',
