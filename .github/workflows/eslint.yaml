@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - src/**/*.ts
+      - 'src/**/*.ts'
   push:
     branches:
       - main
     paths:
-      - src/**/*.ts
+      - 'src/**/*.ts'
 
 jobs:
   eslint:
@@ -30,4 +30,4 @@ jobs:
         run: bun i
 
       - name: Lint
-        run: bun eslint src/**/*.ts
+        run: bun eslint 'src/**/*.ts'
