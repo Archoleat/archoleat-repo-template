@@ -15,7 +15,6 @@
 - [Features](#features)
 - [Scripts](#scripts)
 - [Workflows](#workflows)
-- [Prettier](#prettier)
 - [Change of Maintainer](#change-of-maintainer)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,11 +29,13 @@ This template includes ready-made solutions for integration with:
 - **Commitlint**.
 - **Conventional Commits**.
 - **Husky**.
+- **Pre Commit Hook**.
 - **Lint Staged**.
 - **GitHub Actions**.
 - **Semantic Release**.
 - **Bun**.
 - **CodeQL**.
+- **Specs**.
 - **EditorConfig**.
 - **ESLint**.
 - **Remark**.
@@ -71,7 +72,7 @@ This template includes ready-made solutions for integration with:
    > our workflows use
    > [**chain**](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run),
    > if you want to add more workflows to this chain,
-   > workflows, it won't work, because the chain only supports
+   > workflows it won't work, because the chain supports
    > only three levels, example: `workflow A` > `workflow B` >
    > `workflow C` > `workflow D`, if you add `workflow E`
    > to the chain. it won't work!
@@ -91,7 +92,7 @@ This template includes ready-made solutions for integration with:
     > It will be especially useful for teams that
     > have an ongoing debate about writing commits.
 
-  - **Husky & Lint Staged**: Won't let you submit
+  - **Husky, Lint Staged & Pre Commit**: Won't let you submit
     bad code to the repository!
 
 - **Continuous Integration (CI)**: Built-in CI support using GitHub Actions
@@ -147,17 +148,23 @@ This template includes ready-made solutions for integration with:
 - [`editorconfig.yaml`](.github/workflows/editorconfig.yaml):
   Checks all files with **Editorconfig Checker**.
 
+  > All ignore files [`.ecrc`](.ecrc).
+
 - [`eslint.yaml`](.github/workflows/eslint.yaml):
   Checks all **TypeScript** files with **ESLint**.
 
 - [`remark.yaml`](.github/workflows/remark.yaml):
   Checks all **Markdown** files with **Remark**.
 
+  > All ignore files [`.remarkignore`](.remarkignore).
+
 - [`pre-commit.yaml`](.github/workflows/pre-commit.yaml):
   Runs a check on the contents of the **Pull Request** before merging.
 
 - [`prettier.yaml`](.github/workflows/prettier.yaml):
   Checks all files with **Prettier**.
+
+  > All ignore files [`.prettierignore`](.prettierignore).
 
 - [`release.yaml`](.github/workflows/release.yaml): Creates release.
 
@@ -172,30 +179,18 @@ This template includes ready-made solutions for integration with:
   Removes **Issues** and **Pull Requests** that have not been active
   for more than **60 days**.
 
-## Prettier
-
-> \[!WARNING]
-> You need to install the **Prettier** extension for it to work.
->
-> You can see all necessary extensions for **Visual Studio Code** in
-> [**.vscode**](https://github.com/archoleat/.vscode/extensions.json).
-
-> \[!TIP]
-> If you want to change the rules in `prettier.config.js` you can do it
-> in `.editorconfig`, prettier will automatically pick up the rules
-> from **Editorconfig**.
-
-> \[!NOTE]
-> All **Markdown** and **.\*ignore** files [**ignored**](.prettierignore).
-
 ## Change of Maintainer
 
 The following files use the names **Archoleat** and **nikkeyl** by default:
 
 - [`CODEOWNERS`](.github/CODEOWNERS).
+- [`LICENSE`](LICENSE).
+- [`CHANGELOG.md`](CHANGELOG.md).
+- [`README.md`](README.md).
 - [`package.json`](package.json).
+- [`release.yaml`](.github/workflows/release.yaml).
 
-Before using this template, replace this name with your
+Before using this template, replace this names with your
 name, name of your team or the name of your organization.
 
 > \[!CAUTION]
