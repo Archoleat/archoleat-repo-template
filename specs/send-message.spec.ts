@@ -1,6 +1,6 @@
 import { describe, expect, test as spec } from 'bun:test';
 
-import { sendMessage } from '#src';
+import { sendMessage } from '#index';
 
 describe('Send Message', () => {
   spec('Hello!', async () => {
