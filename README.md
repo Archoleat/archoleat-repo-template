@@ -187,6 +187,7 @@ The following files use the names **Archoleat** and **nikkeyl** by default:
 - [`LICENSE`](LICENSE).
 - [`CHANGELOG.md`](CHANGELOG.md).
 - [`README.md`](README.md).
+- [`FUNDING.yaml`](.github/FUNDING.yaml).
 - [`package.json`](package.json).
 - [`release.yaml`](.github/workflows/release.yaml).
 
