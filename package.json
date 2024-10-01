@@ -44,7 +44,7 @@
     "@archoleat/semantic-release-define-config": "^1.1.16",
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
-    "@commitlint/types": "^19.0.3",
+    "@commitlint/types": "^19.5.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/bun": "^1.1.8",
