@@ -1,30 +1,23 @@
 import { defineFlatConfig } from 'eslint-define-config';
 import { extend } from '@archoleat/eslint-flat-compatibility';
-
 import globals from 'globals';
-
+import importSortPlugin from 'eslint-plugin-simple-import-sort';
+import parser from '@typescript-eslint/parser';
 import prettierConfig from 'eslint-config-prettier';
 import unicornPlugin from 'eslint-plugin-unicorn';
 
-import parser from '@typescript-eslint/parser';
-
 export default defineFlatConfig([
-  ...extend(
-    'airbnb-base',
-    'airbnb-typescript/base',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
-  ),
-  unicornPlugin.configs['flat/recommended'],
+  ...extend('airbnb-base', 'airbnb-typescript/base'),
   {
     files: ['src/**/*.ts'],
     languageOptions: {
       parser,
-      ecmaVersion: 'latest',
       globals: {
         ...globals.node,
+        ...globals.es2015,
       },
       parserOptions: {
+        ecmaVersion: 'latest',
         project: 'tsconfig.json',
       },
       sourceType: 'module',
@@ -36,12 +29,18 @@ export default defineFlatConfig([
         },
       },
     },
+    plugins: {
+      'simple-import-sort': importSortPlugin,
+      unicorn: unicornPlugin,
+    },
     rules: {
+      'simple-import-sort/imports': 'error',
+      'simple-import-sort/exports': 'error',
       'import/exports-last': 'error',
       'import/extensions': ['error', { ts: 'always' }],
       'import/group-exports': 'error',
       'import/no-commonjs': 'error',
-      'import/no-default-export': 'error',
+      'import/no-default-export': 'off',
       'import/no-namespace': 'error',
       'import/no-unassigned-import': 'error',
       'import/prefer-default-export': 'off',
