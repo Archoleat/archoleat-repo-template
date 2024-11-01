@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.1.0",
-    "@archoleat/eslint-flat-compatibility": "^1.1.9",
+    "@archoleat/eslint-flat-compatibility": "^1.2.1",
     "@archoleat/prettier-define-config": "^1.1.0",
     "@archoleat/semantic-release-define-config": "^1.2.0",
     "@commitlint/cli": "^19.5.0",
