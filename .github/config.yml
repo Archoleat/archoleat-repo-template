@@ -1,0 +1,10 @@
+newIssueWelcomeComment: >
+  Thanks for opening your first **Issue** here!
+  Be sure to follow the **Issue template**!
+
+newPRWelcomeComment: >
+  Thanks for opening this **Pull Request**!
+  Please check out our [Contributing Guidelines](https://github.com/archoleat/.github/blob/main/CONTRIBUTING.md).
+
+firstPRMergeComment: >
+  Congrats on merging your first **Pull Request**!
