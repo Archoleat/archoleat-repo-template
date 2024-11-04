@@ -42,6 +42,7 @@ This template includes ready-made solutions for integration with:
 - **Prettier**.
 - **TypeScript**.
 - **Dependabot**.
+- **Welcome Bot**.
 
 > \[!TIP]
 > **A good solution for your business!**
@@ -124,6 +125,7 @@ This template includes ready-made solutions for integration with:
 - **Bots**:
 
   - **Dependabot**: No more wasting time updating dependencies!
+  - **Welcome Bot**: A probot app that welcome new users.
 
 ## Scripts
 
