@@ -1,5 +1,25 @@
 {
   "compilerOptions": {
+    // Completeness
+    "skipLibCheck": true,
+    // Emit
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "",
+    // Language and Environment
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    // Modules
+    "allowImportingTsExtensions": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "#types": ["./src/types/index.ts"]
+    },
+    "rootDir": "src",
+    "types": ["vitest"],
+    // Projects
+    "disableReferencedProjectLoad": true,
     // Type Checking
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
