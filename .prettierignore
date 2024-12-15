@@ -1,18 +1,8 @@
-# Bun
-bun.lockb
-
-# Directories
-.husky
-
 # Files
 *.md
 
 # *rc
 .ecrc
-
-# Configs
-.editorconfig
-.gitattributes
 
 # Ignores
 .gitignore
