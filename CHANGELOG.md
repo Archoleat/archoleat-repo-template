@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.1](https://github.com/archoleat/repo-template/compare/v1.8.0...v1.8.1) (2024-12-22)
+
+### Code Refactoring
+
+* clean ([#480](https://github.com/archoleat/repo-template/issues/480)) ([ff25108](https://github.com/archoleat/repo-template/commit/ff25108ebc1f25160529a566d2b184e0dbb3a3a7))
+
 ## [1.8.0](https://github.com/archoleat/repo-template/compare/v1.7.22...v1.8.0) (2024-12-22)
 
 ### ⚠ BREAKING CHANGES
