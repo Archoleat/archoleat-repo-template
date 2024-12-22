@@ -1,5 +1,5 @@
-# Bun
-bun.lockb
-
 # Directories
 node_modules
+
+# Files
+bun.lockb
