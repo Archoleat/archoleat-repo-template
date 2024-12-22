@@ -25,7 +25,7 @@
   "type": "module",
   "types": "index.d.ts",
   "imports": {
-    "#index": "./src/index.ts"
+    "#src/*": "./src/*"
   },
   "exports": {
     ".": "./index.js"
