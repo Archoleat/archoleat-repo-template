@@ -13,9 +13,6 @@
     "allowImportingTsExtensions": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "paths": {
-      "#types": ["./src/types/index.ts"]
-    },
     "rootDir": "src",
     "types": ["vitest"],
     // Projects
@@ -33,6 +30,5 @@
     "strict": true
   },
   "exclude": ["specs"],
-  "extends": ["./tsconfig.node.json"],
   "include": ["src"]
 }
