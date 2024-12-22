@@ -1,5 +1,66 @@
 # Changelog
 
+## [1.8.0](https://github.com/archoleat/repo-template/compare/v1.7.22...v1.8.0) (2024-12-22)
+
+### ⚠ BREAKING CHANGES
+
+* bun (#391)
+* package.json (#390)
+* bun (#389)
+
+### Features
+
+* add `funding.yaml` ([#452](https://github.com/archoleat/repo-template/issues/452)) ([d2b47e9](https://github.com/archoleat/repo-template/commit/d2b47e9bd30f9cc554f289dc3f0cd58e3bd7c934))
+* add behavior bot ([#469](https://github.com/archoleat/repo-template/issues/469)) ([09f6347](https://github.com/archoleat/repo-template/commit/09f6347d76c44f4727bce06e7bcfd09fea511f26))
+* bun ([#389](https://github.com/archoleat/repo-template/issues/389)) ([2fa4f7c](https://github.com/archoleat/repo-template/commit/2fa4f7c2c512e253e37528ac3463d9fc4222c782))
+* bun ([#391](https://github.com/archoleat/repo-template/issues/391)) ([66dbfc1](https://github.com/archoleat/repo-template/commit/66dbfc11ff0ad93fe7824c19f0ab206b931f02a3))
+
+### Bug Fixes
+
+* **eslint-config:** add `files` option ([#438](https://github.com/archoleat/repo-template/issues/438)) ([b95716e](https://github.com/archoleat/repo-template/commit/b95716e3a14b5e26c7af43b443f46c1d1e842639))
+* eslint ([#400](https://github.com/archoleat/repo-template/issues/400)) ([69d47a2](https://github.com/archoleat/repo-template/commit/69d47a24207ced8596953deea176b1ce5917063a))
+* package.json ([#390](https://github.com/archoleat/repo-template/issues/390)) ([84eb9e5](https://github.com/archoleat/repo-template/commit/84eb9e56d0c53cb61af72212d7928f86b6337db9))
+* pre-commit action ([#460](https://github.com/archoleat/repo-template/issues/460)) ([05d9a60](https://github.com/archoleat/repo-template/commit/05d9a60bf93b1a62b17cf3501cb9b626d50b9b4e))
+* release ([#449](https://github.com/archoleat/repo-template/issues/449)) ([893a0db](https://github.com/archoleat/repo-template/commit/893a0db12a3aca183fd4570665c72d4d37da498d))
+
+### Code Refactoring
+
+* add `app.ts` instead of `index.ts` ([#439](https://github.com/archoleat/repo-template/issues/439)) ([df529cc](https://github.com/archoleat/repo-template/commit/df529cc1a8b9636ad7b5993f890d20780ce8b86d))
+* **package:** add `git+` ([#447](https://github.com/archoleat/repo-template/issues/447)) ([b80220e](https://github.com/archoleat/repo-template/commit/b80220e236fdec9f963499bc65aaaea9683b7ab6))
+* add define-config ([#403](https://github.com/archoleat/repo-template/issues/403)) ([69d0118](https://github.com/archoleat/repo-template/commit/69d0118879477c34704e5026c48c7704d552025d))
+* eslint ([#437](https://github.com/archoleat/repo-template/issues/437)) ([1d8112e](https://github.com/archoleat/repo-template/commit/1d8112e12e07462a61be28733597c8f0dd166298))
+* move `package.json` scripts to ci ([#424](https://github.com/archoleat/repo-template/issues/424)) ([0dfbbb3](https://github.com/archoleat/repo-template/commit/0dfbbb3e10b41022415383b5b1c99b62bd483562))
+* release ([#479](https://github.com/archoleat/repo-template/issues/479)) ([8c30ab6](https://github.com/archoleat/repo-template/commit/8c30ab68928e5470d1c9891afd351ef78722f7c6))
+* **prettierignore:** remove `.czrc` ([#431](https://github.com/archoleat/repo-template/issues/431)) ([c6d7892](https://github.com/archoleat/repo-template/commit/c6d78920c3c45380c3359d9fac848b084c0f0fbf))
+* **tsconfig:** remove `composite` option ([#423](https://github.com/archoleat/repo-template/issues/423)) ([8b10dfc](https://github.com/archoleat/repo-template/commit/8b10dfca4c2fb50a48fd76084ec5d734d89502a1))
+* remove `pnpm-lock.yaml` ([#401](https://github.com/archoleat/repo-template/issues/401)) ([cef5b39](https://github.com/archoleat/repo-template/commit/cef5b39fa1843dfe1313712e4cdbb7f873a3994d))
+* remove bun.lockb ([#393](https://github.com/archoleat/repo-template/issues/393)) ([ab298d7](https://github.com/archoleat/repo-template/commit/ab298d7efe572f5187829d99a367728d35ee275d))
+* remove codeql advanced ([#471](https://github.com/archoleat/repo-template/issues/471)) ([07605fd](https://github.com/archoleat/repo-template/commit/07605fd28cfea7bc08e9a89ce3dc8f9c1194a018))
+* **vitest:** remove extra options ([#388](https://github.com/archoleat/repo-template/issues/388)) ([4b5b235](https://github.com/archoleat/repo-template/commit/4b5b235c774112f8a5a94eaf3a45a7cbecde8475))
+* **package.json:** remove extra options ([#430](https://github.com/archoleat/repo-template/issues/430)) ([dc7825e](https://github.com/archoleat/repo-template/commit/dc7825e908d6b478e13895580940749f9b7d6fc9))
+* **prettier:** remove json override ([#448](https://github.com/archoleat/repo-template/issues/448)) ([a043c97](https://github.com/archoleat/repo-template/commit/a043c97f9287954c4508bb285971b33ba003b354))
+* small changes ([#398](https://github.com/archoleat/repo-template/issues/398)) ([f49f826](https://github.com/archoleat/repo-template/commit/f49f8269b117bc01840b4365808d29410a38efdd))
+* small changes ([#421](https://github.com/archoleat/repo-template/issues/421)) ([e67f807](https://github.com/archoleat/repo-template/commit/e67f8071ce3bbc9c44533820adee7af2275570eb))
+* small changes ([#461](https://github.com/archoleat/repo-template/issues/461)) ([1d704f0](https://github.com/archoleat/repo-template/commit/1d704f0b26245bb7ecdebcbae7eb6b14538e247b))
+* small changes ([#467](https://github.com/archoleat/repo-template/issues/467)) ([f47c0a7](https://github.com/archoleat/repo-template/commit/f47c0a74c0afb9a40ecd715f3f263a91ca8df7fe))
+* small changes ([#468](https://github.com/archoleat/repo-template/issues/468)) ([2bdaf0e](https://github.com/archoleat/repo-template/commit/2bdaf0e059bd4d5acba9069557756389e36c5306))
+* small changes ([#475](https://github.com/archoleat/repo-template/issues/475)) ([fc5dcac](https://github.com/archoleat/repo-template/commit/fc5dcac820e8e78b15fca02b5d98d656ee83de67))
+* small changes ([#477](https://github.com/archoleat/repo-template/issues/477)) ([d710fbe](https://github.com/archoleat/repo-template/commit/d710fbe0cc08953f3d035fcf5b6eda18b48c4386))
+* small changes ([#478](https://github.com/archoleat/repo-template/issues/478)) ([7e36be2](https://github.com/archoleat/repo-template/commit/7e36be2b204bd70cae727aba6bd8b1cb2b24556a))
+* specs and index ([#451](https://github.com/archoleat/repo-template/issues/451)) ([787996e](https://github.com/archoleat/repo-template/commit/787996ee06947ef8694f8a049d657696a0a3b104))
+
+### Reverts
+
+* **release:** bun ([#450](https://github.com/archoleat/repo-template/issues/450)) ([37d2710](https://github.com/archoleat/repo-template/commit/37d2710519ba976fdfbf84dd86724d2d7b699dd6))
+
+### Documentation
+
+* **readme:** add `funding.yaml` to list ([#453](https://github.com/archoleat/repo-template/issues/453)) ([159c6e9](https://github.com/archoleat/repo-template/commit/159c6e9decb7a13a1ae6341d02379186659e7ac3))
+* **readme:** remove extra badges ([#474](https://github.com/archoleat/repo-template/issues/474)) ([8204c93](https://github.com/archoleat/repo-template/commit/8204c93345c3ba8629cea3e1f03fdaacbef2de7d))
+* **readme:** rewrite ([#392](https://github.com/archoleat/repo-template/issues/392)) ([cab9f17](https://github.com/archoleat/repo-template/commit/cab9f17708da76573d2081a5acc18ffb78903300))
+* **readme:** rewrite text ([#443](https://github.com/archoleat/repo-template/issues/443)) ([6a93f37](https://github.com/archoleat/repo-template/commit/6a93f37a6ab79bfb5ead8d9d3399922883986f39))
+* **readme:** update ([#470](https://github.com/archoleat/repo-template/issues/470)) ([b8d336e](https://github.com/archoleat/repo-template/commit/b8d336eb538e404f33fe769f4b7732afbd192c2c))
+
 ## [1.7.22](https://github.com/archoleat/repo-template/compare/v1.7.21...v1.7.22) (2024-07-31)
 
 ### Code Refactoring
