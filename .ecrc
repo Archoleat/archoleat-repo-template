@@ -1,7 +1,6 @@
 {
   "exclude": [
     "config.yml",
-    "bun.lockb",
     "CHANGELOG.md",
     "README.md"
   ]
