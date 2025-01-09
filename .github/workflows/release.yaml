@@ -38,7 +38,7 @@ jobs:
           token: ${{ steps.generate_token.outputs.token }}
 
       - name: Set Up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: latest
 
